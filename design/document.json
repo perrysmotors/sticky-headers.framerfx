@@ -1,0 +1,3000 @@
+{
+  "root" : {
+    "__class" : "RootNode",
+    "children" : [
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "blur" : 12,
+        "blurEnabled" : 0,
+        "blurType" : "layer",
+        "borderBottom" : 1,
+        "borderColor" : "#222",
+        "borderEnabled" : 0,
+        "borderLeft" : 1,
+        "borderPerSide" : false,
+        "borderRight" : 1,
+        "borderStyle" : "solid",
+        "borderTop" : 1,
+        "borderWidth" : 1,
+        "bottom" : null,
+        "boxShadows" : [
+          {
+            "__class" : "BoxShadow",
+            "blur" : 4,
+            "color" : "hsla(0, 0%, 0%, 0.16)",
+            "enabled" : true,
+            "inset" : false,
+            "spread" : 0,
+            "x" : 0,
+            "y" : 2
+          }
+        ],
+        "brightness" : 100,
+        "brightnessEnabled" : 0,
+        "centerAnchorX" : -0.42533333333333329,
+        "centerAnchorY" : 0.1176911544227886,
+        "children" : [
+          {
+            "__class" : "TextNode",
+            "autoSize" : false,
+            "blur" : 12,
+            "blurEnabled" : 0,
+            "blurType" : "layer",
+            "bottom" : null,
+            "brightness" : 100,
+            "brightnessEnabled" : 0,
+            "centerAnchorX" : 0.5,
+            "centerAnchorY" : 0.26548672566371678,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : true,
+            "contrast" : 100,
+            "contrastEnabled" : 0,
+            "exportOptions" : [
+
+            ],
+            "grayscale" : 0,
+            "grayScaleEnabled" : 0,
+            "height" : 28,
+            "heightType" : 0,
+            "hueRotate" : 0,
+            "hueRotateEnabled" : 0,
+            "id" : "@framer\/sebcglbailey.masonry-jpOovsmlr-QL84a_SQB",
+            "invert" : 0,
+            "invertEnabled" : 0,
+            "isTarget" : false,
+            "left" : 16,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "@framer\/sebcglbailey.masonry-jpOovsmlr",
+            "right" : 16,
+            "rotation" : 0,
+            "saturate" : 100,
+            "saturateEnabled" : 0,
+            "sepia" : 0,
+            "sepiaEnabled" : 0,
+            "shadows" : [
+
+            ],
+            "styledText" : {
+              "__class" : "StyledTextDraft",
+              "blocks" : [
+                {
+                  "data" : {
+                    "emptyStyle" : [
+                      "COLOR:rgb(0, 0, 0)",
+                      "LETTERSPACING:0",
+                      "LINEHEIGHT:1.2",
+                      "FONT:__SF-UI-Text-Bold__",
+                      "SIZE:24"
+                    ]
+                  },
+                  "depth" : 0,
+                  "entityRanges" : [
+
+                  ],
+                  "inlineStyleRanges" : [
+                    {
+                      "length" : 4,
+                      "offset" : 0,
+                      "style" : "COLOR:rgb(0, 0, 0)"
+                    },
+                    {
+                      "length" : 4,
+                      "offset" : 0,
+                      "style" : "LETTERSPACING:0"
+                    },
+                    {
+                      "length" : 4,
+                      "offset" : 0,
+                      "style" : "LINEHEIGHT:1.2"
+                    },
+                    {
+                      "length" : 4,
+                      "offset" : 0,
+                      "style" : "FONT:__SF-UI-Text-Bold__"
+                    },
+                    {
+                      "length" : 4,
+                      "offset" : 0,
+                      "style" : "SIZE:24"
+                    }
+                  ],
+                  "key" : "4t8v8",
+                  "text" : "Name",
+                  "type" : "unstyled"
+                }
+              ],
+              "cached" : {
+                "html" : "<div data-offset-key=\"4t8v8-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"4t8v8-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Bold&quot;, &quot;SFProText-Bold&quot;, &quot;SFUIText-Bold&quot;, &quot;.SFUIText-Bold&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:24px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Name<\/span><\/span><\/div>",
+                "os" : "10_14",
+                "size" : {
+                  "height" : 28,
+                  "width" : 312
+                },
+                "width" : 311
+              },
+              "entityMap" : {
+
+              }
+            },
+            "top" : 16,
+            "visible" : true,
+            "width" : 311,
+            "widthType" : 0
+          },
+          {
+            "__class" : "TextNode",
+            "autoSize" : false,
+            "blur" : 12,
+            "blurEnabled" : 0,
+            "blurType" : "layer",
+            "bottom" : null,
+            "brightness" : 100,
+            "brightnessEnabled" : 0,
+            "centerAnchorX" : 0.5,
+            "centerAnchorY" : 0.48672566371681408,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : true,
+            "contrast" : 100,
+            "contrastEnabled" : 0,
+            "exportOptions" : [
+
+            ],
+            "grayscale" : 0,
+            "grayScaleEnabled" : 0,
+            "height" : 14,
+            "heightType" : 0,
+            "hueRotate" : 0,
+            "hueRotateEnabled" : 0,
+            "id" : "@framer\/sebcglbailey.masonry-jpOovsmlr-BGxE8RR0U",
+            "invert" : 0,
+            "invertEnabled" : 0,
+            "isTarget" : false,
+            "left" : 16,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "@framer\/sebcglbailey.masonry-jpOovsmlr",
+            "right" : 16,
+            "rotation" : 0,
+            "saturate" : 100,
+            "saturateEnabled" : 0,
+            "sepia" : 0,
+            "sepiaEnabled" : 0,
+            "shadows" : [
+
+            ],
+            "styledText" : {
+              "__class" : "StyledTextDraft",
+              "blocks" : [
+                {
+                  "data" : {
+                    "emptyStyle" : [
+                      "COLOR:rgb(0, 0, 0)",
+                      "LETTERSPACING:0",
+                      "LINEHEIGHT:1.2",
+                      "FONT:__SF-UI-Text-Light__",
+                      "SIZE:12"
+                    ]
+                  },
+                  "depth" : 0,
+                  "entityRanges" : [
+
+                  ],
+                  "inlineStyleRanges" : [
+                    {
+                      "length" : 17,
+                      "offset" : 0,
+                      "style" : "COLOR:rgb(0, 0, 0)"
+                    },
+                    {
+                      "length" : 17,
+                      "offset" : 0,
+                      "style" : "LETTERSPACING:0"
+                    },
+                    {
+                      "length" : 17,
+                      "offset" : 0,
+                      "style" : "LINEHEIGHT:1.2"
+                    },
+                    {
+                      "length" : 17,
+                      "offset" : 0,
+                      "style" : "FONT:__SF-UI-Text-Light__"
+                    },
+                    {
+                      "length" : 17,
+                      "offset" : 0,
+                      "style" : "SIZE:12"
+                    }
+                  ],
+                  "key" : "4t8v8",
+                  "text" : "Country of Origin",
+                  "type" : "unstyled"
+                }
+              ],
+              "cached" : {
+                "html" : "<div data-offset-key=\"4t8v8-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"4t8v8-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Light&quot;, &quot;SFProText-Light&quot;, &quot;SFUIText-Light&quot;, &quot;.SFUIText-Light&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:12px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Country of Origin<\/span><\/span><\/div>",
+                "os" : "10_14",
+                "size" : {
+                  "height" : 14,
+                  "width" : 312
+                },
+                "width" : 311
+              },
+              "entityMap" : {
+
+              }
+            },
+            "top" : 48,
+            "visible" : true,
+            "width" : 311,
+            "widthType" : 0
+          },
+          {
+            "__class" : "TextNode",
+            "autoSize" : false,
+            "blur" : 12,
+            "blurEnabled" : 0,
+            "blurType" : "layer",
+            "bottom" : 16,
+            "brightness" : 100,
+            "brightnessEnabled" : 0,
+            "centerAnchorX" : 0.5,
+            "centerAnchorY" : 0.77433628318584069,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : true,
+            "contrast" : 100,
+            "contrastEnabled" : 0,
+            "exportOptions" : [
+
+            ],
+            "grayscale" : 0,
+            "grayScaleEnabled" : 0,
+            "height" : 19,
+            "heightType" : 0,
+            "hueRotate" : 0,
+            "hueRotateEnabled" : 0,
+            "id" : "@framer\/sebcglbailey.masonry-jpOovsmlr-JVS_NYy5q",
+            "invert" : 0,
+            "invertEnabled" : 0,
+            "isTarget" : false,
+            "left" : 16,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "@framer\/sebcglbailey.masonry-jpOovsmlr",
+            "right" : 16,
+            "rotation" : 0,
+            "saturate" : 100,
+            "saturateEnabled" : 0,
+            "sepia" : 0,
+            "sepiaEnabled" : 0,
+            "shadows" : [
+
+            ],
+            "styledText" : {
+              "__class" : "StyledTextDraft",
+              "blocks" : [
+                {
+                  "data" : {
+                    "emptyStyle" : [
+                      "COLOR:rgb(0, 0, 0)",
+                      "LETTERSPACING:0",
+                      "LINEHEIGHT:1.2",
+                      "FONT:__SF-UI-Text-Light__",
+                      "SIZE:16"
+                    ]
+                  },
+                  "depth" : 0,
+                  "entityRanges" : [
+
+                  ],
+                  "inlineStyleRanges" : [
+                    {
+                      "length" : 11,
+                      "offset" : 0,
+                      "style" : "COLOR:rgb(0, 0, 0)"
+                    },
+                    {
+                      "length" : 11,
+                      "offset" : 0,
+                      "style" : "LETTERSPACING:0"
+                    },
+                    {
+                      "length" : 11,
+                      "offset" : 0,
+                      "style" : "LINEHEIGHT:1.2"
+                    },
+                    {
+                      "length" : 11,
+                      "offset" : 0,
+                      "style" : "FONT:__SF-UI-Text-Light__"
+                    },
+                    {
+                      "length" : 11,
+                      "offset" : 0,
+                      "style" : "SIZE:16"
+                    }
+                  ],
+                  "key" : "4t8v8",
+                  "text" : "Description",
+                  "type" : "unstyled"
+                }
+              ],
+              "cached" : {
+                "html" : "<div data-offset-key=\"4t8v8-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"4t8v8-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Light&quot;, &quot;SFProText-Light&quot;, &quot;SFUIText-Light&quot;, &quot;.SFUIText-Light&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Description<\/span><\/span><\/div>",
+                "os" : "10_14",
+                "size" : {
+                  "height" : 19,
+                  "width" : 312
+                },
+                "width" : 311
+              },
+              "entityMap" : {
+
+              }
+            },
+            "top" : 78,
+            "visible" : true,
+            "width" : 311,
+            "widthType" : 0
+          }
+        ],
+        "clip" : false,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "contrast" : 100,
+        "contrastEnabled" : 0,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgb(255, 255, 255)",
+        "fillEnabled" : true,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "grayscale" : 0,
+        "grayScaleEnabled" : 0,
+        "height" : 113,
+        "heightType" : 0,
+        "hueRotate" : 0,
+        "hueRotateEnabled" : 0,
+        "id" : "@framer\/sebcglbailey.masonry-jpOovsmlr",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "invert" : 0,
+        "invertEnabled" : 0,
+        "isExternalMaster" : "@framer\/sebcglbailey.masonry",
+        "isMaster" : true,
+        "isTarget" : false,
+        "left" : 0,
+        "locked" : false,
+        "name" : "Card",
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "Ffg3b0wZP",
+        "previewSettings" : null,
+        "radius" : 4,
+        "radiusBottomLeft" : 4,
+        "radiusBottomRight" : 4,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 4,
+        "radiusTopRight" : 4,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "saturate" : 100,
+        "saturateEnabled" : 0,
+        "sepia" : 0,
+        "sepiaEnabled" : 0,
+        "top" : 0,
+        "visible" : true,
+        "width" : 343,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "blur" : 12,
+        "blurEnabled" : 0,
+        "blurType" : "layer",
+        "borderBottom" : 1,
+        "borderColor" : "#222",
+        "borderEnabled" : 0,
+        "borderLeft" : 1,
+        "borderPerSide" : false,
+        "borderRight" : 1,
+        "borderStyle" : "solid",
+        "borderTop" : 1,
+        "borderWidth" : 1,
+        "bottom" : null,
+        "boxShadows" : [
+
+        ],
+        "brightness" : 100,
+        "brightnessEnabled" : 0,
+        "centerAnchorX" : 0.5,
+        "centerAnchorY" : 0.027093596059113302,
+        "children" : [
+          {
+            "__class" : "ShapeContainerNode",
+            "autoSize" : true,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "PathNode",
+                "aspectRatio" : null,
+                "boxShadows" : [
+
+                ],
+                "children" : [
+
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(0,170,255,0.5)",
+                "fillEnabled" : false,
+                "fillGradient" : {
+                  "__class" : "LinearGradient",
+                  "alpha" : 1,
+                  "angle" : 0,
+                  "end" : "rgba(0,0,0,0)",
+                  "start" : "black"
+                },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 44,
+                "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-n4CwVGn9e",
+                "lineCap" : "butt",
+                "lineJoin" : "miter",
+                "locked" : false,
+                "name" : "Rectangle",
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "kPY97Xwnm",
+                "pathClosed" : true,
+                "pathSegments" : [
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0,
+                    "handleMirroring" : "straight",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 0,
+                    "y" : 0
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0,
+                    "handleMirroring" : "straight",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 375,
+                    "y" : 0
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0,
+                    "handleMirroring" : "straight",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 375,
+                    "y" : 44
+                  },
+                  {
+                    "__class" : "PathSegment",
+                    "handleInX" : 0,
+                    "handleInY" : 0,
+                    "handleMirroring" : "straight",
+                    "handleOutX" : 0,
+                    "handleOutY" : 0,
+                    "radius" : 0,
+                    "x" : 0,
+                    "y" : 44
+                  }
+                ],
+                "rotation" : 0,
+                "strokeAlignment" : "center",
+                "strokeColor" : "#AAA",
+                "strokeDashArray" : "0",
+                "strokeDashOffset" : 0,
+                "strokeEnabled" : 0,
+                "strokeMiterLimit" : 4,
+                "strokeWidth" : 1,
+                "visible" : true,
+                "width" : 375,
+                "x" : 0,
+                "y" : 0
+              }
+            ],
+            "constraintsLocked" : false,
+            "exportIncludesBackground" : false,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "#FFF",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 44,
+            "heightType" : 0,
+            "id" : "kPY97Xwnm",
+            "left" : 0,
+            "locked" : false,
+            "name" : null,
+            "navigationTarget" : null,
+            "navigationTransition" : "push",
+            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+            "navigationTransitionDirection" : "left",
+            "originalid" : null,
+            "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW",
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "sizeToFit" : false,
+            "top" : 0,
+            "visible" : true,
+            "width" : 375,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "blendingEnabled" : 0,
+            "blendingMode" : "normal",
+            "blur" : 12,
+            "blurEnabled" : 0,
+            "blurType" : "layer",
+            "borderBottom" : 1,
+            "borderColor" : "#222",
+            "borderEnabled" : 0,
+            "borderLeft" : 1,
+            "borderPerSide" : false,
+            "borderRight" : 1,
+            "borderStyle" : "solid",
+            "borderTop" : 1,
+            "borderWidth" : 1,
+            "bottom" : null,
+            "boxShadows" : [
+
+            ],
+            "brightness" : 100,
+            "brightnessEnabled" : 0,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "ShapeContainerNode",
+                "autoSize" : true,
+                "bottom" : null,
+                "centerAnchorX" : 0,
+                "centerAnchorY" : 0,
+                "children" : [
+                  {
+                    "__class" : "PathNode",
+                    "aspectRatio" : null,
+                    "boxShadows" : [
+
+                    ],
+                    "children" : [
+
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(0,170,255,0.5)",
+                    "fillEnabled" : false,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 11.33333333333333,
+                    "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-KImRvSHsa",
+                    "lineCap" : "butt",
+                    "lineJoin" : "miter",
+                    "locked" : false,
+                    "name" : "Border",
+                    "opacity" : 0.34999999999999998,
+                    "originalid" : null,
+                    "parentid" : "Nn4RkDgPg",
+                    "pathClosed" : true,
+                    "pathSegments" : [
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "straight",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 2.6666667461395259,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "straight",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 2.6666667461395259,
+                        "x" : 21.999999999999989,
+                        "y" : 0
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "straight",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 2.6666667461395259,
+                        "x" : 21.999999999999989,
+                        "y" : 11.33333333333333
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "straight",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 2.6666667461395259,
+                        "x" : 0,
+                        "y" : 11.33333333333333
+                      }
+                    ],
+                    "rotation" : 0,
+                    "strokeAlignment" : "inside",
+                    "strokeColor" : "rgba(0,0,0,1)",
+                    "strokeDashArray" : "0",
+                    "strokeDashOffset" : 0,
+                    "strokeEnabled" : 1,
+                    "strokeMiterLimit" : 10,
+                    "strokeWidth" : 1,
+                    "visible" : true,
+                    "width" : 21.999999999999989,
+                    "x" : 0,
+                    "y" : 0.33333333333337117
+                  },
+                  {
+                    "__class" : "PathNode",
+                    "aspectRatio" : null,
+                    "boxShadows" : [
+
+                    ],
+                    "children" : [
+
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(0,0,0,1)",
+                    "fillEnabled" : true,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 4,
+                    "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-G6pdb5Jgo",
+                    "lineCap" : "butt",
+                    "lineJoin" : "miter",
+                    "locked" : false,
+                    "name" : "Cap",
+                    "opacity" : 0.40000000000000002,
+                    "originalid" : null,
+                    "parentid" : "Nn4RkDgPg",
+                    "pathClosed" : false,
+                    "pathSegments" : [
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "straight",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0.80473113430267929,
+                        "handleOutY" : -0.33877651539324916,
+                        "radius" : 0,
+                        "x" : 0,
+                        "y" : 4
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0.87313328071833984,
+                        "handleMirroring" : "symmetric",
+                        "handleOutX" : 0,
+                        "handleOutY" : -0.87313328071833962,
+                        "radius" : 0,
+                        "x" : 1.3280380056083521,
+                        "y" : 2
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.80473113430267929,
+                        "handleInY" : 0.33877651539324916,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 0,
+                        "y" : 0
+                      }
+                    ],
+                    "rotation" : 0,
+                    "strokeAlignment" : "center",
+                    "strokeColor" : "#AAA",
+                    "strokeDashArray" : "0",
+                    "strokeDashOffset" : 0,
+                    "strokeEnabled" : 0,
+                    "strokeMiterLimit" : 4,
+                    "strokeWidth" : 1,
+                    "visible" : true,
+                    "width" : 1.3280380056083521,
+                    "x" : 23,
+                    "y" : 4
+                  },
+                  {
+                    "__class" : "PathNode",
+                    "aspectRatio" : null,
+                    "boxShadows" : [
+
+                    ],
+                    "children" : [
+
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(0,0,0,1)",
+                    "fillEnabled" : true,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 7.3333333333333321,
+                    "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-yGTyKZWaR",
+                    "lineCap" : "butt",
+                    "lineJoin" : "miter",
+                    "locked" : false,
+                    "name" : "Capacity",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "Nn4RkDgPg",
+                    "pathClosed" : true,
+                    "pathSegments" : [
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "straight",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 1.333333373069763,
+                        "x" : 0,
+                        "y" : 0
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "straight",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 1.333333373069763,
+                        "x" : 17.999999999999989,
+                        "y" : 0
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "straight",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 1.333333373069763,
+                        "x" : 17.999999999999989,
+                        "y" : 7.3333333333333321
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "straight",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 1.333333373069763,
+                        "x" : 0,
+                        "y" : 7.3333333333333321
+                      }
+                    ],
+                    "rotation" : 0,
+                    "strokeAlignment" : "center",
+                    "strokeColor" : "#AAA",
+                    "strokeDashArray" : "0",
+                    "strokeDashOffset" : 0,
+                    "strokeEnabled" : 0,
+                    "strokeMiterLimit" : 4,
+                    "strokeWidth" : 1,
+                    "visible" : true,
+                    "width" : 17.999999999999989,
+                    "x" : 2,
+                    "y" : 2.3333333333333708
+                  }
+                ],
+                "constraintsLocked" : false,
+                "exportIncludesBackground" : false,
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "#FFF",
+                "fillEnabled" : false,
+                "fillGradient" : {
+                  "__class" : "LinearGradient",
+                  "alpha" : 1,
+                  "angle" : 0,
+                  "end" : "rgba(0,0,0,0)",
+                  "start" : "black"
+                },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 12,
+                "heightType" : 0,
+                "id" : "Nn4RkDgPg",
+                "left" : 0,
+                "locked" : false,
+                "name" : null,
+                "navigationTarget" : null,
+                "navigationTransition" : "push",
+                "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+                "navigationTransitionDirection" : "left",
+                "originalid" : null,
+                "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-gQATiYE8L",
+                "radius" : 0,
+                "radiusBottomLeft" : 0,
+                "radiusBottomRight" : 0,
+                "radiusPerCorner" : false,
+                "radiusTopLeft" : 0,
+                "radiusTopRight" : 0,
+                "right" : null,
+                "sizeToFit" : false,
+                "top" : 0,
+                "visible" : true,
+                "width" : 25,
+                "widthType" : 0
+              }
+            ],
+            "clip" : false,
+            "codeOverrideEnabled" : false,
+            "codeOverrideFile" : null,
+            "codeOverrideIdentifier" : null,
+            "codeOverrideName" : null,
+            "constraintsLocked" : false,
+            "contrast" : 100,
+            "contrastEnabled" : 0,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "grayscale" : 0,
+            "grayScaleEnabled" : 0,
+            "height" : 12,
+            "heightType" : 0,
+            "hueRotate" : 0,
+            "hueRotateEnabled" : 0,
+            "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-gQATiYE8L",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "invert" : 0,
+            "invertEnabled" : 0,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 336,
+            "locked" : false,
+            "name" : "Battery",
+            "navigationTarget" : null,
+            "navigationTransition" : "push",
+            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+            "navigationTransitionDirection" : "left",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "saturate" : 100,
+            "saturateEnabled" : 0,
+            "sepia" : 0,
+            "sepiaEnabled" : 0,
+            "top" : 17,
+            "visible" : true,
+            "width" : 25,
+            "widthType" : 0
+          },
+          {
+            "__class" : "ShapeContainerNode",
+            "autoSize" : true,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "BooleanShapeNode",
+                "aspectRatio" : null,
+                "boxShadows" : [
+
+                ],
+                "children" : [
+                  {
+                    "__class" : "PathNode",
+                    "aspectRatio" : null,
+                    "boxShadows" : [
+
+                    ],
+                    "children" : [
+
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(0,170,255,0.5)",
+                    "fillEnabled" : false,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 4.7432373976931599,
+                    "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-YnvLi8AMb",
+                    "lineCap" : "butt",
+                    "lineJoin" : "miter",
+                    "locked" : false,
+                    "name" : "Path",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-ISxh89_R3",
+                    "pathClosed" : true,
+                    "pathSegments" : [
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -2.2161102429461161,
+                        "handleOutY" : -0.00000559040652703402,
+                        "radius" : 0,
+                        "x" : 7.6366058356827766,
+                        "y" : 2.277327295967531
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 1.6061520365860249,
+                        "handleInY" : -1.5268988978620111,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -0.12085887955123531,
+                        "handleOutY" : 0.11805639240383314,
+                        "radius" : 0,
+                        "x" : 1.6829391690161686,
+                        "y" : 4.6556606293008933
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.11902843284497067,
+                        "handleInY" : 0.11990167942227004,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 1.2496058356827748,
+                        "y" : 4.6523272959675452
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -0.060264292016881903,
+                        "handleOutY" : -0.060766318386107798,
+                        "radius" : 0,
+                        "x" : 0.09327250234942408,
+                        "y" : 3.4856606293008774
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -0.0005630292731666487,
+                        "handleInY" : 0.085580449522865809,
+                        "handleMirroring" : "symmetric",
+                        "handleOutX" : 0.0005630292731666487,
+                        "handleOutY" : -0.085580449522868474,
+                        "radius" : 0,
+                        "x" : 0.000006970781515541759,
+                        "y" : 3.2570371718563425
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -0.061058597673934421,
+                        "handleInY" : 0.059968141480236881,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 4.2150978312346874,
+                        "handleOutY" : -4.0395475057344754,
+                        "radius" : 0,
+                        "x" : 0.096272502349409983,
+                        "y" : 3.0296606293008601
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -4.2150978312347451,
+                        "handleInY" : -4.0395475057344754,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0.061014110035102931,
+                        "handleOutY" : 0.060012678859941104,
+                        "radius" : 0,
+                        "x" : 15.176272502349454,
+                        "y" : 3.029660629300853
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -0.0005004697625281551,
+                        "handleInY" : -0.085580329383237341,
+                        "handleMirroring" : "symmetric",
+                        "handleOutX" : 0.0005004697625281551,
+                        "handleOutY" : 0.085580329383237341,
+                        "radius" : 0,
+                        "x" : 15.272370757080145,
+                        "y" : 3.2571064484740013
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.060308058315342805,
+                        "handleInY" : -0.060722165224526226,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 15.178939169016095,
+                        "y" : 3.4856606293008809
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -0.11910441151979967,
+                        "handleOutY" : 0.11972101890978681,
+                        "radius" : 0,
+                        "x" : 14.022939169016089,
+                        "y" : 4.6523272959675488
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.12093207000702932,
+                        "handleInY" : 0.11787458443650678,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -1.6059474820551713,
+                        "handleOutY" : -1.52679867649681,
+                        "radius" : 0,
+                        "x" : 13.589605835682752,
+                        "y" : 4.6556606293008791
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 2.2158929360973625,
+                        "handleInY" : 0.00009708382116357939,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 7.6366058356827766,
+                        "y" : 2.2773272959675346
+                      }
+                    ],
+                    "rotation" : 0,
+                    "strokeAlignment" : "center",
+                    "strokeColor" : "#AAA",
+                    "strokeDashArray" : "0",
+                    "strokeDashOffset" : 0,
+                    "strokeEnabled" : 0,
+                    "strokeMiterLimit" : 4,
+                    "strokeWidth" : 1,
+                    "visible" : true,
+                    "width" : 15.272376264937961,
+                    "x" : -2.1616280813929745e-17,
+                    "y" : 0
+                  },
+                  {
+                    "__class" : "PathNode",
+                    "aspectRatio" : null,
+                    "boxShadows" : [
+
+                    ],
+                    "children" : [
+
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(0,170,255,0.5)",
+                    "fillEnabled" : false,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 3.6339809392895179,
+                    "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-JyBqeFaqB",
+                    "lineCap" : "butt",
+                    "lineJoin" : "miter",
+                    "locked" : false,
+                    "name" : "Path",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-ISxh89_R3",
+                    "pathClosed" : true,
+                    "pathSegments" : [
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -1.2166845502403025,
+                        "handleOutY" : 0.0005041096788964694,
+                        "radius" : 0,
+                        "x" : 4.9733249069007215,
+                        "y" : 2.2789534133444156
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.90187225150680206,
+                        "handleInY" : -0.81666883795197265,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -0.12206323463317403,
+                        "handleOutY" : 0.1159805655684738,
+                        "radius" : 0,
+                        "x" : 1.6816582402340354,
+                        "y" : 3.5486200800111276
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.11898867546165071,
+                        "handleInY" : 0.11913278285432982,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 1.2483249069006415,
+                        "y" : 3.5429534133444576
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -0.060934931914403023,
+                        "handleOutY" : -0.061106607442052763,
+                        "radius" : 0,
+                        "x" : 0.093991573567357545,
+                        "y" : 2.3762867466777933
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -0.0008146727082589678,
+                        "handleInY" : 0.086292639946083938,
+                        "handleMirroring" : "symmetric",
+                        "handleOutX" : 0.0008146727082589678,
+                        "handleOutY" : -0.08629263994608749,
+                        "radius" : 0,
+                        "x" : 0.000014368999891711809,
+                        "y" : 2.1458790703335509
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -0.062077760073577806,
+                        "handleInY" : 0.059945267575798988,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 2.7481987752845498,
+                        "handleOutY" : -2.5563823289037515,
+                        "radius" : 0,
+                        "x" : 0.098324906900664213,
+                        "y" : 1.9172867466778079
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -2.748198775284493,
+                        "handleInY" : -2.5563823289037551,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0.062039151432770723,
+                        "handleOutY" : 0.059945995838152744,
+                        "radius" : 0,
+                        "x" : 9.8506582402340186,
+                        "y" : 1.9172867466778218
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -0.0008770564236328937,
+                        "handleInY" : -0.086264763951191981,
+                        "handleMirroring" : "symmetric",
+                        "handleOutX" : 0.0008770564236328937,
+                        "handleOutY" : 0.086264763951195533,
+                        "radius" : 0,
+                        "x" : 9.9489947735016457,
+                        "y" : 2.1458106792855935
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.060807507509480274,
+                        "handleInY" : -0.061194981477374455,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 9.8553249069006696,
+                        "y" : 2.376286746677811
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -0.11898867546153724,
+                        "handleOutY" : 0.11913278285431472,
+                        "radius" : 0,
+                        "x" : 8.7006582402339845,
+                        "y" : 3.5429534133444789
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.12206323463323088,
+                        "handleInY" : 0.11598056556846759,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -0.90246879456651641,
+                        "handleOutY" : -0.81720881780324461,
+                        "radius" : 0,
+                        "x" : 8.2673249069006474,
+                        "y" : 3.5486200800111098
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 1.217489290095215,
+                        "handleInY" : -0.00007459958050759496,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 4.9733249069007215,
+                        "y" : 2.2789534133444191
+                      }
+                    ],
+                    "rotation" : 0,
+                    "strokeAlignment" : "center",
+                    "strokeColor" : "#AAA",
+                    "strokeDashArray" : "0",
+                    "strokeDashOffset" : 0,
+                    "strokeEnabled" : 0,
+                    "strokeMiterLimit" : 4,
+                    "strokeWidth" : 1,
+                    "visible" : true,
+                    "width" : 9.9490114549621396,
+                    "x" : 2.663280928782001,
+                    "y" : 3.7940405492897824
+                  },
+                  {
+                    "__class" : "PathNode",
+                    "aspectRatio" : null,
+                    "boxShadows" : [
+
+                    ],
+                    "children" : [
+
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(0,170,255,0.5)",
+                    "fillEnabled" : false,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 3.3744071970963709,
+                    "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-VnDo3IgD0",
+                    "lineCap" : "butt",
+                    "lineJoin" : "miter",
+                    "locked" : false,
+                    "name" : "Path",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-ISxh89_R3",
+                    "pathClosed" : true,
+                    "pathSegments" : [
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.061753271171482993,
+                        "handleInY" : -0.060606022742486942,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 4.532233625897053,
+                        "y" : 1.2661628867650734
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -0.058550139377246513,
+                        "handleOutY" : 0.059238998151464273,
+                        "radius" : 0,
+                        "x" : 2.534900292563695,
+                        "y" : 3.2818295534317592
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.083290922212938767,
+                        "handleInY" : 0,
+                        "handleMirroring" : "symmetric",
+                        "handleOutX" : -0.083290922212938767,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 2.3132336258970021,
+                        "y" : 3.3744071970963709
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.058550139377189225,
+                        "handleInY" : 0.05923899815146072,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 2.0915669592303665,
+                        "y" : 3.2818295534317627
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -0.061711296058206244,
+                        "handleOutY" : -0.060651267619228122,
+                        "radius" : 0,
+                        "x" : 0.093900292563663612,
+                        "y" : 1.2661628867650982
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -0.001829840657649129,
+                        "handleInY" : 0.086507294537376822,
+                        "handleMirroring" : "symmetric",
+                        "handleOutX" : 0.0018298406575922854,
+                        "handleOutY" : -0.086507294537373158,
+                        "radius" : 0,
+                        "x" : 0.00007032335594558958,
+                        "y" : 1.0355759168353451
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -0.064220795802782504,
+                        "handleInY" : 0.057987496164837893,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 1.2755716399034327,
+                        "handleOutY" : -1.07888384902013,
+                        "radius" : 0,
+                        "x" : 0.10356695923036696,
+                        "y" : 0.80916288676509751
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -1.275571639903319,
+                        "handleInY" : -1.07888384902013,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0.064176265373816932,
+                        "handleOutY" : 0.058034157663499286,
+                        "radius" : 0,
+                        "x" : 4.5229002925636941,
+                        "y" : 0.80916288676509751
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -0.001766733630802264,
+                        "handleInY" : -0.08650685027973648,
+                        "handleMirroring" : "symmetric",
+                        "handleOutX" : 0.001766733630802264,
+                        "handleOutY" : 0.086506850279732816,
+                        "radius" : 0,
+                        "x" : 4.6262280811237169,
+                        "y" : 1.0356479258511371
+                      }
+                    ],
+                    "rotation" : 0,
+                    "strokeAlignment" : "center",
+                    "strokeColor" : "#AAA",
+                    "strokeDashArray" : "0",
+                    "strokeDashOffset" : 0,
+                    "strokeEnabled" : 0,
+                    "strokeMiterLimit" : 4,
+                    "strokeWidth" : 1,
+                    "visible" : true,
+                    "width" : 4.6262936402115429,
+                    "x" : 5.3233722097857026,
+                    "y" : 7.591164409202463
+                  }
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(0,0,0,1)",
+                "fillEnabled" : true,
+                "fillGradient" : {
+                  "__class" : "LinearGradient",
+                  "alpha" : 1,
+                  "angle" : 0,
+                  "end" : "rgba(0,0,0,0)",
+                  "start" : "black"
+                },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 10.965571606298834,
+                "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-ISxh89_R3",
+                "lineCap" : "butt",
+                "lineJoin" : "miter",
+                "locked" : false,
+                "name" : "Wifi",
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "rLKSY6pfT",
+                "pathBoolean" : 4,
+                "rotation" : 0,
+                "strokeAlignment" : "center",
+                "strokeColor" : "#AAA",
+                "strokeDashArray" : "0",
+                "strokeDashOffset" : 0,
+                "strokeEnabled" : 0,
+                "strokeMiterLimit" : 4,
+                "strokeWidth" : 1,
+                "visible" : true,
+                "width" : 15.272376264937961,
+                "x" : 0.69372749764988839,
+                "y" : 0.33067270403250859
+              }
+            ],
+            "constraintsLocked" : false,
+            "exportIncludesBackground" : false,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "#FFF",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 12,
+            "heightType" : 0,
+            "id" : "rLKSY6pfT",
+            "left" : 315,
+            "locked" : false,
+            "name" : null,
+            "navigationTarget" : null,
+            "navigationTransition" : "push",
+            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+            "navigationTransitionDirection" : "left",
+            "originalid" : null,
+            "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW",
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "sizeToFit" : false,
+            "top" : 17,
+            "visible" : true,
+            "width" : 16,
+            "widthType" : 0
+          },
+          {
+            "__class" : "ShapeContainerNode",
+            "autoSize" : true,
+            "bottom" : null,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "BooleanShapeNode",
+                "aspectRatio" : null,
+                "boxShadows" : [
+
+                ],
+                "children" : [
+                  {
+                    "__class" : "PathNode",
+                    "aspectRatio" : null,
+                    "boxShadows" : [
+
+                    ],
+                    "children" : [
+
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(0,170,255,0.5)",
+                    "fillEnabled" : false,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 4,
+                    "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-ddGatApv4",
+                    "lineCap" : "butt",
+                    "lineJoin" : "miter",
+                    "locked" : false,
+                    "name" : "Path",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-H1LGHCVvO",
+                    "pathClosed" : true,
+                    "pathSegments" : [
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "straight",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 1.0000000000000568,
+                        "y" : 0
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0.55228474983073284,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 2.0000000000000568,
+                        "y" : 0
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : -0.55228474983079678,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 3,
+                        "y" : 1
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0.55228474983078968,
+                        "radius" : 0,
+                        "x" : 3,
+                        "y" : 3
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.55228474983078968,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 2,
+                        "y" : 4
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -0.55228474983078968,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 1,
+                        "y" : 4
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0.55228474983078968,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 0,
+                        "y" : 3
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : -0.55228474983079678,
+                        "radius" : 0,
+                        "x" : 0,
+                        "y" : 1
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -0.55228474983078968,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 1,
+                        "y" : 0
+                      }
+                    ],
+                    "rotation" : 0,
+                    "strokeAlignment" : "center",
+                    "strokeColor" : "#AAA",
+                    "strokeDashArray" : "0",
+                    "strokeDashOffset" : 0,
+                    "strokeEnabled" : 0,
+                    "strokeMiterLimit" : 4,
+                    "strokeWidth" : 1,
+                    "visible" : true,
+                    "width" : 3,
+                    "x" : 0,
+                    "y" : 6.6666666666666714
+                  },
+                  {
+                    "__class" : "PathNode",
+                    "aspectRatio" : null,
+                    "boxShadows" : [
+
+                    ],
+                    "children" : [
+
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(0,170,255,0.5)",
+                    "fillEnabled" : false,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 6,
+                    "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-k3_zg3kng",
+                    "lineCap" : "butt",
+                    "lineJoin" : "miter",
+                    "locked" : false,
+                    "name" : "Path",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-H1LGHCVvO",
+                    "pathClosed" : true,
+                    "pathSegments" : [
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -0.55228474983078968,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 1,
+                        "y" : 0
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0.55228474983078968,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 2,
+                        "y" : 0
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : -0.55228474983079678,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 3,
+                        "y" : 1
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0.55228474983078968,
+                        "radius" : 0,
+                        "x" : 3,
+                        "y" : 5
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.55228474983078968,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 2,
+                        "y" : 6
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -0.55228474983078968,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 1,
+                        "y" : 6
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0.55228474983078968,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 0,
+                        "y" : 5
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : -0.55228474983079678,
+                        "radius" : 0,
+                        "x" : 0,
+                        "y" : 1
+                      }
+                    ],
+                    "rotation" : 0,
+                    "strokeAlignment" : "center",
+                    "strokeColor" : "#AAA",
+                    "strokeDashArray" : "0",
+                    "strokeDashOffset" : 0,
+                    "strokeEnabled" : 0,
+                    "strokeMiterLimit" : 4,
+                    "strokeWidth" : 1,
+                    "visible" : true,
+                    "width" : 3,
+                    "x" : 4.6666666666666856,
+                    "y" : 4.6666666666666714
+                  },
+                  {
+                    "__class" : "PathNode",
+                    "aspectRatio" : null,
+                    "boxShadows" : [
+
+                    ],
+                    "children" : [
+
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(0,170,255,0.5)",
+                    "fillEnabled" : false,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 8.3333333333333321,
+                    "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-nSAl9Cdx7",
+                    "lineCap" : "butt",
+                    "lineJoin" : "miter",
+                    "locked" : false,
+                    "name" : "Path",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-H1LGHCVvO",
+                    "pathClosed" : true,
+                    "pathSegments" : [
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -0.55228474983078968,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 1,
+                        "y" : 0
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0.55228474983078968,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 2,
+                        "y" : 0
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : -0.55228474983079323,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 3,
+                        "y" : 1
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0.55228474983078968,
+                        "radius" : 0,
+                        "x" : 3,
+                        "y" : 7.3333333333333321
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.55228474983078968,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 2,
+                        "y" : 8.3333333333333321
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -0.55228474983078968,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 1,
+                        "y" : 8.3333333333333321
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0.55228474983078968,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 0,
+                        "y" : 7.3333333333333321
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : -0.55228474983079323,
+                        "radius" : 0,
+                        "x" : 0,
+                        "y" : 1
+                      }
+                    ],
+                    "rotation" : 0,
+                    "strokeAlignment" : "center",
+                    "strokeColor" : "#AAA",
+                    "strokeDashArray" : "0",
+                    "strokeDashOffset" : 0,
+                    "strokeEnabled" : 0,
+                    "strokeMiterLimit" : 4,
+                    "strokeWidth" : 1,
+                    "visible" : true,
+                    "width" : 3,
+                    "x" : 9.3333333333333712,
+                    "y" : 2.3333333333333321
+                  },
+                  {
+                    "__class" : "PathNode",
+                    "aspectRatio" : null,
+                    "boxShadows" : [
+
+                    ],
+                    "children" : [
+
+                    ],
+                    "exportOptions" : [
+
+                    ],
+                    "fillColor" : "rgba(0,170,255,0.5)",
+                    "fillEnabled" : false,
+                    "fillGradient" : {
+                      "__class" : "LinearGradient",
+                      "alpha" : 1,
+                      "angle" : 0,
+                      "end" : "rgba(0,0,0,0)",
+                      "start" : "black"
+                    },
+                    "fillImage" : null,
+                    "fillImagePixelHeight" : null,
+                    "fillImagePixelWidth" : null,
+                    "fillImageResize" : "fill",
+                    "fillType" : "color",
+                    "height" : 10.66666666666667,
+                    "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-p71KB8c4Q",
+                    "lineCap" : "butt",
+                    "lineJoin" : "miter",
+                    "locked" : false,
+                    "name" : "Path",
+                    "opacity" : 1,
+                    "originalid" : null,
+                    "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-H1LGHCVvO",
+                    "pathClosed" : true,
+                    "pathSegments" : [
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "straight",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 1.0000000000000568,
+                        "y" : 3.5527136788005001e-15
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0.55228474983073284,
+                        "handleOutY" : -3.5527136788005001e-15,
+                        "radius" : 0,
+                        "x" : 2.0000000000000568,
+                        "y" : 3.5527136788005001e-15
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : -0.55228474983079312,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 3,
+                        "y" : 0.99999999999999978
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0.55228474983078968,
+                        "radius" : 0,
+                        "x" : 3,
+                        "y" : 9.6666666666666696
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0.55228474983078968,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 2,
+                        "y" : 10.66666666666667
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : -0.55228474983078968,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 1,
+                        "y" : 10.66666666666667
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0.55228474983078968,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 0,
+                        "y" : 9.6666666666666696
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : 0,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : -0.55228474983079667,
+                        "radius" : 0,
+                        "x" : 0,
+                        "y" : 1.0000000000000033
+                      },
+                      {
+                        "__class" : "PathSegment",
+                        "handleInX" : -0.55228474983078968,
+                        "handleInY" : 0,
+                        "handleMirroring" : "disconnected",
+                        "handleOutX" : 0,
+                        "handleOutY" : 0,
+                        "radius" : 0,
+                        "x" : 1,
+                        "y" : 0
+                      }
+                    ],
+                    "rotation" : 0,
+                    "strokeAlignment" : "center",
+                    "strokeColor" : "#AAA",
+                    "strokeDashArray" : "0",
+                    "strokeDashOffset" : 0,
+                    "strokeEnabled" : 0,
+                    "strokeMiterLimit" : 4,
+                    "strokeWidth" : 1,
+                    "visible" : true,
+                    "width" : 3,
+                    "x" : 14,
+                    "y" : 0
+                  }
+                ],
+                "exportOptions" : [
+
+                ],
+                "fillColor" : "rgba(0,0,0,1)",
+                "fillEnabled" : true,
+                "fillGradient" : {
+                  "__class" : "LinearGradient",
+                  "alpha" : 1,
+                  "angle" : 0,
+                  "end" : "rgba(0,0,0,0)",
+                  "start" : "black"
+                },
+                "fillImage" : null,
+                "fillImagePixelHeight" : null,
+                "fillImagePixelWidth" : null,
+                "fillImageResize" : "fill",
+                "fillType" : "color",
+                "height" : 10.666666666666671,
+                "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-H1LGHCVvO",
+                "lineCap" : "butt",
+                "lineJoin" : "miter",
+                "locked" : false,
+                "name" : "Cellular Connection",
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "pyvqwAAyP",
+                "pathBoolean" : 4,
+                "rotation" : 0,
+                "strokeAlignment" : "center",
+                "strokeColor" : "#AAA",
+                "strokeDashArray" : "0",
+                "strokeDashOffset" : 0,
+                "strokeEnabled" : 0,
+                "strokeMiterLimit" : 4,
+                "strokeWidth" : 1,
+                "visible" : true,
+                "width" : 17,
+                "x" : 0.66666666666611718,
+                "y" : 0.66666666666662877
+              }
+            ],
+            "constraintsLocked" : false,
+            "exportIncludesBackground" : false,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "#FFF",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "height" : 12,
+            "heightType" : 0,
+            "id" : "pyvqwAAyP",
+            "left" : 293,
+            "locked" : false,
+            "name" : null,
+            "navigationTarget" : null,
+            "navigationTransition" : "push",
+            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+            "navigationTransitionDirection" : "left",
+            "originalid" : null,
+            "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW",
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "right" : null,
+            "sizeToFit" : false,
+            "top" : 17,
+            "visible" : true,
+            "width" : 18,
+            "widthType" : 0
+          },
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "blendingEnabled" : 0,
+            "blendingMode" : "normal",
+            "blur" : 12,
+            "blurEnabled" : 0,
+            "blurType" : "layer",
+            "borderBottom" : 1,
+            "borderColor" : "#222",
+            "borderEnabled" : 0,
+            "borderLeft" : 1,
+            "borderPerSide" : false,
+            "borderRight" : 1,
+            "borderStyle" : "solid",
+            "borderTop" : 1,
+            "borderWidth" : 1,
+            "bottom" : null,
+            "boxShadows" : [
+
+            ],
+            "brightness" : 100,
+            "brightnessEnabled" : 0,
+            "centerAnchorX" : 0,
+            "centerAnchorY" : 0,
+            "children" : [
+              {
+                "__class" : "TextNode",
+                "autoSize" : false,
+                "blur" : 12,
+                "blurEnabled" : 0,
+                "blurType" : "layer",
+                "bottom" : null,
+                "brightness" : 100,
+                "brightnessEnabled" : 0,
+                "centerAnchorX" : 0,
+                "centerAnchorY" : 0,
+                "codeOverrideEnabled" : false,
+                "constraintsLocked" : false,
+                "contrast" : 100,
+                "contrastEnabled" : 0,
+                "exportOptions" : [
+
+                ],
+                "grayscale" : 0,
+                "grayScaleEnabled" : 0,
+                "height" : 16,
+                "heightType" : 0,
+                "hueRotate" : 0,
+                "hueRotateEnabled" : 0,
+                "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-UQ96ONviX",
+                "invert" : 0,
+                "invertEnabled" : 0,
+                "isTarget" : false,
+                "left" : 0,
+                "locked" : false,
+                "name" : "↳ Time",
+                "opacity" : 1,
+                "originalid" : null,
+                "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-YncGezYDh",
+                "right" : null,
+                "rotation" : 0,
+                "saturate" : 100,
+                "saturateEnabled" : 0,
+                "sepia" : 0,
+                "sepiaEnabled" : 0,
+                "shadows" : [
+
+                ],
+                "styledText" : {
+                  "__class" : "StyledTextDraft",
+                  "blocks" : [
+                    {
+                      "data" : {
+                        "emptyStyle" : [
+                          "FONT:SFProText-Semibold",
+                          "COLOR:rgb(0, 0, 0)",
+                          "SIZE:14",
+                          "ALIGN:center"
+                        ]
+                      },
+                      "depth" : 0,
+                      "entityRanges" : [
+
+                      ],
+                      "inlineStyleRanges" : [
+                        {
+                          "length" : 4,
+                          "offset" : 0,
+                          "style" : "FONT:SFProText-Semibold"
+                        },
+                        {
+                          "length" : 4,
+                          "offset" : 0,
+                          "style" : "COLOR:rgb(0, 0, 0)"
+                        },
+                        {
+                          "length" : 4,
+                          "offset" : 0,
+                          "style" : "SIZE:14"
+                        },
+                        {
+                          "length" : 4,
+                          "offset" : 0,
+                          "style" : "ALIGN:center"
+                        }
+                      ],
+                      "key" : "1kvvv",
+                      "text" : "9:41",
+                      "type" : "unstyled"
+                    }
+                  ],
+                  "cached" : {
+                    "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"1kvvv-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"1kvvv-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:14px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">9:41<\/span><\/span><\/div><\/div>",
+                    "os" : "10_14",
+                    "size" : {
+                      "height" : 16,
+                      "width" : 55
+                    },
+                    "width" : 54
+                  },
+                  "entityMap" : {
+
+                  }
+                },
+                "top" : 0.5,
+                "visible" : true,
+                "width" : 54,
+                "widthType" : 0
+              }
+            ],
+            "clip" : false,
+            "codeOverrideEnabled" : false,
+            "codeOverrideFile" : null,
+            "codeOverrideIdentifier" : null,
+            "codeOverrideName" : null,
+            "constraintsLocked" : false,
+            "contrast" : 100,
+            "contrastEnabled" : 0,
+            "deviceType" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(255,255,255,1)",
+            "fillEnabled" : false,
+            "fillGradient" : {
+              "__class" : "LinearGradient",
+              "alpha" : 1,
+              "angle" : 0,
+              "end" : "rgba(0,0,0,0)",
+              "start" : "black"
+            },
+            "fillImage" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "grayscale" : 0,
+            "grayScaleEnabled" : 0,
+            "height" : 17,
+            "heightType" : 0,
+            "hueRotate" : 0,
+            "hueRotateEnabled" : 0,
+            "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-YncGezYDh",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "invert" : 0,
+            "invertEnabled" : 0,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : 21,
+            "locked" : false,
+            "name" : "Time Style",
+            "navigationTarget" : null,
+            "navigationTransition" : "push",
+            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+            "navigationTransitionDirection" : "left",
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : null,
+            "rotation" : 0,
+            "saturate" : 100,
+            "saturateEnabled" : 0,
+            "sepia" : 0,
+            "sepiaEnabled" : 0,
+            "top" : 15,
+            "visible" : true,
+            "width" : 54,
+            "widthType" : 0
+          }
+        ],
+        "clip" : false,
+        "codeOverrideEnabled" : false,
+        "codeOverrideFile" : null,
+        "codeOverrideIdentifier" : null,
+        "codeOverrideName" : null,
+        "constraintsLocked" : false,
+        "contrast" : 100,
+        "contrastEnabled" : 0,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "grayscale" : 0,
+        "grayScaleEnabled" : 0,
+        "height" : 44,
+        "heightType" : 0,
+        "hueRotate" : 0,
+        "hueRotateEnabled" : 0,
+        "id" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "invert" : 0,
+        "invertEnabled" : 0,
+        "isExternalMaster" : "@framer\/jezper.iphone-x-status-bar-black",
+        "isMaster" : true,
+        "isTarget" : false,
+        "left" : 0,
+        "locked" : false,
+        "name" : "iPhone X\/Status Bars\/Status Bar (Black)",
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "Ffg3b0wZP",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "saturate" : 100,
+        "saturateEnabled" : 0,
+        "sepia" : 0,
+        "sepiaEnabled" : 0,
+        "top" : 0,
+        "visible" : true,
+        "width" : 375,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/StickyElement.tsx_StickyElement",
+        "codeComponentProps" : {
+          "children" : [
+            {
+              "enabled" : true,
+              "type" : "componentinstance",
+              "value" : "wPNz8aNaW"
+            }
+          ]
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 40,
+        "heightType" : 0,
+        "id" : "Svlx9KsL6",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : 2920,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "Ffg3b0wZP",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -70,
+        "visible" : true,
+        "width" : 280,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/StickyElement.tsx_StickyElement",
+        "codeComponentProps" : {
+
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 40,
+        "heightType" : 0,
+        "id" : "DKCkYZszl",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : 2920,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "Ffg3b0wZP",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : 210,
+        "visible" : true,
+        "width" : 280,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/StickyScroll.tsx_StickyScroll",
+        "codeComponentProps" : {
+          "children" : [
+
+          ],
+          "offset" : 0
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 600,
+        "heightType" : 0,
+        "id" : "C5RqpaIqS",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : 2610,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "Ffg3b0wZP",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -70,
+        "visible" : true,
+        "width" : 280,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "white",
+        "fillEnabled" : true,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 40,
+        "heightType" : 0,
+        "id" : "wPNz8aNaW",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : 3230,
+        "locked" : false,
+        "name" : null,
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "Ffg3b0wZP",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -70,
+        "visible" : true,
+        "width" : 280,
+        "widthType" : 0
+      },
+      {
+        "__class" : "FrameNode",
+        "aspectRatio" : null,
+        "blendingEnabled" : 0,
+        "blendingMode" : "normal",
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "deviceType" : null,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "white",
+        "fillEnabled" : true,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 1200,
+        "heightType" : 0,
+        "id" : "D8LJd3X0h",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "isExternalMaster" : null,
+        "isMaster" : false,
+        "isTarget" : false,
+        "left" : 2240,
+        "locked" : false,
+        "name" : null,
+        "navigationTarget" : null,
+        "navigationTransition" : "push",
+        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
+        "navigationTransitionDirection" : "left",
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "Ffg3b0wZP",
+        "previewSettings" : null,
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "replicaInfo" : null,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -70,
+        "visible" : true,
+        "width" : 280,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : "framer\/Scroll",
+        "codeComponentProps" : {
+          "children" : [
+            {
+              "enabled" : true,
+              "type" : "componentinstance",
+              "value" : "D8LJd3X0h"
+            }
+          ],
+          "direction" : "vertical",
+          "directionLock" : true
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 600,
+        "heightType" : 0,
+        "id" : "qYfU7Bd4l",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : 1833,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "Ffg3b0wZP",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -70,
+        "visible" : true,
+        "width" : 280,
+        "widthType" : 0
+      }
+    ],
+    "id" : "Ffg3b0wZP",
+    "name" : null,
+    "originalid" : null,
+    "parentid" : null,
+    "visible" : false
+  },
+  "version" : 48
+}
