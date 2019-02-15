@@ -1,4 +1,5 @@
 import * as React from "react";
+import NotConnected from "./NotConnected";
 
 const style: React.CSSProperties = {
   height: "100%",
@@ -16,7 +17,7 @@ export class StickyElement extends React.Component {
     const { children } = this.props;
 
     if (children.length <= 0) {
-      return <div style={style}>Connect to something sticky →</div>;
+      return <NotConnected prompt="Connect to something sticky" />;
     } else {
       return children;
     }

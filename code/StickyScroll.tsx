@@ -6,6 +6,7 @@ import {
   FrameProperties,
   FramerEvent
 } from "framer";
+import NotConnected from "./NotConnected";
 
 const style: React.CSSProperties = {
   height: "100%",
@@ -132,7 +133,7 @@ export class StickyScroll extends React.Component<Props> {
     const { children } = this.props;
 
     if (children.length === 0) {
-      return <div style={style}>Connect to scrollable content →</div>;
+      return <NotConnected prompt="Connect to scrollable content" />;
     } else {
       this.stickyPositionLookup = this.setStickyPositionsLookup();
       // Clone the child element to place in a scroll containter

@@ -1,0 +1,47 @@
+[2019-02-15 10:10:39.0260] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-02-15 10:10:39.0470] - INFO - Done reading
+[2019-02-15 10:10:39.0480] - INFO - Marking changed: false
+[2019-02-15 10:10:39.9100] - INFO - GET 200 /design/document.json 0 B (6ms)
+[2019-02-15 10:10:42.6900] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (6ms)
+[2019-02-15 10:10:44.3830] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (5ms)
+[2019-02-15 10:11:40.4390] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.11.40.zip
+[2019-02-15 10:36:28.1550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.36.28.zip
+[2019-02-15 10:37:28.8550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.37.28.zip
+[2019-02-15 10:37:49.9500] - ERROR -    10 modules
+[2019-02-15 10:37:49.9500] - ERROR - ERROR in ./code/NotConnected.tsx
+[2019-02-15 10:37:49.9500] - ERROR - Module not found: Error: Can't resolve './Parallax' in '/Users/giles/Documents/github/sticky-headers.framerfx/code'
+[2019-02-15 10:38:29.4670] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.38.29.zip
+[2019-02-15 10:42:51.7830] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.42.51.zip
+[2019-02-15 10:44:54.8700] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.44.54.zip
+[2019-02-15 10:46:58.9820] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.46.58.zip
+[2019-02-15 10:55:24.9930] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.55.24.zip
+[2019-02-15 10:56:25.8870] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.56.25.zip
+[2019-02-15 10:57:26.8890] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.57.26.zip
+[2019-02-15 11:02:41.8710] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 11.02.41.zip
+[2019-02-15 11:07:46.8240] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 11.07.46.zip
+[2019-02-15 11:17:06.4890] - ERROR -    11 modules
+[2019-02-15 11:17:06.4890] - ERROR - ERROR in ./code/NotConnected.tsx
+[2019-02-15 11:17:06.4890] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/giles/Documents/github/sticky-headers.framerfx/code/NotConnected.tsx'
+[2019-02-15 11:17:14.9110] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 11.17.14.zip
+[2019-02-15 11:17:44.1680] - ERROR -    11 modules
+[2019-02-15 11:17:44.1680] - ERROR - WARNING in ./code/StickyHeaders/NotConnected.tsx
+[2019-02-15 11:17:44.1690] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/giles/Documents/github/sticky-headers.framerfx/code/StickyHeaders/NotConnected.tsx'
+[2019-02-15 11:17:44.1690] - ERROR - ERROR in ./code/NotConnected.tsx
+[2019-02-15 11:17:44.1690] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/giles/Documents/github/sticky-headers.framerfx/code/NotConnected.tsx'
+[2019-02-15 11:18:15.8360] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 11.18.15.zip
+[2019-02-15 11:23:19.8920] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 11.23.19.zip
+[2019-02-15 11:26:25.8680] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 11.26.25.zip
+[2019-02-15 11:31:44.9070] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 11.31.44.zip
+[2019-02-15 11:32:45.3290] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 11.32.45.zip
+[2019-02-15 11:33:11.7550] - ERROR -    11 modules
+[2019-02-15 11:33:11.7550] - ERROR - ERROR in ./code/PrivateStickyHeaderComponents/NotConnected.tsx
+[2019-02-15 11:33:11.7550] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/giles/Documents/github/sticky-headers.framerfx/code/PrivateStickyHeaderComponents/NotConnected.tsx'
+[2019-02-15 11:33:28.8190] - ERROR -    11 modules
+[2019-02-15 11:33:28.8190] - ERROR - ERROR in ./code/PrivateStickyHeaderComponents/NotConnected.tsx
+[2019-02-15 11:33:28.8190] - ERROR - Module build failed: Error: ENOENT: no such file or directory, open '/Users/giles/Documents/github/sticky-headers.framerfx/code/PrivateStickyHeaderComponents/NotConnected.tsx'
+[2019-02-15 11:33:45.4950] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 11.33.45.zip
+[2019-02-15 11:34:51.2830] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 11.34.51.zip
+[2019-02-15 11:36:55.2960] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 11.36.55.zip
+[2019-02-15 11:37:55.8890] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 11.37.55.zip
+[2019-02-15 11:40:06.8810] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 11.40.06.zip
+[2019-02-15 11:50:11.8180] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 11.50.11.zip
