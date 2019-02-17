@@ -56,3 +56,21 @@
 [2019-02-16 17:11:55.4350] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-16 17.11.55.zip
 [2019-02-16 17:12:34.7300] - INFO - Marking changed: false
 [2019-02-16 17:12:55.5600] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-16 17.12.55.zip
+[2019-02-16 17:35:50.3820] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-02-16 17:35:50.3970] - INFO - Done reading
+[2019-02-16 17:35:50.3980] - INFO - Marking changed: false
+[2019-02-16 17:35:51.5300] - INFO - GET 200 /design/document.json 0 B (8ms)
+[2019-02-16 17:35:52.9030] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-02-16 17:36:50.7740] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-16 17.36.50.zip
+[2019-02-17 11:07:48.5770] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-02-17 11:07:48.6230] - INFO - Done reading
+[2019-02-17 11:07:48.6230] - INFO - Marking changed: false
+[2019-02-17 11:07:49.4320] - INFO - GET 200 /design/document.json 0 B (6ms)
+[2019-02-17 11:07:51.4980] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (7ms)
+[2019-02-17 11:08:49.1550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-17 11.08.49.zip
+[2019-02-17 11:10:50.1780] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-17 11.10.50.zip
+[2019-02-17 11:11:50.6580] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-17 11.11.50.zip
+[2019-02-17 11:12:51.1540] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-17 11.12.51.zip
+[2019-02-17 11:13:57.0200] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-17 11.13.57.zip
+[2019-02-17 11:14:54.1250] - INFO - Marking changed: false
+[2019-02-17 11:14:57.1370] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-17 11.14.57.zip
