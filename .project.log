@@ -269,3 +269,20 @@
 [2019-02-20 14:05:03.6430] - INFO - Marking changed: false
 [2019-02-20 14:05:03.6460] - DEBUG - [Save session: 15] Completed super.save
 [2019-02-20 14:05:45.9300] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-20 14.05.45.zip
+[2019-02-20 14:24:33.9390] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-02-20 14:31:06.3310] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-02-20 14:31:30.3030] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-02-20 14:31:35.3290] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-02-20 14:31:45.8560] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-02-20 14:32:16.8850] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-02-20 14:32:16.9020] - INFO - Done reading
+[2019-02-20 14:32:16.9020] - INFO - Marking changed: false
+[2019-02-20 14:32:17.7910] - INFO - GET 200 /design/document.json 0 B (5ms)
+[2019-02-20 14:32:20.1410] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-02-20 14:32:35.9410] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-02-20 14:32:35.9410] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-02-20 14:32:35.9410] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-02-20 14:32:35.9860] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-02-20 14:32:35.9860] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-02-20 14:32:35.9960] - DEBUG - [Save session: 0] Completed super.save
+[2019-02-20 14:33:18.3840] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-20 14.33.18.zip
