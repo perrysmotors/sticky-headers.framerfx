@@ -7,13 +7,14 @@ import {
   FramerEvent
 } from "framer";
 import NotConnected from "./NotConnected";
+import { RegisterContext } from "./RegisterContext";
 
-interface Props extends FrameProperties {
+interface ScrollProps extends FrameProperties {
   offset: number;
   onMove: (event: FramerEvent) => void;
 }
 
-export class StickyScroll extends React.Component<Props> {
+export class StickyScroll extends React.Component<ScrollProps> {
   static defaultProps = {
     offset: 0,
     direction: "vertical",
@@ -45,11 +46,6 @@ export class StickyScroll extends React.Component<Props> {
       .sort((a, b) => a.props.top - b.props.top);
   }
 
-  // Store the current scroll position
-  state = {
-    scrollY: 0
-  };
-
   stickyPositionLookup: any;
 
   // Calculate and store sticky positions
@@ -62,61 +58,59 @@ export class StickyScroll extends React.Component<Props> {
       let i;
       for (i = 0; i < stickyFrames.length - 1; i++) {
         stickyPositionLookup.push({
-          element: stickyFrames[i],
+          id: stickyFrames[i].props.id,
           yStick: stickyFrames[i].props.top,
           yRelease: stickyFrames[i + 1].props.top - stickyFrames[i].props.height
         });
       }
 
       stickyPositionLookup.push({
-        element: stickyFrames[i],
+        id: stickyFrames[i].props.id,
         yStick: stickyFrames[i].props.top,
         yRelease: Number.POSITIVE_INFINITY
       });
     }
+    console.log(stickyPositionLookup);
     return stickyPositionLookup;
   };
 
-  // Clone children, if StickyElement adjust props
-  cloneStickyChildren = (elements = []) =>
-    elements.map(element => {
-      if (StickyScroll.isSticky(element)) {
-        const offsetScrollY = this.state.scrollY + this.props.offset;
-        const stickyPosition = this.stickyPositionLookup.find(
-          found => found.element === element
-        );
+  handleScroll = event => {
+    const offsetScrollY = this.props.offset - event.y;
 
-        if (offsetScrollY >= stickyPosition.yRelease) {
-          return this.cloneContainer(element, {
-            top: stickyPosition.yRelease
-          });
-        } else if (offsetScrollY >= stickyPosition.yStick) {
-          return this.cloneContainer(element, {
-            top: offsetScrollY
-          });
-        } else {
-          return this.cloneContainer(element);
-        }
-      }
+    this.stickyPositionLookup.forEach(({ id, yStick, yRelease }) => {
+      const layerConfig = this.layerConfigs.find(found => found.id === id);
 
-      // If not a StickyElement just clone it
-      else {
-        return this.cloneContainer(element);
+      if (offsetScrollY >= yRelease) {
+        layerConfig.top.set(yRelease - yStick);
+      } else if (offsetScrollY >= yStick) {
+        layerConfig.top.set(offsetScrollY - yStick);
+      } else {
+        layerConfig.top.set(0);
       }
     });
 
-  // Clone a container and clone it's children
-  cloneContainer = (e, props = null) =>
-    React.cloneElement(e, props, this.cloneStickyChildren(e.props.children));
-
-  // Update scrollY onMove
-  handleScroll = event => {
-    // Update scrollY
-    this.setState({ scrollY: -event.y });
     // Run any onMove function passed from props:
     const { onMove } = this.props;
     onMove && onMove(event);
   };
+
+  registerLayer = layerConfigs => {
+    // console.log("registerLayer:", layerConfigs);
+    this.layerConfigs.push(layerConfigs);
+  };
+
+  unregisterLayer = layerConfigs => {
+    this.layerConfigs = this.layerConfigs.filter(c => c !== layerConfigs);
+  };
+
+  layerConfigs = [];
+
+  componentDidMount() {
+    const { children } = this.props;
+    if (React.Children.count(children) > 0) {
+      this.stickyPositionLookup = this.setStickyPositionsLookup();
+    }
+  }
 
   render() {
     const { children } = this.props;
@@ -124,15 +118,17 @@ export class StickyScroll extends React.Component<Props> {
     if (React.Children.count(children) === 0) {
       return <NotConnected prompt="Connect to scrollable content" />;
     } else {
-      this.stickyPositionLookup = this.setStickyPositionsLookup();
-      // Clone the child element to place in a scroll containter
-      let content = this.cloneContainer(children[0]);
-
       return (
-        // Create a scroll element with an onMove function
-        <Scroll {...this.props} onMove={this.handleScroll}>
-          {content}
-        </Scroll>
+        <RegisterContext.Provider
+          value={{
+            registerLayer: this.registerLayer,
+            unregisterLayer: this.unregisterLayer
+          }}
+        >
+          <Scroll {...this.props} onMove={this.handleScroll}>
+            {children}
+          </Scroll>
+        </RegisterContext.Provider>
       );
     }
   }
