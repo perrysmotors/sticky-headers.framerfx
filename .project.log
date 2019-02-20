@@ -286,3 +286,20 @@
 [2019-02-20 14:32:35.9860] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
 [2019-02-20 14:32:35.9960] - DEBUG - [Save session: 0] Completed super.save
 [2019-02-20 14:33:18.3840] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-20 14.33.18.zip
+[2019-02-20 14:35:56.0340] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-02-20 14:35:56.0520] - INFO - Done reading
+[2019-02-20 14:35:56.0520] - INFO - Marking changed: false
+[2019-02-20 14:35:56.8750] - INFO - GET 200 /design/document.json 0 B (6ms)
+[2019-02-20 14:35:59.1850] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-02-20 14:36:06.6200] - INFO - GET 200 /package.json 415 B (1ms)
+[2019-02-20 14:36:06.6200] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-02-20 14:36:12.9690] - INFO - GET 200 /metadata/icon.png?1550673366616 2.59 kB (1ms)
+[2019-02-20 14:36:12.9690] - INFO - GET 200 /metadata/artwork.png?1550673366616 39.9 kB (1ms)
+[2019-02-20 14:36:12.9690] - INFO - GET 200 /metadata/icon.png?1550673366616 2.59 kB (1ms)
+[2019-02-20 14:36:12.9690] - INFO - GET 200 /metadata/artwork.png?1550673366616 39.9 kB (1ms)
+[2019-02-20 14:36:56.2310] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-20 14.36.56.zip
+[2019-02-20 14:37:11.9230] - INFO - GET 200 /metadata/artwork.png?1550673366616 39.9 kB (1ms)
+[2019-02-20 14:37:11.9240] - INFO - GET 200 /metadata/icon.png?1550673366616 2.59 kB (2ms)
+[2019-02-20 14:37:12.3830] - INFO - GET 200 /metadata/icon.png?1550673366616 2.59 kB (1ms)
+[2019-02-20 14:37:12.3840] - INFO - GET 200 /metadata/artwork.png?1550673366616 39.9 kB (2ms)
+[2019-02-20 14:45:22.6750] - INFO - GET 200 /README.md 0 B (1ms)

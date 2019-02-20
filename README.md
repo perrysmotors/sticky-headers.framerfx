@@ -1,4 +1,4 @@
-*Inspired by 'Sticky' by Ismael Martínez* 
+*Inspired by 'Sticky' by Ismael Martínez and 'Parallax' by Linton Ye* 
 
 # Usage
 After you install this package you will see two components: `StickyScroll` and `StickyElement`.
@@ -56,3 +56,8 @@ export const Element1: Override = props => overrides.element1(props);
 ```
 
 `StickyElement` components should not be overridden in this way.
+
+# Changelog
+
+- **2.0.0** — Complete rewrite to improve performance
+- **1.5.0** — Initial release
