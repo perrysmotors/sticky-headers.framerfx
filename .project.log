@@ -375,3 +375,21 @@
 [2019-02-26 18:17:16.1960] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
 [2019-02-26 18:17:16.2200] - INFO - Marking changed: false
 [2019-02-26 18:17:16.2220] - DEBUG - [Save session: 3] Completed super.save
+[2019-02-26 18:17:55.9480] - INFO - GET 200 /package.json 415 B (1ms)
+[2019-02-26 18:17:55.9500] - INFO - GET 200 /README.md 0 B (2ms)
+[2019-02-26 18:18:02.4060] - INFO - GET 200 /metadata/icon.png?1551205075944 2.59 kB (1ms)
+[2019-02-26 18:18:02.4070] - INFO - GET 200 /metadata/artwork.png?1551205075944 39.9 kB (1ms)
+[2019-02-26 18:18:02.4150] - INFO - GET 200 /metadata/icon.png?1551205075944 2.59 kB (2ms)
+[2019-02-26 18:18:02.4150] - INFO - GET 200 /metadata/artwork.png?1551205075944 39.9 kB (1ms)
+[2019-02-26 18:18:29.7120] - INFO - GET 200 /package.json 414 B (14ms)
+[2019-02-26 18:18:30.1550] - INFO - GET 200 /package.json 415 B (1ms)
+[2019-02-26 18:18:35.4690] - DEBUG - [Save session: 4] Started, operation: autosaveInPlaceOperation
+[2019-02-26 18:18:35.4690] - DEBUG - [Save session: 4] Before container.writeChanges
+[2019-02-26 18:18:35.4690] - DEBUG - [Save session: 4] Before waitUsingRecursiveRunLoop
+[2019-02-26 18:18:35.4960] - DEBUG - [Save session: 4] Completed container.writeChanges
+[2019-02-26 18:18:35.4960] - DEBUG - [Save session: 4] Completed waitUsingRecursiveRunLoop
+[2019-02-26 18:18:35.5010] - DEBUG - [Save session: 4] Completed super.save
+[2019-02-26 18:18:48.4440] - INFO - GET 200 /metadata/icon.png?1551205075944 2.59 kB (2ms)
+[2019-02-26 18:18:48.4450] - INFO - GET 200 /metadata/artwork.png?1551205075944 39.9 kB (1ms)
+[2019-02-26 18:18:48.4720] - INFO - GET 200 /metadata/icon.png?1551205075944 2.59 kB (1ms)
+[2019-02-26 18:18:48.4730] - INFO - GET 200 /metadata/artwork.png?1551205075944 39.9 kB (1ms)
