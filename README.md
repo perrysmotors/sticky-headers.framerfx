@@ -63,5 +63,6 @@ export const Element1: Override = props => overrides.element1(props);
 
 # Changelog
 
+- **1.8.0** — Patch to avoid console errors
 - **1.7.0** — Complete rewrite to improve performance
 - **1.5.0** — Initial release

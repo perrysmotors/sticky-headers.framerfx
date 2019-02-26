@@ -361,3 +361,17 @@
 [2019-02-26 16:27:51.2660] - DEBUG - [Save session: 1] Completed super.save
 [2019-02-26 18:13:05.5180] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-26 18.13.05.zip
 [2019-02-26 18:14:10.4250] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-26 18.14.10.zip
+[2019-02-26 18:15:55.6250] - DEBUG - [Save session: 2] Started, operation: saveOperation
+[2019-02-26 18:15:55.6250] - DEBUG - [Save session: 2] Before container.writeChanges
+[2019-02-26 18:15:55.6260] - DEBUG - [Save session: 2] Before waitUsingRecursiveRunLoop
+[2019-02-26 18:15:55.6270] - DEBUG - [Save session: 2] Completed container.writeChanges
+[2019-02-26 18:15:55.6270] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
+[2019-02-26 18:15:55.6300] - INFO - Marking changed: false
+[2019-02-26 18:15:55.6330] - DEBUG - [Save session: 2] Completed super.save
+[2019-02-26 18:17:16.1940] - DEBUG - [Save session: 3] Started, operation: saveOperation
+[2019-02-26 18:17:16.1940] - DEBUG - [Save session: 3] Before container.writeChanges
+[2019-02-26 18:17:16.1950] - DEBUG - [Save session: 3] Before waitUsingRecursiveRunLoop
+[2019-02-26 18:17:16.1960] - DEBUG - [Save session: 3] Completed container.writeChanges
+[2019-02-26 18:17:16.1960] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
+[2019-02-26 18:17:16.2200] - INFO - Marking changed: false
+[2019-02-26 18:17:16.2220] - DEBUG - [Save session: 3] Completed super.save
