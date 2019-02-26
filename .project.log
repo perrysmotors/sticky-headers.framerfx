@@ -303,3 +303,61 @@
 [2019-02-20 14:37:12.3830] - INFO - GET 200 /metadata/icon.png?1550673366616 2.59 kB (1ms)
 [2019-02-20 14:37:12.3840] - INFO - GET 200 /metadata/artwork.png?1550673366616 39.9 kB (2ms)
 [2019-02-20 14:45:22.6750] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-02-20 14:47:53.5780] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-02-20 14:47:53.5960] - INFO - Done reading
+[2019-02-20 14:47:53.5960] - INFO - Marking changed: false
+[2019-02-20 14:47:54.5000] - INFO - GET 200 /design/document.json 0 B (5ms)
+[2019-02-20 14:47:56.5450] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-02-20 14:48:04.2040] - DEBUG - [Save session: 0] Started, operation: saveOperation
+[2019-02-20 14:48:04.2040] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-02-20 14:48:04.2040] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-02-20 14:48:04.2330] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-02-20 14:48:04.2330] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-02-20 14:48:04.2360] - INFO - Marking changed: false
+[2019-02-20 14:48:04.2400] - DEBUG - [Save session: 0] Completed super.save
+[2019-02-20 14:48:10.2990] - INFO - GET 200 /package.json 415 B (1ms)
+[2019-02-20 14:48:10.3000] - INFO - GET 200 /README.md 0 B (2ms)
+[2019-02-20 14:48:13.4300] - INFO - GET 200 /metadata/icon.png?1550674090295 2.59 kB (1ms)
+[2019-02-20 14:48:13.4300] - INFO - GET 200 /metadata/artwork.png?1550674090295 39.9 kB (2ms)
+[2019-02-20 14:48:13.4300] - INFO - GET 200 /metadata/icon.png?1550674090295 2.59 kB (1ms)
+[2019-02-20 14:48:13.4300] - INFO - GET 200 /metadata/artwork.png?1550674090295 39.9 kB (1ms)
+[2019-02-20 14:48:47.1830] - INFO - GET 200 /package.json 414 B (5ms)
+[2019-02-20 14:48:47.6280] - INFO - GET 200 /package.json 415 B (1ms)
+[2019-02-20 14:48:53.6380] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-20 14.48.53.zip
+[2019-02-20 14:49:17.9360] - INFO - GET 200 /metadata/artwork.png?1550674090295 39.9 kB (1ms)
+[2019-02-20 14:49:17.9360] - INFO - GET 200 /metadata/icon.png?1550674090295 2.59 kB (1ms)
+[2019-02-20 14:49:17.9650] - INFO - GET 200 /metadata/icon.png?1550674090295 2.59 kB (1ms)
+[2019-02-20 14:49:17.9660] - INFO - GET 200 /metadata/artwork.png?1550674090295 39.9 kB (1ms)
+[2019-02-20 14:49:27.9920] - INFO - POST 200 /upload/metadata/readme.md 2 B (11ms)
+[2019-02-20 14:49:28.0550] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-02-20 14:49:30.1880] - INFO - GET 200 /package.json 414 B (1ms)
+[2019-02-20 14:49:30.5630] - INFO - GET 200 /package.json 415 B (1ms)
+[2019-02-20 14:49:56.1950] - DEBUG - [Save session: 1] Started, operation: saveOperation
+[2019-02-20 14:49:56.1950] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-02-20 14:49:56.1970] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-02-20 14:49:56.1980] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-02-20 14:49:56.1980] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-02-20 14:49:56.2150] - INFO - Marking changed: false
+[2019-02-20 14:49:56.2180] - DEBUG - [Save session: 1] Completed super.save
+[2019-02-26 16:25:37.6630] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-02-26 16:25:37.6820] - INFO - Done reading
+[2019-02-26 16:25:37.6820] - INFO - Marking changed: false
+[2019-02-26 16:25:38.4600] - INFO - GET 200 /design/document.json 0 B (6ms)
+[2019-02-26 16:25:40.6270] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-02-26 16:26:12.8940] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-02-26 16:26:12.8940] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-02-26 16:26:12.8940] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-02-26 16:26:12.9250] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-02-26 16:26:12.9250] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-02-26 16:26:12.9300] - DEBUG - [Save session: 0] Completed super.save
+[2019-02-26 16:26:37.7020] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-26 16.26.37.zip
+[2019-02-26 16:27:37.8060] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-26 16.27.37.zip
+[2019-02-26 16:27:51.2590] - DEBUG - [Save session: 1] Started, operation: saveOperation
+[2019-02-26 16:27:51.2590] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-02-26 16:27:51.2600] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-02-26 16:27:51.2620] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-02-26 16:27:51.2620] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-02-26 16:27:51.2630] - INFO - Marking changed: false
+[2019-02-26 16:27:51.2660] - DEBUG - [Save session: 1] Completed super.save
+[2019-02-26 18:13:05.5180] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-26 18.13.05.zip
+[2019-02-26 18:14:10.4250] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-26 18.14.10.zip

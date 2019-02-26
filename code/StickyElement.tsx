@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Frame, Animatable } from "framer";
-import NotConnected from "./NotConnected";
+import { NotConnected } from "./NotConnected";
 import { RegisterContext } from "./RegisterContext";
 
 interface RegistrarProps {

@@ -6,7 +6,7 @@ import {
   FrameProperties,
   FramerEvent
 } from "framer";
-import NotConnected from "./NotConnected";
+import { NotConnected } from "./NotConnected";
 import { RegisterContext } from "./RegisterContext";
 
 interface ScrollProps extends FrameProperties {
