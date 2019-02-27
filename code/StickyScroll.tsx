@@ -70,7 +70,6 @@ export class StickyScroll extends React.Component<ScrollProps> {
         yRelease: Number.POSITIVE_INFINITY
       });
     }
-    console.log(stickyPositionLookup);
     return stickyPositionLookup;
   };
 
@@ -95,7 +94,6 @@ export class StickyScroll extends React.Component<ScrollProps> {
   };
 
   registerLayer = layerConfigs => {
-    // console.log("registerLayer:", layerConfigs);
     this.layerConfigs.push(layerConfigs);
   };
 
