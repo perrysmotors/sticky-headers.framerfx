@@ -1,6 +1,12 @@
+# Sticky Headers
+
 _Inspired by 'Sticky' by Ismael Martínez and 'Parallax' by Linton Ye_
 
-# Usage
+This package lets you add headers that stick to the top of the screen when you scroll.
+
+[View the code on Github](https://github.com/perrysmotors/sticky-headers.framerfx)
+
+## Usage
 
 After you install this package you will see two components: `StickyScroll` and `StickyElement`.
 
@@ -9,7 +15,7 @@ After you install this package you will see two components: `StickyScroll` and `
 
 You can use multiple StickyElements in your scroll content. Each StickyElement reaching the top **pushes** the StickyElement above it up and off the top of scroll component.
 
-# Features:
+## Features:
 
 - The `offset` parameter on StickyScroll makes elements stick at a set distance below the top of the scroll component.
 - Can be used together with '**Parallax**' by Linton Ye
@@ -17,7 +23,7 @@ You can use multiple StickyElements in your scroll content. Each StickyElement r
 
 ![Demo](https://dl.dropboxusercontent.com/s/qan1a1zm6citbju/stickyscroll.gif)
 
-# How to use with overrides
+## How to use with overrides
 
 You can do stuff based on the scroll position by adding an override to the your StickyScroll component that sets an `onMove` event handler.
 
@@ -32,7 +38,7 @@ export const isStickyScroll: Override = () => {
 };
 ```
 
-# How to use with 'Parallax' by Linton Ye
+## How to use with 'Parallax' by Linton Ye
 
 If you install 'Parallax' by Linton Ye. You can combine the behaviour you get from `StickyElement` components with more complex scroll interactions applied to other elements.
 
@@ -61,8 +67,9 @@ export const Element1: Override = props => overrides.element1(props);
 
 `StickyElement` components should not be overridden in this way.
 
-# Changelog
+## Changelog
 
+- **2.0.0** — Fix for StickElements that are not pinned to the top
 - **1.9.0** — Remove left over debugging code
 - **1.8.0** — Patch to avoid console errors
 - **1.7.0** — Complete rewrite to improve performance
