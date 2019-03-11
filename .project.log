@@ -899,3 +899,15 @@
 [2019-03-11 17:55:43.7150] - INFO - Marking changed: false
 [2019-03-11 17:55:44.5890] - INFO - GET 200 /design/document.json 0 B (5ms)
 [2019-03-11 17:55:46.8320] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-11 18:03:55.9720] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-03-11 18:03:55.9960] - INFO - Done reading
+[2019-03-11 18:03:55.9960] - INFO - Marking changed: false
+[2019-03-11 18:03:57.0240] - INFO - GET 200 /design/document.json 0 B (6ms)
+[2019-03-11 18:03:58.7690] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-11 18:04:10.8800] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 18:04:10.8810] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-03-11 18:04:10.8810] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-03-11 18:04:10.9130] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-03-11 18:04:10.9130] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-03-11 18:04:10.9190] - DEBUG - [Save session: 0] Completed super.save
+[2019-03-11 18:04:56.6760] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-11 18.04.56.zip
