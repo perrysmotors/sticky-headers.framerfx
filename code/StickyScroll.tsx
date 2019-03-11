@@ -61,7 +61,7 @@ export class StickyScroll extends React.Component<ScrollProps> {
     }
   }
 
-  stickyPositionLookup: any;
+  stickyPositionLookup = [];
 
   // Calculate and store sticky positions
   setStickyPositionsLookup = () => {
@@ -86,7 +86,6 @@ export class StickyScroll extends React.Component<ScrollProps> {
         yStick: StickyScroll.getY(stickyFrames[i], parent),
         yRelease: Number.POSITIVE_INFINITY
       });
-
     }
 
     return stickyPositionLookup;
