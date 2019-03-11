@@ -853,3 +853,49 @@
 [2019-03-11 17:00:58.5600] - DEBUG - [Save session: 26] Completed waitUsingRecursiveRunLoop
 [2019-03-11 17:00:58.5620] - INFO - Marking changed: false
 [2019-03-11 17:00:58.5650] - DEBUG - [Save session: 26] Completed super.save
+[2019-03-11 17:09:12.4550] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-03-11 17:09:12.4760] - INFO - Done reading
+[2019-03-11 17:09:12.4770] - INFO - Marking changed: false
+[2019-03-11 17:09:13.3040] - INFO - GET 200 /design/document.json 0 B (5ms)
+[2019-03-11 17:09:15.7040] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-03-11 17:09:46.4090] - INFO - GET 200 /package.json 415 B (1ms)
+[2019-03-11 17:09:46.4090] - INFO - GET 200 /README.md 0 B (2ms)
+[2019-03-11 17:09:50.9450] - INFO - GET 200 /metadata/icon.png?1552324186404 2.59 kB (1ms)
+[2019-03-11 17:09:50.9460] - INFO - GET 200 /metadata/artwork.png?1552324186404 39.9 kB (1ms)
+[2019-03-11 17:09:50.9460] - INFO - GET 200 /metadata/icon.png?1552324186404 2.59 kB (1ms)
+[2019-03-11 17:09:50.9460] - INFO - GET 200 /metadata/artwork.png?1552324186404 39.9 kB (1ms)
+[2019-03-11 17:10:00.9000] - DEBUG - [Save session: 0] Started, operation: saveOperation
+[2019-03-11 17:10:00.9000] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-03-11 17:10:00.9000] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-03-11 17:10:00.9300] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-03-11 17:10:00.9300] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-03-11 17:10:00.9320] - INFO - Marking changed: false
+[2019-03-11 17:10:00.9360] - DEBUG - [Save session: 0] Completed super.save
+[2019-03-11 17:10:12.6000] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-11 17.10.12.zip
+[2019-03-11 17:10:14.5830] - INFO - GET 200 /package.json 414 B (1ms)
+[2019-03-11 17:10:15.0170] - INFO - GET 200 /package.json 416 B (1ms)
+[2019-03-11 17:10:39.3930] - INFO - GET 200 /metadata/icon.png?1552324186404 2.59 kB (1ms)
+[2019-03-11 17:10:39.3930] - INFO - GET 200 /metadata/artwork.png?1552324186404 39.9 kB (1ms)
+[2019-03-11 17:10:39.8330] - INFO - GET 200 /metadata/icon.png?1552324186404 2.59 kB (1ms)
+[2019-03-11 17:10:39.8330] - INFO - GET 200 /metadata/artwork.png?1552324186404 39.9 kB (1ms)
+[2019-03-11 17:10:49.1060] - INFO - POST 200 /upload/metadata/readme.md 2 B (10ms)
+[2019-03-11 17:10:49.1680] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-03-11 17:10:49.1880] - DEBUG - [Save session: 1] Started, operation: autosaveInPlaceOperation
+[2019-03-11 17:10:49.1880] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-03-11 17:10:49.1880] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-03-11 17:10:49.2290] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-03-11 17:10:49.2290] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-03-11 17:10:49.2330] - DEBUG - [Save session: 1] Completed super.save
+[2019-03-11 17:10:51.9670] - INFO - POST 200 /upload/metadata/readme.md 2 B (3ms)
+[2019-03-11 17:10:52.0440] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-03-11 17:10:55.0990] - INFO - GET 200 /package.json 415 B (19ms)
+[2019-03-11 17:10:55.5510] - INFO - GET 200 /package.json 416 B (1ms)
+[2019-03-11 17:11:07.8670] - INFO - GET 200 /metadata/icon.png?1552324186404 2.59 kB (1ms)
+[2019-03-11 17:11:07.8680] - INFO - GET 200 /metadata/artwork.png?1552324186404 39.9 kB (2ms)
+[2019-03-11 17:11:07.8960] - INFO - GET 200 /metadata/icon.png?1552324186404 2.59 kB (1ms)
+[2019-03-11 17:11:07.8970] - INFO - GET 200 /metadata/artwork.png?1552324186404 39.9 kB (1ms)
+[2019-03-11 17:55:43.6920] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-03-11 17:55:43.7150] - INFO - Done reading
+[2019-03-11 17:55:43.7150] - INFO - Marking changed: false
+[2019-03-11 17:55:44.5890] - INFO - GET 200 /design/document.json 0 B (5ms)
+[2019-03-11 17:55:46.8320] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
