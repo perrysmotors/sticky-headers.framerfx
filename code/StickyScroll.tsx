@@ -61,6 +61,7 @@ export class StickyScroll extends React.Component<ScrollProps> {
     }
   }
 
+  layerConfigs = [];
   stickyPositionLookup = [];
 
   // Calculate and store sticky positions
@@ -119,21 +120,13 @@ export class StickyScroll extends React.Component<ScrollProps> {
     this.layerConfigs = this.layerConfigs.filter(c => c !== layerConfigs);
   };
 
-  layerConfigs = [];
-
-  componentDidMount() {
-    const { children } = this.props;
-    if (React.Children.count(children) > 0) {
-      this.stickyPositionLookup = this.setStickyPositionsLookup();
-    }
-  }
-
   render() {
     const { children } = this.props;
 
     if (React.Children.count(children) === 0) {
       return <NotConnected prompt="Connect to scrollable content" />;
     } else {
+      this.stickyPositionLookup = this.setStickyPositionsLookup();
       return (
         <RegisterContext.Provider
           value={{

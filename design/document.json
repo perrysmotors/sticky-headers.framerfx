@@ -2669,7 +2669,7 @@
         "replicaInfo" : null,
         "right" : null,
         "rotation" : 0,
-        "top" : 550,
+        "top" : 670,
         "visible" : true,
         "width" : 375,
         "widthType" : 0
@@ -3016,7 +3016,7 @@
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.39432989690721648,
+            "centerAnchorY" : 0.31,
             "children" : [
 
             ],
@@ -3223,7 +3223,7 @@
                   "value" : "vOzHogTzA"
                 }
               ],
-              "offset" : 60
+              "offset" : 50
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -3246,7 +3246,7 @@
             "fillType" : "color",
             "height" : 812,
             "heightType" : 0,
-            "id" : "C5RqpaIqS",
+            "id" : "oSNRi8SEg",
             "intrinsicHeight" : null,
             "intrinsicWidth" : null,
             "left" : 0,

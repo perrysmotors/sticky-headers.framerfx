@@ -69,6 +69,7 @@ export const Element1: Override = props => overrides.element1(props);
 
 ## Changelog
 
+- **1.13.0** — Bug fix
 - **1.12.0** — Bug fix
 - **1.11.0** — Fix for StickyElements that are not pinned to the top
 - **1.9.0** — Remove left over debugging code
