@@ -86,7 +86,6 @@ export class StickyScroll extends React.Component<ScrollProps> {
         yStick: StickyScroll.getY(stickyFrames[i], parent),
         yRelease: Number.POSITIVE_INFINITY
       });
-
     }
 
     return stickyPositionLookup;
