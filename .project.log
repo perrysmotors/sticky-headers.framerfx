@@ -420,3 +420,436 @@
 [2019-02-27 13:40:19.9460] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
 [2019-02-27 13:40:19.9490] - INFO - Marking changed: false
 [2019-02-27 13:40:19.9530] - DEBUG - [Save session: 1] Completed super.save
+[2019-03-05 14:26:50.8640] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-03-05 14:26:50.8840] - INFO - Done reading
+[2019-03-05 14:26:50.8840] - INFO - Marking changed: false
+[2019-03-05 14:26:51.6660] - INFO - GET 200 /design/document.json 0 B (5ms)
+[2019-03-05 14:26:53.9640] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (4ms)
+[2019-03-05 14:27:51.2400] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-05 14.27.51.zip
+[2019-03-05 14:28:27.8420] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-05 14:28:27.8420] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-03-05 14:28:27.8420] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-03-05 14:28:27.8690] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-03-05 14:28:27.8690] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-03-05 14:28:27.8740] - DEBUG - [Save session: 0] Completed super.save
+[2019-03-05 14:28:52.2050] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-05 14.28.52.zip
+[2019-03-05 14:29:20.5570] - DEBUG - [Save session: 1] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-05 14:29:20.5570] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-03-05 14:29:20.5570] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-03-05 14:29:20.5830] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-03-05 14:29:20.5830] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-03-05 14:29:20.5890] - DEBUG - [Save session: 1] Completed super.save
+[2019-03-05 14:29:53.2270] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-05 14.29.53.zip
+[2019-03-05 14:31:54.0540] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-05 14.31.54.zip
+[2019-03-05 14:34:46.5200] - DEBUG - [Save session: 2] Started, operation: autosaveInPlaceOperation
+[2019-03-05 14:34:46.5200] - DEBUG - [Save session: 2] Before container.writeChanges
+[2019-03-05 14:34:46.5200] - DEBUG - [Save session: 2] Before waitUsingRecursiveRunLoop
+[2019-03-05 14:34:46.5470] - DEBUG - [Save session: 2] Completed container.writeChanges
+[2019-03-05 14:34:46.5470] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
+[2019-03-05 14:34:46.5520] - DEBUG - [Save session: 2] Completed super.save
+[2019-03-05 14:34:55.2210] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-05 14.34.55.zip
+[2019-03-05 14:59:48.2570] - DEBUG - [Save session: 3] Started, operation: saveOperation
+[2019-03-05 14:59:48.2570] - DEBUG - [Save session: 3] Before container.writeChanges
+[2019-03-05 14:59:48.2580] - DEBUG - [Save session: 3] Before waitUsingRecursiveRunLoop
+[2019-03-05 14:59:48.2600] - DEBUG - [Save session: 3] Completed container.writeChanges
+[2019-03-05 14:59:48.2600] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
+[2019-03-05 14:59:48.2620] - INFO - Marking changed: false
+[2019-03-05 14:59:48.2650] - DEBUG - [Save session: 3] Completed super.save
+[2019-03-05 15:10:43.5910] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-03-05 15:10:43.6110] - INFO - Done reading
+[2019-03-05 15:10:43.6110] - INFO - Marking changed: false
+[2019-03-05 15:10:44.3960] - INFO - GET 200 /design/document.json 0 B (6ms)
+[2019-03-05 15:10:46.3100] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-05 15:11:34.3550] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-05 15:11:34.3550] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-03-05 15:11:34.3550] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-03-05 15:11:34.3870] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-03-05 15:11:34.3870] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-03-05 15:11:34.3920] - DEBUG - [Save session: 0] Completed super.save
+[2019-03-05 15:11:43.9720] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-05 15.11.43.zip
+[2019-03-05 15:12:44.0720] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-05 15.12.44.zip
+[2019-03-05 15:13:44.6890] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-05 15.13.44.zip
+[2019-03-05 15:14:45.0800] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-05 15.14.45.zip
+[2019-03-05 15:15:46.0560] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-05 15.15.46.zip
+[2019-03-05 15:16:46.2700] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-05 15.16.46.zip
+[2019-03-08 18:32:45.1540] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-03-08 18:32:45.2020] - INFO - Done reading
+[2019-03-08 18:32:45.2020] - INFO - Marking changed: false
+[2019-03-08 18:32:45.9660] - INFO - GET 200 /design/document.json 0 B (6ms)
+[2019-03-08 18:32:49.1500] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-03-08 18:32:56.9800] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-08 18:32:56.9800] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-03-08 18:32:56.9800] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-03-08 18:32:57.0110] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-03-08 18:32:57.0110] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-03-08 18:32:57.0170] - DEBUG - [Save session: 0] Completed super.save
+[2019-03-08 18:33:50.2100] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 18.33.50.zip
+[2019-03-08 18:35:34.9120] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-08 18:35:56.1350] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-03-08 18:35:56.3230] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-08 18:35:58.2510] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 18.35.58.zip
+[2019-03-08 18:38:00.2320] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 18.38.00.zip
+[2019-03-08 18:38:15.6900] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-08 18:38:15.7990] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-08 18:45:06.3980] - DEBUG - [Save session: 1] Started, operation: autosaveInPlaceOperation
+[2019-03-08 18:45:06.3980] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-03-08 18:45:06.3980] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-03-08 18:45:06.4200] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-03-08 18:45:06.4200] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-03-08 18:45:06.4240] - DEBUG - [Save session: 1] Completed super.save
+[2019-03-08 18:45:07.7470] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-03-08 18:45:07.8640] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (2ms)
+[2019-03-08 18:45:14.2010] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 18.45.14.zip
+[2019-03-08 18:46:01.1100] - DEBUG - [Save session: 2] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-08 18:46:01.1100] - DEBUG - [Save session: 2] Before container.writeChanges
+[2019-03-08 18:46:01.1100] - DEBUG - [Save session: 2] Before waitUsingRecursiveRunLoop
+[2019-03-08 18:46:01.1410] - DEBUG - [Save session: 2] Completed container.writeChanges
+[2019-03-08 18:46:01.1420] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
+[2019-03-08 18:46:01.1470] - DEBUG - [Save session: 2] Completed super.save
+[2019-03-08 18:46:14.2580] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 18.46.14.zip
+[2019-03-08 18:46:22.2170] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-08 18:46:22.3250] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-08 18:52:39.9500] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 18.52.39.zip
+[2019-03-08 18:52:41.3390] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-08 18:52:41.4440] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-08 18:52:42.5340] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-03-08 18:52:42.6500] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-08 18:53:40.0310] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 18.53.40.zip
+[2019-03-08 18:53:42.9480] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-08 18:53:43.0650] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-08 18:53:43.9110] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-08 18:53:44.0200] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-08 18:54:50.1400] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-08 18:54:50.2460] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-08 18:55:07.5780] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (1ms)
+[2019-03-08 18:55:07.6820] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-08 18:55:18.5920] - DEBUG - [Save session: 3] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-08 18:55:18.5920] - DEBUG - [Save session: 3] Before container.writeChanges
+[2019-03-08 18:55:18.5920] - DEBUG - [Save session: 3] Before waitUsingRecursiveRunLoop
+[2019-03-08 18:55:18.6190] - DEBUG - [Save session: 3] Completed container.writeChanges
+[2019-03-08 18:55:18.6190] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
+[2019-03-08 18:55:18.6230] - DEBUG - [Save session: 3] Completed super.save
+[2019-03-08 18:55:42.0090] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 18.55.42.zip
+[2019-03-08 18:59:50.9730] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 18.59.50.zip
+[2019-03-08 19:00:24.9270] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-03-08 19:00:25.0450] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-08 19:00:47.1450] - DEBUG - [Save session: 4] Started, operation: autosaveInPlaceOperation
+[2019-03-08 19:00:47.1450] - DEBUG - [Save session: 4] Before container.writeChanges
+[2019-03-08 19:00:47.1450] - DEBUG - [Save session: 4] Before waitUsingRecursiveRunLoop
+[2019-03-08 19:00:47.1710] - DEBUG - [Save session: 4] Completed container.writeChanges
+[2019-03-08 19:00:47.1710] - DEBUG - [Save session: 4] Completed waitUsingRecursiveRunLoop
+[2019-03-08 19:00:47.1760] - DEBUG - [Save session: 4] Completed super.save
+[2019-03-08 19:00:51.0310] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 19.00.51.zip
+[2019-03-08 19:00:54.4290] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-08 19:00:54.5900] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-08 19:01:51.9570] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 19.01.51.zip
+[2019-03-08 19:02:58.0950] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 19.02.58.zip
+[2019-03-08 19:05:32.2990] - DEBUG - [Save session: 5] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-08 19:05:32.2990] - DEBUG - [Save session: 5] Before container.writeChanges
+[2019-03-08 19:05:32.3000] - DEBUG - [Save session: 5] Before waitUsingRecursiveRunLoop
+[2019-03-08 19:05:32.3270] - DEBUG - [Save session: 5] Completed container.writeChanges
+[2019-03-08 19:05:32.3270] - DEBUG - [Save session: 5] Completed waitUsingRecursiveRunLoop
+[2019-03-08 19:05:32.3310] - DEBUG - [Save session: 5] Completed super.save
+[2019-03-08 19:06:02.0090] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 19.06.02.zip
+[2019-03-08 19:06:58.7670] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-03-08 19:06:58.8700] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-08 19:07:02.7270] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 19.07.02.zip
+[2019-03-08 19:13:09.4010] - DEBUG - [Save session: 6] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-08 19:13:09.4010] - DEBUG - [Save session: 6] Before container.writeChanges
+[2019-03-08 19:13:09.4010] - DEBUG - [Save session: 6] Before waitUsingRecursiveRunLoop
+[2019-03-08 19:13:09.4310] - DEBUG - [Save session: 6] Completed container.writeChanges
+[2019-03-08 19:13:09.4310] - DEBUG - [Save session: 6] Completed waitUsingRecursiveRunLoop
+[2019-03-08 19:13:09.4360] - DEBUG - [Save session: 6] Completed super.save
+[2019-03-08 19:13:24.0130] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 19.13.24.zip
+[2019-03-08 19:48:42.5850] - DEBUG - [Save session: 7] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-08 19:48:42.5850] - DEBUG - [Save session: 7] Before container.writeChanges
+[2019-03-08 19:48:42.5850] - DEBUG - [Save session: 7] Before waitUsingRecursiveRunLoop
+[2019-03-08 19:48:42.6150] - DEBUG - [Save session: 7] Completed container.writeChanges
+[2019-03-08 19:48:42.6150] - DEBUG - [Save session: 7] Completed waitUsingRecursiveRunLoop
+[2019-03-08 19:48:42.6190] - DEBUG - [Save session: 7] Completed super.save
+[2019-03-08 19:49:01.1130] - DEBUG - [Save session: 8] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-08 19:49:01.1130] - DEBUG - [Save session: 8] Before container.writeChanges
+[2019-03-08 19:49:01.1130] - DEBUG - [Save session: 8] Before waitUsingRecursiveRunLoop
+[2019-03-08 19:49:01.1380] - DEBUG - [Save session: 8] Completed container.writeChanges
+[2019-03-08 19:49:01.1380] - DEBUG - [Save session: 8] Completed waitUsingRecursiveRunLoop
+[2019-03-08 19:49:01.1470] - DEBUG - [Save session: 8] Completed super.save
+[2019-03-08 19:49:11.3090] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 19.49.11.zip
+[2019-03-08 19:49:12.3620] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-08 19:49:12.4670] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-08 19:50:12.3810] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-08 19.50.12.zip
+[2019-03-09 18:37:41.8900] - DEBUG - [Save session: 9] Started, operation: autosaveInPlaceOperation
+[2019-03-09 18:37:41.8900] - DEBUG - [Save session: 9] Before container.writeChanges
+[2019-03-09 18:37:41.8900] - DEBUG - [Save session: 9] Before waitUsingRecursiveRunLoop
+[2019-03-09 18:37:41.9180] - DEBUG - [Save session: 9] Completed container.writeChanges
+[2019-03-09 18:37:41.9180] - DEBUG - [Save session: 9] Completed waitUsingRecursiveRunLoop
+[2019-03-09 18:37:41.9220] - DEBUG - [Save session: 9] Completed super.save
+[2019-03-09 18:38:03.0920] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 18.38.03.zip
+[2019-03-09 18:39:03.3170] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 18.39.03.zip
+[2019-03-09 18:40:03.4620] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 18.40.03.zip
+[2019-03-09 18:41:04.0870] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 18.41.04.zip
+[2019-03-09 18:42:00.6570] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-09 18:42:04.7160] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-03-09 18:42:04.7580] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 18.42.04.zip
+[2019-03-09 18:43:41.0890] - DEBUG - [Save session: 10] Started, operation: autosaveInPlaceOperation
+[2019-03-09 18:43:41.0890] - DEBUG - [Save session: 10] Before container.writeChanges
+[2019-03-09 18:43:41.0890] - DEBUG - [Save session: 10] Before waitUsingRecursiveRunLoop
+[2019-03-09 18:43:41.1210] - DEBUG - [Save session: 10] Completed container.writeChanges
+[2019-03-09 18:43:41.1210] - DEBUG - [Save session: 10] Completed waitUsingRecursiveRunLoop
+[2019-03-09 18:43:41.1270] - DEBUG - [Save session: 10] Completed super.save
+[2019-03-09 18:44:08.4990] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 18.44.08.zip
+[2019-03-09 18:45:09.4890] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 18.45.09.zip
+[2019-03-09 20:03:32.8790] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 20.03.32.zip
+[2019-03-09 20:07:41.0910] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 20.07.41.zip
+[2019-03-09 20:12:50.4320] - DEBUG - [Save session: 11] Started, operation: autosaveInPlaceOperation
+[2019-03-09 20:12:50.4320] - DEBUG - [Save session: 11] Before container.writeChanges
+[2019-03-09 20:12:50.4320] - DEBUG - [Save session: 11] Before waitUsingRecursiveRunLoop
+[2019-03-09 20:12:50.4690] - DEBUG - [Save session: 11] Completed container.writeChanges
+[2019-03-09 20:12:50.4690] - DEBUG - [Save session: 11] Completed waitUsingRecursiveRunLoop
+[2019-03-09 20:12:50.4740] - DEBUG - [Save session: 11] Completed super.save
+[2019-03-09 20:12:51.1390] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-09 20:13:10.4240] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 20.13.10.zip
+[2019-03-09 20:14:11.4340] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 20.14.11.zip
+[2019-03-09 20:16:29.1450] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-09 20:16:29.3170] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (2ms)
+[2019-03-09 20:18:02.3670] - DEBUG - [Save session: 12] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-09 20:18:02.3670] - DEBUG - [Save session: 12] Before container.writeChanges
+[2019-03-09 20:18:02.3670] - DEBUG - [Save session: 12] Before waitUsingRecursiveRunLoop
+[2019-03-09 20:18:02.3950] - DEBUG - [Save session: 12] Completed container.writeChanges
+[2019-03-09 20:18:02.3950] - DEBUG - [Save session: 12] Completed waitUsingRecursiveRunLoop
+[2019-03-09 20:18:02.4000] - DEBUG - [Save session: 12] Completed super.save
+[2019-03-09 20:18:15.4150] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 20.18.15.zip
+[2019-03-09 20:21:17.4210] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 20.21.17.zip
+[2019-03-09 20:22:59.9870] - DEBUG - [Save session: 13] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-09 20:22:59.9870] - DEBUG - [Save session: 13] Before container.writeChanges
+[2019-03-09 20:22:59.9870] - DEBUG - [Save session: 13] Before waitUsingRecursiveRunLoop
+[2019-03-09 20:23:00.0130] - DEBUG - [Save session: 13] Completed container.writeChanges
+[2019-03-09 20:23:00.0130] - DEBUG - [Save session: 13] Completed waitUsingRecursiveRunLoop
+[2019-03-09 20:23:00.0180] - DEBUG - [Save session: 13] Completed super.save
+[2019-03-09 20:23:18.4130] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 20.23.18.zip
+[2019-03-09 20:26:25.0570] - DEBUG - [Save session: 14] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-09 20:26:25.0570] - DEBUG - [Save session: 14] Before container.writeChanges
+[2019-03-09 20:26:25.0570] - DEBUG - [Save session: 14] Before waitUsingRecursiveRunLoop
+[2019-03-09 20:26:25.0850] - DEBUG - [Save session: 14] Completed container.writeChanges
+[2019-03-09 20:26:25.0850] - DEBUG - [Save session: 14] Completed waitUsingRecursiveRunLoop
+[2019-03-09 20:26:25.0900] - DEBUG - [Save session: 14] Completed super.save
+[2019-03-09 20:26:26.1610] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 20.26.26.zip
+[2019-03-09 20:52:07.8580] - DEBUG - [Save session: 15] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-09 20:52:07.8580] - DEBUG - [Save session: 15] Before container.writeChanges
+[2019-03-09 20:52:07.8580] - DEBUG - [Save session: 15] Before waitUsingRecursiveRunLoop
+[2019-03-09 20:52:07.8820] - DEBUG - [Save session: 15] Completed container.writeChanges
+[2019-03-09 20:52:07.8820] - DEBUG - [Save session: 15] Completed waitUsingRecursiveRunLoop
+[2019-03-09 20:52:07.8850] - DEBUG - [Save session: 15] Completed super.save
+[2019-03-09 20:52:25.7170] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 20.52.25.zip
+[2019-03-09 20:55:36.8570] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 20.55.36.zip
+[2019-03-09 20:56:37.8590] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-09 20.56.37.zip
+[2019-03-11 11:43:25.5370] - DEBUG - [Save session: 16] Started, operation: autosaveInPlaceOperation
+[2019-03-11 11:43:25.5370] - DEBUG - [Save session: 16] Before container.writeChanges
+[2019-03-11 11:43:25.5380] - DEBUG - [Save session: 16] Before waitUsingRecursiveRunLoop
+[2019-03-11 11:43:25.5670] - DEBUG - [Save session: 16] Completed container.writeChanges
+[2019-03-11 11:43:25.5680] - DEBUG - [Save session: 16] Completed waitUsingRecursiveRunLoop
+[2019-03-11 11:43:25.5730] - DEBUG - [Save session: 16] Completed super.save
+[2019-03-11 11:43:30.6630] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-11 11:43:30.7900] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-11 11:44:13.1740] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-11 11.44.13.zip
+[2019-03-11 11:45:14.1560] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-11 11.45.14.zip
+[2019-03-11 11:48:16.1750] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-11 11.48.16.zip
+[2019-03-11 11:48:19.0210] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-03-11 11:48:19.1300] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-11 11:48:49.2350] - DEBUG - [Save session: 17] Started, operation: autosaveInPlaceOperation
+[2019-03-11 11:48:49.2350] - DEBUG - [Save session: 17] Before container.writeChanges
+[2019-03-11 11:48:49.2350] - DEBUG - [Save session: 17] Before waitUsingRecursiveRunLoop
+[2019-03-11 11:48:49.2610] - DEBUG - [Save session: 17] Completed container.writeChanges
+[2019-03-11 11:48:49.2610] - DEBUG - [Save session: 17] Completed waitUsingRecursiveRunLoop
+[2019-03-11 11:48:49.2650] - DEBUG - [Save session: 17] Completed super.save
+[2019-03-11 11:49:02.9630] - DEBUG - [Save session: 18] Started, operation: saveOperation
+[2019-03-11 11:49:02.9640] - DEBUG - [Save session: 18] Before container.writeChanges
+[2019-03-11 11:49:02.9650] - DEBUG - [Save session: 18] Before waitUsingRecursiveRunLoop
+[2019-03-11 11:49:02.9660] - DEBUG - [Save session: 18] Completed container.writeChanges
+[2019-03-11 11:49:02.9660] - DEBUG - [Save session: 18] Completed waitUsingRecursiveRunLoop
+[2019-03-11 11:49:02.9680] - INFO - Marking changed: false
+[2019-03-11 11:49:02.9710] - DEBUG - [Save session: 18] Completed super.save
+[2019-03-11 11:49:27.3190] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-03-11 11:49:27.3380] - INFO - Done reading
+[2019-03-11 11:49:27.3390] - INFO - Marking changed: false
+[2019-03-11 11:49:28.2160] - INFO - GET 200 /design/document.json 0 B (6ms)
+[2019-03-11 11:49:30.5130] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (4ms)
+[2019-03-11 11:50:02.9320] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 11:50:02.9320] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-03-11 11:50:02.9320] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-03-11 11:50:02.9660] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-03-11 11:50:02.9660] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-03-11 11:50:02.9740] - DEBUG - [Save session: 0] Completed super.save
+[2019-03-11 11:50:28.0100] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-11 11.50.28.zip
+[2019-03-11 11:54:16.4060] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-11 11:54:36.0200] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-11 11.54.36.zip
+[2019-03-11 12:01:15.5880] - DEBUG - [Save session: 1] Started, operation: autosaveInPlaceOperation
+[2019-03-11 12:01:15.5880] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-03-11 12:01:15.5880] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-03-11 12:01:15.6140] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-03-11 12:01:15.6150] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-03-11 12:01:15.6200] - DEBUG - [Save session: 1] Completed super.save
+[2019-03-11 12:01:21.6070] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-11 12:01:21.7910] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-11 12:01:57.8130] - DEBUG - [Save session: 2] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 12:01:57.8130] - DEBUG - [Save session: 2] Before container.writeChanges
+[2019-03-11 12:01:57.8130] - DEBUG - [Save session: 2] Before waitUsingRecursiveRunLoop
+[2019-03-11 12:01:57.8360] - DEBUG - [Save session: 2] Completed container.writeChanges
+[2019-03-11 12:01:57.8360] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
+[2019-03-11 12:01:57.8410] - DEBUG - [Save session: 2] Completed super.save
+[2019-03-11 12:04:24.6420] - DEBUG - [Save session: 3] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 12:04:24.6420] - DEBUG - [Save session: 3] Before container.writeChanges
+[2019-03-11 12:04:24.6420] - DEBUG - [Save session: 3] Before waitUsingRecursiveRunLoop
+[2019-03-11 12:04:24.6710] - DEBUG - [Save session: 3] Completed container.writeChanges
+[2019-03-11 12:04:24.6710] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
+[2019-03-11 12:04:24.6760] - DEBUG - [Save session: 3] Completed super.save
+[2019-03-11 12:10:24.4150] - DEBUG - [Save session: 4] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 12:10:24.4150] - DEBUG - [Save session: 4] Before container.writeChanges
+[2019-03-11 12:10:24.4150] - DEBUG - [Save session: 4] Before waitUsingRecursiveRunLoop
+[2019-03-11 12:10:24.4440] - DEBUG - [Save session: 4] Completed container.writeChanges
+[2019-03-11 12:10:24.4440] - DEBUG - [Save session: 4] Completed waitUsingRecursiveRunLoop
+[2019-03-11 12:10:24.4480] - DEBUG - [Save session: 4] Completed super.save
+[2019-03-11 12:11:15.3320] - DEBUG - [Save session: 5] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 12:11:15.3320] - DEBUG - [Save session: 5] Before container.writeChanges
+[2019-03-11 12:11:15.3320] - DEBUG - [Save session: 5] Before waitUsingRecursiveRunLoop
+[2019-03-11 12:11:15.3610] - DEBUG - [Save session: 5] Completed container.writeChanges
+[2019-03-11 12:11:15.3610] - DEBUG - [Save session: 5] Completed waitUsingRecursiveRunLoop
+[2019-03-11 12:11:15.3710] - DEBUG - [Save session: 5] Completed super.save
+[2019-03-11 12:11:59.0590] - DEBUG - [Save session: 6] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 12:11:59.0590] - DEBUG - [Save session: 6] Before container.writeChanges
+[2019-03-11 12:11:59.0590] - DEBUG - [Save session: 6] Before waitUsingRecursiveRunLoop
+[2019-03-11 12:11:59.0860] - DEBUG - [Save session: 6] Completed container.writeChanges
+[2019-03-11 12:11:59.0870] - DEBUG - [Save session: 6] Completed waitUsingRecursiveRunLoop
+[2019-03-11 12:11:59.0910] - DEBUG - [Save session: 6] Completed super.save
+[2019-03-11 12:12:50.6100] - DEBUG - [Save session: 7] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 12:12:50.6100] - DEBUG - [Save session: 7] Before container.writeChanges
+[2019-03-11 12:12:50.6100] - DEBUG - [Save session: 7] Before waitUsingRecursiveRunLoop
+[2019-03-11 12:12:50.6380] - DEBUG - [Save session: 7] Completed container.writeChanges
+[2019-03-11 12:12:50.6380] - DEBUG - [Save session: 7] Completed waitUsingRecursiveRunLoop
+[2019-03-11 12:12:50.6440] - DEBUG - [Save session: 7] Completed super.save
+[2019-03-11 12:25:52.3380] - DEBUG - [Save session: 8] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 12:25:52.3380] - DEBUG - [Save session: 8] Before container.writeChanges
+[2019-03-11 12:25:52.3380] - DEBUG - [Save session: 8] Before waitUsingRecursiveRunLoop
+[2019-03-11 12:25:52.3660] - DEBUG - [Save session: 8] Completed container.writeChanges
+[2019-03-11 12:25:52.3660] - DEBUG - [Save session: 8] Completed waitUsingRecursiveRunLoop
+[2019-03-11 12:25:52.3700] - DEBUG - [Save session: 8] Completed super.save
+[2019-03-11 12:28:27.7110] - DEBUG - [Save session: 9] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 12:28:27.7110] - DEBUG - [Save session: 9] Before container.writeChanges
+[2019-03-11 12:28:27.7110] - DEBUG - [Save session: 9] Before waitUsingRecursiveRunLoop
+[2019-03-11 12:28:27.7410] - DEBUG - [Save session: 9] Completed container.writeChanges
+[2019-03-11 12:28:27.7410] - DEBUG - [Save session: 9] Completed waitUsingRecursiveRunLoop
+[2019-03-11 12:28:27.7460] - DEBUG - [Save session: 9] Completed super.save
+[2019-03-11 15:27:51.8190] - DEBUG - [Save session: 10] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 15:27:51.8190] - DEBUG - [Save session: 10] Before container.writeChanges
+[2019-03-11 15:27:51.8190] - DEBUG - [Save session: 10] Before waitUsingRecursiveRunLoop
+[2019-03-11 15:27:51.8510] - DEBUG - [Save session: 10] Completed container.writeChanges
+[2019-03-11 15:27:51.8510] - DEBUG - [Save session: 10] Completed waitUsingRecursiveRunLoop
+[2019-03-11 15:27:51.8550] - DEBUG - [Save session: 10] Completed super.save
+[2019-03-11 15:30:00.7140] - DEBUG - [Save session: 11] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 15:30:00.7140] - DEBUG - [Save session: 11] Before container.writeChanges
+[2019-03-11 15:30:00.7140] - DEBUG - [Save session: 11] Before waitUsingRecursiveRunLoop
+[2019-03-11 15:30:00.7420] - DEBUG - [Save session: 11] Completed container.writeChanges
+[2019-03-11 15:30:00.7420] - DEBUG - [Save session: 11] Completed waitUsingRecursiveRunLoop
+[2019-03-11 15:30:00.7470] - DEBUG - [Save session: 11] Completed super.save
+[2019-03-11 15:32:28.8550] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-11 15:32:28.9770] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (3ms)
+[2019-03-11 15:33:52.4800] - DEBUG - [Save session: 12] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 15:33:52.4810] - DEBUG - [Save session: 12] Before container.writeChanges
+[2019-03-11 15:33:52.4810] - DEBUG - [Save session: 12] Before waitUsingRecursiveRunLoop
+[2019-03-11 15:33:52.5090] - DEBUG - [Save session: 12] Completed container.writeChanges
+[2019-03-11 15:33:52.5090] - DEBUG - [Save session: 12] Completed waitUsingRecursiveRunLoop
+[2019-03-11 15:33:52.5130] - DEBUG - [Save session: 12] Completed super.save
+[2019-03-11 15:34:07.8420] - DEBUG - [Save session: 13] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 15:34:07.8420] - DEBUG - [Save session: 13] Before container.writeChanges
+[2019-03-11 15:34:07.8430] - DEBUG - [Save session: 13] Before waitUsingRecursiveRunLoop
+[2019-03-11 15:34:07.8700] - DEBUG - [Save session: 13] Completed container.writeChanges
+[2019-03-11 15:34:07.8700] - DEBUG - [Save session: 13] Completed waitUsingRecursiveRunLoop
+[2019-03-11 15:34:07.8750] - DEBUG - [Save session: 13] Completed super.save
+[2019-03-11 15:36:07.4810] - DEBUG - [Save session: 14] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 15:36:07.4810] - DEBUG - [Save session: 14] Before container.writeChanges
+[2019-03-11 15:36:07.4810] - DEBUG - [Save session: 14] Before waitUsingRecursiveRunLoop
+[2019-03-11 15:36:07.5090] - DEBUG - [Save session: 14] Completed container.writeChanges
+[2019-03-11 15:36:07.5090] - DEBUG - [Save session: 14] Completed waitUsingRecursiveRunLoop
+[2019-03-11 15:36:07.5130] - DEBUG - [Save session: 14] Completed super.save
+[2019-03-11 15:50:46.4200] - DEBUG - [Save session: 15] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 15:50:46.4200] - DEBUG - [Save session: 15] Before container.writeChanges
+[2019-03-11 15:50:46.4200] - DEBUG - [Save session: 15] Before waitUsingRecursiveRunLoop
+[2019-03-11 15:50:46.4480] - DEBUG - [Save session: 15] Completed container.writeChanges
+[2019-03-11 15:50:46.4480] - DEBUG - [Save session: 15] Completed waitUsingRecursiveRunLoop
+[2019-03-11 15:50:46.4520] - DEBUG - [Save session: 15] Completed super.save
+[2019-03-11 15:57:10.2670] - DEBUG - [Save session: 16] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 15:57:10.2670] - DEBUG - [Save session: 16] Before container.writeChanges
+[2019-03-11 15:57:10.2670] - DEBUG - [Save session: 16] Before waitUsingRecursiveRunLoop
+[2019-03-11 15:57:10.2950] - DEBUG - [Save session: 16] Completed container.writeChanges
+[2019-03-11 15:57:10.2950] - DEBUG - [Save session: 16] Completed waitUsingRecursiveRunLoop
+[2019-03-11 15:57:10.3000] - DEBUG - [Save session: 16] Completed super.save
+[2019-03-11 15:58:24.5470] - DEBUG - [Save session: 17] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 15:58:24.5470] - DEBUG - [Save session: 17] Before container.writeChanges
+[2019-03-11 15:58:24.5480] - DEBUG - [Save session: 17] Before waitUsingRecursiveRunLoop
+[2019-03-11 15:58:24.6020] - DEBUG - [Save session: 17] Completed container.writeChanges
+[2019-03-11 15:58:24.6020] - DEBUG - [Save session: 17] Completed waitUsingRecursiveRunLoop
+[2019-03-11 15:58:24.6090] - DEBUG - [Save session: 17] Completed super.save
+[2019-03-11 16:00:55.8330] - DEBUG - [Save session: 18] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 16:00:55.8330] - DEBUG - [Save session: 18] Before container.writeChanges
+[2019-03-11 16:00:55.8330] - DEBUG - [Save session: 18] Before waitUsingRecursiveRunLoop
+[2019-03-11 16:00:55.8870] - DEBUG - [Save session: 18] Completed container.writeChanges
+[2019-03-11 16:00:55.8870] - DEBUG - [Save session: 18] Completed waitUsingRecursiveRunLoop
+[2019-03-11 16:00:55.8940] - DEBUG - [Save session: 18] Completed super.save
+[2019-03-11 16:05:35.2200] - DEBUG - [Save session: 19] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 16:05:35.2200] - DEBUG - [Save session: 19] Before container.writeChanges
+[2019-03-11 16:05:35.2200] - DEBUG - [Save session: 19] Before waitUsingRecursiveRunLoop
+[2019-03-11 16:05:35.2520] - DEBUG - [Save session: 19] Completed container.writeChanges
+[2019-03-11 16:05:35.2520] - DEBUG - [Save session: 19] Completed waitUsingRecursiveRunLoop
+[2019-03-11 16:05:35.2570] - DEBUG - [Save session: 19] Completed super.save
+[2019-03-11 16:12:52.6050] - DEBUG - [Save session: 20] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 16:12:52.6050] - DEBUG - [Save session: 20] Before container.writeChanges
+[2019-03-11 16:12:52.6050] - DEBUG - [Save session: 20] Before waitUsingRecursiveRunLoop
+[2019-03-11 16:12:52.6330] - DEBUG - [Save session: 20] Completed container.writeChanges
+[2019-03-11 16:12:52.6330] - DEBUG - [Save session: 20] Completed waitUsingRecursiveRunLoop
+[2019-03-11 16:12:52.6460] - DEBUG - [Save session: 20] Completed super.save
+[2019-03-11 16:17:02.4520] - DEBUG - [Save session: 21] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 16:17:02.4520] - DEBUG - [Save session: 21] Before container.writeChanges
+[2019-03-11 16:17:02.4520] - DEBUG - [Save session: 21] Before waitUsingRecursiveRunLoop
+[2019-03-11 16:17:02.4810] - DEBUG - [Save session: 21] Completed container.writeChanges
+[2019-03-11 16:17:02.4810] - DEBUG - [Save session: 21] Completed waitUsingRecursiveRunLoop
+[2019-03-11 16:17:02.4860] - DEBUG - [Save session: 21] Completed super.save
+[2019-03-11 16:22:17.0910] - DEBUG - [Save session: 22] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 16:22:17.0910] - DEBUG - [Save session: 22] Before container.writeChanges
+[2019-03-11 16:22:17.0910] - DEBUG - [Save session: 22] Before waitUsingRecursiveRunLoop
+[2019-03-11 16:22:17.1500] - DEBUG - [Save session: 22] Completed container.writeChanges
+[2019-03-11 16:22:17.1500] - DEBUG - [Save session: 22] Completed waitUsingRecursiveRunLoop
+[2019-03-11 16:22:17.1580] - DEBUG - [Save session: 22] Completed super.save
+[2019-03-11 16:43:08.6870] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-11 16:43:08.8500] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-11 16:43:31.5070] - DEBUG - [Save session: 23] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 16:43:31.5070] - DEBUG - [Save session: 23] Before container.writeChanges
+[2019-03-11 16:43:31.5070] - DEBUG - [Save session: 23] Before waitUsingRecursiveRunLoop
+[2019-03-11 16:43:31.5350] - DEBUG - [Save session: 23] Completed container.writeChanges
+[2019-03-11 16:43:31.5360] - DEBUG - [Save session: 23] Completed waitUsingRecursiveRunLoop
+[2019-03-11 16:43:31.5420] - DEBUG - [Save session: 23] Completed super.save
+[2019-03-11 16:44:12.2790] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-11 16:44:12.3820] - INFO - GET 200 /node_modules/framer/build/framer.debug.js.map 0 B (1ms)
+[2019-03-11 16:44:35.8160] - DEBUG - [Save session: 24] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-03-11 16:44:35.8160] - DEBUG - [Save session: 24] Before container.writeChanges
+[2019-03-11 16:44:35.8160] - DEBUG - [Save session: 24] Before waitUsingRecursiveRunLoop
+[2019-03-11 16:44:35.8420] - DEBUG - [Save session: 24] Completed container.writeChanges
+[2019-03-11 16:44:35.8420] - DEBUG - [Save session: 24] Completed waitUsingRecursiveRunLoop
+[2019-03-11 16:44:35.8470] - DEBUG - [Save session: 24] Completed super.save
+[2019-03-11 16:45:27.7000] - DEBUG - [Save session: 25] Started, operation: saveOperation
+[2019-03-11 16:45:27.7000] - DEBUG - [Save session: 25] Before container.writeChanges
+[2019-03-11 16:45:27.7010] - DEBUG - [Save session: 25] Before waitUsingRecursiveRunLoop
+[2019-03-11 16:45:27.7030] - DEBUG - [Save session: 25] Completed container.writeChanges
+[2019-03-11 16:45:27.7030] - DEBUG - [Save session: 25] Completed waitUsingRecursiveRunLoop
+[2019-03-11 16:45:27.7040] - INFO - Marking changed: false
+[2019-03-11 16:45:27.7070] - DEBUG - [Save session: 25] Completed super.save
+[2019-03-11 16:47:53.5250] - INFO - GET 200 /package.json 415 B (1ms)
+[2019-03-11 16:47:53.5270] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-03-11 16:58:59.5060] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-03-11 16:59:33.1570] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-03-11 17:00:00.2430] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-03-11 17:00:58.5560] - DEBUG - [Save session: 26] Started, operation: saveOperation
+[2019-03-11 17:00:58.5570] - DEBUG - [Save session: 26] Before container.writeChanges
+[2019-03-11 17:00:58.5590] - DEBUG - [Save session: 26] Before waitUsingRecursiveRunLoop
+[2019-03-11 17:00:58.5600] - DEBUG - [Save session: 26] Completed container.writeChanges
+[2019-03-11 17:00:58.5600] - DEBUG - [Save session: 26] Completed waitUsingRecursiveRunLoop
+[2019-03-11 17:00:58.5620] - INFO - Marking changed: false
+[2019-03-11 17:00:58.5650] - DEBUG - [Save session: 26] Completed super.save

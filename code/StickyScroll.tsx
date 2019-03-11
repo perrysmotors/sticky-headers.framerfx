@@ -33,25 +33,40 @@ export class StickyScroll extends React.Component<ScrollProps> {
 
   static isSticky(element) {
     const { componentIdentifier } = element.props;
-    return (
-      componentIdentifier &&
-      componentIdentifier.includes("StickyElement") &&
-      element.props.top != null // Ignore if element is not fixed to top
-    );
+    return componentIdentifier && componentIdentifier.includes("StickyElement");
   }
 
-  static getStickyFrames(elements = []) {
-    return elements
+  // Return an array of the StickyElements sorted top to bottom
+  static getStickyElements(parent) {
+    const { children } = parent.props;
+    return children
       .filter(element => StickyScroll.isSticky(element))
-      .sort((a, b) => a.props.top - b.props.top);
+      .sort(
+        (a, b) => StickyScroll.getY(a, parent) - StickyScroll.getY(b, parent)
+      );
+  }
+
+  // Get y position in parent
+  static getY(element, parent) {
+    let { top, bottom, centerY, height } = element.props;
+
+    if (top) {
+      return top;
+    } else if (bottom) {
+      return parent.props.height - bottom - height;
+    } else {
+      return Math.round(
+        (parseFloat(centerY) / 100) * parent.props.height - height / 2
+      );
+    }
   }
 
   stickyPositionLookup: any;
 
   // Calculate and store sticky positions
   setStickyPositionsLookup = () => {
-    const scrollContentChildren = this.props.children[0].props.children;
-    const stickyFrames = StickyScroll.getStickyFrames(scrollContentChildren);
+    const parent = this.props.children[0];
+    const stickyFrames = StickyScroll.getStickyElements(parent);
     const stickyPositionLookup = [];
 
     if (stickyFrames.length > 0) {
@@ -59,17 +74,21 @@ export class StickyScroll extends React.Component<ScrollProps> {
       for (i = 0; i < stickyFrames.length - 1; i++) {
         stickyPositionLookup.push({
           id: stickyFrames[i].props.id,
-          yStick: stickyFrames[i].props.top,
-          yRelease: stickyFrames[i + 1].props.top - stickyFrames[i].props.height
+          yStick: StickyScroll.getY(stickyFrames[i], parent),
+          yRelease:
+            StickyScroll.getY(stickyFrames[i + 1], parent) -
+            stickyFrames[i].props.height
         });
       }
 
       stickyPositionLookup.push({
         id: stickyFrames[i].props.id,
-        yStick: stickyFrames[i].props.top,
+        yStick: StickyScroll.getY(stickyFrames[i], parent),
         yRelease: Number.POSITIVE_INFINITY
       });
+
     }
+
     return stickyPositionLookup;
   };
 
