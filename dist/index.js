@@ -259,7 +259,7 @@ exports.__framer__ = package
 /*! exports provided: main, license, devDependencies, peerDependencies, framer, author, dependencies, name, version, default */
 /***/ (function(module) {
 
-module.exports = {"main":"dist/index.js","license":"MIT","devDependencies":{"@types/react":"^16.4.16"},"peerDependencies":{"framer":"^0.10.5","react":"^16.3.0","react-dom":"^16.3.0"},"framer":{"id":"5f4411f5-e210-4355-ad08-d04613afe3a1","displayName":"Sticky Headers"},"author":"Giles Perry","dependencies":{},"name":"@framer/perrysmotors.sticky-headers","version":"1.12.0"};
+module.exports = {"main":"dist/index.js","license":"MIT","devDependencies":{"@types/react":"^16.4.16"},"peerDependencies":{"framer":"^0.10.5","react":"^16.3.0","react-dom":"^16.3.0"},"framer":{"id":"5f4411f5-e210-4355-ad08-d04613afe3a1","displayName":"Sticky Headers"},"author":"Giles Perry","dependencies":{},"name":"@framer/perrysmotors.sticky-headers","version":"1.13.0"};
 
 /***/ }),
 

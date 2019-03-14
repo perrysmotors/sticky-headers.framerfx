@@ -1058,3 +1058,35 @@
 [2019-03-11 22:30:56.1670] - DEBUG - [Save session: 11] Completed waitUsingRecursiveRunLoop
 [2019-03-11 22:30:56.1690] - INFO - Marking changed: false
 [2019-03-11 22:30:56.1720] - DEBUG - [Save session: 11] Completed super.save
+[2019-03-14 15:27:48.1610] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-03-14 15:27:48.1920] - INFO - Done reading
+[2019-03-14 15:27:48.1930] - INFO - Marking changed: false
+[2019-03-14 15:27:48.9770] - INFO - GET 200 /design/document.json 0 B (6ms)
+[2019-03-14 15:27:50.9290] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-03-14 15:27:53.4180] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-03-14 15:27:53.4190] - INFO - GET 200 /package.json 416 B (1ms)
+[2019-03-14 15:28:13.5330] - INFO - GET 200 /metadata/icon.png?1552577273415 2.59 kB (1ms)
+[2019-03-14 15:28:13.5330] - INFO - GET 200 /metadata/artwork.png?1552577273415 39.9 kB (2ms)
+[2019-03-14 15:28:13.5470] - INFO - GET 200 /metadata/icon.png?1552577273415 2.59 kB (1ms)
+[2019-03-14 15:28:13.5480] - INFO - GET 200 /metadata/artwork.png?1552577273415 39.9 kB (1ms)
+[2019-03-14 15:28:34.5840] - INFO - POST 200 /upload/metadata/readme.md 2 B (11ms)
+[2019-03-14 15:28:34.6730] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-03-14 15:28:48.6860] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-03-14 15.28.48.zip
+[2019-03-14 15:28:52.3380] - INFO - POST 200 /upload/metadata/readme.md 2 B (4ms)
+[2019-03-14 15:28:52.3480] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-03-14 15:28:53.6810] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-03-14 15:28:53.7780] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-03-14 15:28:57.2500] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-03-14 15:28:57.2640] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-03-14 15:29:02.3610] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-03-14 15:29:02.3730] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-03-14 15:29:03.8820] - INFO - POST 200 /upload/metadata/readme.md 2 B (1ms)
+[2019-03-14 15:29:03.9090] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-03-14 15:29:17.5970] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-03-14 15:29:17.6230] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-03-14 15:29:25.1160] - INFO - GET 200 /metadata/icon.png?1552577364756 2.59 kB (1ms)
+[2019-03-14 15:29:25.1170] - INFO - GET 200 /metadata/artwork.png?1552577364756 9.74 kB (1ms)
+[2019-03-14 15:29:25.1170] - INFO - GET 200 /metadata/icon.png?1552577364756 2.59 kB (1ms)
+[2019-03-14 15:29:25.1170] - INFO - GET 200 /metadata/artwork.png?1552577364756 9.74 kB (1ms)
+[2019-03-14 15:29:48.1800] - INFO - GET 200 /package.json 415 B (19ms)
+[2019-03-14 15:29:48.7010] - INFO - GET 200 /package.json 416 B (1ms)

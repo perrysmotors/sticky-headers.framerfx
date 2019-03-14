@@ -21,7 +21,7 @@ You can use multiple StickyElements in your scroll content. Each StickyElement r
 - Can be used together with '**Parallax**' by Linton Ye
 - Only supports vertical scrolling.
 
-![Demo](https://dl.dropboxusercontent.com/s/qan1a1zm6citbju/stickyscroll.gif)
+![Screen Recording (Framer X)](https://user-images.githubusercontent.com/12557727/54369321-a3808800-466d-11e9-8b50-4f245ac8075b.gif)
 
 ## How to use with overrides
 
@@ -69,6 +69,7 @@ export const Element1: Override = props => overrides.element1(props);
 
 ## Changelog
 
+- **1.14.0** — Update artwork
 - **1.13.0** — Bug fix
 - **1.12.0** — Bug fix
 - **1.11.0** — Fix for StickyElements that are not pinned to the top
