@@ -1090,3 +1090,7 @@
 [2019-03-14 15:29:25.1170] - INFO - GET 200 /metadata/artwork.png?1552577364756 9.74 kB (1ms)
 [2019-03-14 15:29:48.1800] - INFO - GET 200 /package.json 415 B (19ms)
 [2019-03-14 15:29:48.7010] - INFO - GET 200 /package.json 416 B (1ms)
+[2019-03-14 15:30:44.0820] - INFO - GET 200 /metadata/icon.png?1552577364756 2.59 kB (2ms)
+[2019-03-14 15:30:44.0830] - INFO - GET 200 /metadata/artwork.png?1552577364756 9.74 kB (2ms)
+[2019-03-14 15:30:44.1150] - INFO - GET 200 /metadata/icon.png?1552577364756 2.59 kB (1ms)
+[2019-03-14 15:30:44.1150] - INFO - GET 200 /metadata/artwork.png?1552577364756 9.74 kB (1ms)
