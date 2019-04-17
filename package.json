@@ -14,7 +14,9 @@
 		"displayName": "Sticky Headers"
 	},
 	"author": "Giles Perry",
-	"dependencies": {},
+	"dependencies": {
+		"framer-motion": "^0.15.1"
+	},
 	"name": "@framer/perrysmotors.sticky-headers",
 	"version": "1.14.0"
 }

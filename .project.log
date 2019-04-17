@@ -1484,3 +1484,16 @@
 [2019-04-17 08:26:37.8810] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
 [2019-04-17 08:27:03.5540] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-04-17 08.27.03.zip
 [2019-04-17 08:28:04.5530] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-04-17 08.28.04.zip
+[2019-04-17 08:40:40.5250] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-04-17 08.40.40.zip
+[2019-04-17 08:41:41.0300] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-04-17 08.41.41.zip
+[2019-04-17 08:42:41.4980] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-04-17 08.42.41.zip
+[2019-04-17 09:42:23.4750] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-04-17 09:42:23.5170] - INFO - Done reading
+[2019-04-17 09:42:23.5180] - INFO - Marking changed: false
+[2019-04-17 09:42:23.6530] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-04-17 09:42:24.3280] - ERROR - No installed Framer version
+[2019-04-17 09:42:24.3310] - ERROR - No installed Framer version
+[2019-04-17 09:42:24.7170] - INFO - GET 200 /design/document.json 0 B (1ms)
+[2019-04-17 09:42:30.3310] - INFO - Marking changed: false
+[2019-04-17 09:42:30.9630] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (208ms)
+[2019-04-17 09:43:24.0070] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-04-17 09.43.24.zip
