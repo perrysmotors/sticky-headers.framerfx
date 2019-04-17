@@ -1,64 +1,87 @@
-import * as React from "react";
-import { Frame, Animatable } from "framer";
-import { NotConnected } from "./NotConnected";
-import { RegisterContext } from "./RegisterContext";
+import * as React from "react"
+import { Frame, Animatable } from "framer"
+import { NotConnected } from "./NotConnected"
+import { RegisterContext } from "./StickyScroll"
 
-interface RegistrarProps {
-  registerLayer: (layerConfig) => any;
-  unregisterLayer: (layerConfig) => any;
-}
+export function StickyElement(props) {
+    const { children, ...restProps } = props
+    const { registerLayer, unregisterLayer } = React.useContext(RegisterContext)
 
-class StickyElementRegistrar extends React.Component<RegistrarProps> {
-  layerConfig = {
-    top: Animatable(0),
-    id: null,
-    props: null
-  };
-  componentDidMount() {
-    const { registerLayer } = this.props;
+    const layerConfig = {
+        top: Animatable(0),
+        id: props.id,
+    }
+
     if (registerLayer) {
-      this.layerConfig.props = this.props;
-      this.layerConfig.id = this.props.id;
-      registerLayer(this.layerConfig);
-    }
-  }
-  componentWillUnmount() {
-    const { unregisterLayer } = this.props;
-    if (unregisterLayer) {
-      unregisterLayer(this.layerConfig);
-    }
-  }
-  render() {
-    return (
-      <Frame {...this.props} background={null} top={this.layerConfig.top}>
-        {this.props.children}
-      </Frame>
-    );
-  }
-}
+        React.useEffect(() => {
+            registerLayer(layerConfig)
 
-export class StickyElement extends React.Component {
-  render() {
-    const { children, ...restProps } = this.props;
+            return function cleanUp() {
+                unregisterLayer(layerConfig)
+            }
+        }, [])
+    }
 
     if (React.Children.count(children) === 0) {
-      return <NotConnected prompt="Connect to something sticky" />;
+        return <NotConnected prompt="Connect to something sticky" />
     } else {
-      return (
-        <RegisterContext.Consumer>
-          {({ registerLayer, unregisterLayer }) => {
-            return (
-              <StickyElementRegistrar
+        return (
+            <Frame
                 {...restProps}
+                background={null}
+                top={layerConfig.top}
                 registerLayer={registerLayer}
                 unregisterLayer={unregisterLayer}
-              >
+            >
                 {children}
-              </StickyElementRegistrar>
-            );
-          }}
-        </RegisterContext.Consumer>
-      );
+            </Frame>
+        )
     }
-  }
 }
+
+// interface RegistrarProps {
+//     registerLayer: (layerConfig) => any
+//     unregisterLayer: (layerConfig) => any
+// }
+
+// function StickyElementRegistrar(props) {
+//     const layerConfig = {
+//         top: Animatable(0),
+//         id: null,
+//     }
+//     const { registerLayer, unregisterLayer } = props
+//     if (registerLayer) {
+//         React.useEffect(() => {
+//             layerConfig.id = props.id
+//             registerLayer(layerConfig)
+
+//             return function cleanUp() {
+//                 unregisterLayer(layerConfig)
+//             }
+//         }, [])
+//     }
+//     return (
+//         <Frame {...props} background={null} top={layerConfig.top}>
+//             {props.children}
+//         </Frame>
+//     )
+// }
+
+// export function StickyElement(props) {
+//     const { children, ...restProps } = props
+//     const { registerLayer, unregisterLayer } = React.useContext(RegisterContext)
+
+//     if (React.Children.count(children) === 0) {
+//         return <NotConnected prompt="Connect to something sticky" />
+//     } else {
+//         return (
+//             <StickyElementRegistrar
+//                 {...restProps}
+//                 registerLayer={registerLayer}
+//                 unregisterLayer={unregisterLayer}
+//             >
+//                 {children}
+//             </StickyElementRegistrar>
+//         )
+//     }
+// }
