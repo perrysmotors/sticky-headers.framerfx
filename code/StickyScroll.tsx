@@ -1,22 +1,26 @@
 import * as React from "react"
-import { addPropertyControls, ControlType, Scroll, FramerEvent } from "framer"
+import {
+    addPropertyControls,
+    ControlType,
+    Scroll,
+    useMotionValue,
+    MotionValue,
+} from "framer"
 import { NotConnected } from "./NotConnected"
-// import { RegisterContext } from "./RegisterContext"
 
-let layerConfigs = []
-
-const registerLayer = config => {
-    layerConfigs.push(config)
+interface ScrollContext {
+    contentOffsetY: MotionValue
+    getStickyRange: (id: string) => any
 }
 
-const unregisterLayer = config => {
-    layerConfigs = layerConfigs.filter(c => c !== config)
-}
+export const ScrollContext = React.createContext<ScrollContext>(null)
 
-export const RegisterContext = React.createContext({
-    registerLayer: registerLayer,
-    unregisterLayer: unregisterLayer,
-})
+// export const ScrollContext = React.createContext<ScrollContext>({
+//     contentOffsetY: null,
+//     getStickyRange: id => {
+//         return { yStick: 0, yRelease: 0 }
+//     },
+// })
 
 export function StickyScroll(props) {
     function isSticky(element) {
@@ -56,9 +60,11 @@ export function StickyScroll(props) {
     }
 
     // Calculate and store sticky positions
-    const setStickyPositionsLookup = () => {
+    function setStickyPositionsLookup() {
+        const { offset } = props
         const parent = props.children[0]
         const stickyFrames = getStickyElements(parent)
+
         const stickyPositionLookup = []
 
         if (stickyFrames.length > 0) {
@@ -66,40 +72,28 @@ export function StickyScroll(props) {
             for (i = 0; i < stickyFrames.length - 1; i++) {
                 stickyPositionLookup.push({
                     id: stickyFrames[i].props.id,
-                    yStick: getY(stickyFrames[i]),
+                    yStick: getY(stickyFrames[i]) - offset,
                     yRelease:
                         getY(stickyFrames[i + 1]) -
-                        stickyFrames[i].props.constraints.height,
+                        stickyFrames[i].props.constraints.height -
+                        offset,
                 })
             }
 
             stickyPositionLookup.push({
                 id: stickyFrames[i].props.id,
-                yStick: getY(stickyFrames[i]),
-                yRelease: Number.POSITIVE_INFINITY,
+                yStick: getY(stickyFrames[i]) - offset,
+                yRelease:
+                    parent.props.constraints.height -
+                    stickyFrames[i].props.constraints.height -
+                    offset,
             })
         }
 
         return stickyPositionLookup
     }
 
-    let stickyPositionLookup = []
-
     const handleScroll = pos => {
-        const offsetScrollY = props.offset - pos.y
-
-        stickyPositionLookup.forEach(({ id, yStick, yRelease }) => {
-            const layerConfig = layerConfigs.find(found => found.id === id)
-
-            if (offsetScrollY >= yRelease) {
-                layerConfig.top.set(yRelease - yStick)
-            } else if (offsetScrollY >= yStick) {
-                layerConfig.top.set(offsetScrollY - yStick)
-            } else {
-                layerConfig.top.set(0)
-            }
-        })
-
         // Run any onScroll function passed from props:
         const { onScroll } = props
         onScroll && onScroll(pos)
@@ -110,11 +104,29 @@ export function StickyScroll(props) {
     if (React.Children.count(children) === 0) {
         return <NotConnected prompt="Connect to scrollable content" />
     } else {
-        stickyPositionLookup = setStickyPositionsLookup()
+        const contentOffsetY = useMotionValue(0)
+        const stickyPositionLookup = setStickyPositionsLookup()
+
+        const getStickyRange = id => {
+            const lookup = stickyPositionLookup.find(found => found.id === id)
+            return lookup
+        }
+
         return (
-            <Scroll {...restProps} onScroll={handleScroll}>
-                {children}
-            </Scroll>
+            <ScrollContext.Provider
+                value={{
+                    contentOffsetY: contentOffsetY,
+                    getStickyRange: getStickyRange,
+                }}
+            >
+                <Scroll
+                    {...restProps}
+                    onScroll={handleScroll}
+                    contentOffsetY={contentOffsetY}
+                >
+                    {children}
+                </Scroll>
+            </ScrollContext.Provider>
         )
     }
 }
