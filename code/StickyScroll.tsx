@@ -93,12 +93,6 @@ export function StickyScroll(props) {
         return stickyPositionLookup
     }
 
-    const handleScroll = pos => {
-        // Run any onScroll function passed from props:
-        const { onScroll } = props
-        onScroll && onScroll(pos)
-    }
-
     const { children, ...restProps } = props
 
     if (React.Children.count(children) === 0) {
@@ -119,11 +113,7 @@ export function StickyScroll(props) {
                     getStickyRange: getStickyRange,
                 }}
             >
-                <Scroll
-                    {...restProps}
-                    onScroll={handleScroll}
-                    contentOffsetY={contentOffsetY}
-                >
+                <Scroll {...restProps} contentOffsetY={contentOffsetY}>
                     {children}
                 </Scroll>
             </ScrollContext.Provider>
