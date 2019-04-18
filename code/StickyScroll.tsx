@@ -23,42 +23,6 @@ export const ScrollContext = React.createContext<ScrollContext>(null)
 // })
 
 export function StickyScroll(props) {
-    function isSticky(element) {
-        const { componentIdentifier } = element.props
-        return (
-            componentIdentifier && componentIdentifier.includes("StickyElement")
-        )
-    }
-
-    // Return an array of the StickyElements sorted top to bottom
-    function getStickyElements(parent) {
-        const { children } = parent.props
-        return children
-            .filter(element => isSticky(element))
-            .sort((a, b) => getY(a) - getY(b))
-    }
-
-    // Get y position in parent
-    function getY(element) {
-        let {
-            top,
-            bottom,
-            centerY,
-            height,
-            parentSize,
-        } = element.props.constraints
-
-        if (top) {
-            return top
-        } else if (bottom) {
-            return parentSize.height - bottom - height
-        } else {
-            return Math.round(
-                (parseFloat(centerY) / 100) * parentSize.height - height / 2
-            )
-        }
-    }
-
     // Calculate and store sticky positions
     function setStickyPositionsLookup() {
         const { offset } = props
@@ -94,11 +58,11 @@ export function StickyScroll(props) {
     }
 
     const { children, ...restProps } = props
+    const contentOffsetY = useMotionValue(0)
 
     if (React.Children.count(children) === 0) {
         return <NotConnected prompt="Connect to scrollable content" />
     } else {
-        const contentOffsetY = useMotionValue(0)
         const stickyPositionLookup = setStickyPositionsLookup()
 
         const getStickyRange = id => {
@@ -136,3 +100,31 @@ addPropertyControls(StickyScroll, {
         max: 500,
     },
 })
+
+function isSticky(element) {
+    const { componentIdentifier } = element.props
+    return componentIdentifier && componentIdentifier.includes("StickyElement")
+}
+
+// Return an array of the StickyElements sorted top to bottom
+function getStickyElements(parent) {
+    const { children } = parent.props
+    return children
+        .filter(element => isSticky(element))
+        .sort((a, b) => getY(a) - getY(b))
+}
+
+// Get y position in parent
+function getY(element) {
+    let { top, bottom, centerY, height, parentSize } = element.props.constraints
+
+    if (top) {
+        return top
+    } else if (bottom) {
+        return parentSize.height - bottom - height
+    } else {
+        return Math.round(
+            (parseFloat(centerY) / 100) * parentSize.height - height / 2
+        )
+    }
+}
