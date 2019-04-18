@@ -25,17 +25,18 @@ You can use multiple StickyElements in your scroll content. Each StickyElement r
 
 ## How to use with overrides
 
-You can do stuff based on the scroll position by adding an override to the your StickyScroll component that sets an `onMove` event handler.
+You can do stuff based on the scroll position by adding an override to the your StickyScroll component that sets an `onScroll` event handler.
 
 ```
+import { Override } from "framer"
+
 export const isStickyScroll: Override = () => {
   return {
-    onMove: event => {
-	    const scrollY = - event.y;
-      Console.log(scrollY);
-    }
-  };
-};
+    onScroll: pos => {
+      console.log(pos.y)
+    },
+  }
+}
 ```
 
 ## How to use with 'Parallax' by Linton Ye
@@ -69,6 +70,7 @@ export const Element1: Override = props => overrides.element1(props);
 
 ## Changelog
 
+- **2.0.0** — Complete rewrite to use new API.
 - **1.14.0** — Update artwork
 - **1.13.0** — Bug fix
 - **1.12.0** — Bug fix
