@@ -2964,7 +2964,7 @@
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.055,
+            "centerAnchorY" : 0.056500000000000002,
             "children" : [
 
             ],
@@ -3020,7 +3020,7 @@
             "radiusTopRight" : 0,
             "right" : 0,
             "rotation" : 0,
-            "top" : 90,
+            "top" : 93,
             "visible" : true,
             "width" : 375,
             "widthType" : 0

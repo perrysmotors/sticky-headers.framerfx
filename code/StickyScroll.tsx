@@ -3,24 +3,21 @@ import {
     addPropertyControls,
     ControlType,
     Scroll,
-    useMotionValue,
     MotionValue,
+    motionValue,
+    useMotionValue,
 } from "framer"
 import { NotConnected } from "./NotConnected"
 
 interface ScrollContext {
     contentOffsetY: MotionValue
-    getStickyRange: (id: string) => any
+    getStickyRange: (id?: string) => any
 }
 
-export const ScrollContext = React.createContext<ScrollContext>(null)
-
-// export const ScrollContext = React.createContext<ScrollContext>({
-//     contentOffsetY: null,
-//     getStickyRange: id => {
-//         return { yStick: 0, yRelease: 0 }
-//     },
-// })
+export const ScrollContext = React.createContext<ScrollContext>({
+    contentOffsetY: motionValue(0),
+    getStickyRange: () => ({ yStick: 0, yRelease: 0 }),
+})
 
 export function StickyScroll(props) {
     // Calculate and store sticky positions
@@ -67,7 +64,11 @@ export function StickyScroll(props) {
 
         const getStickyRange = id => {
             const lookup = stickyPositionLookup.find(found => found.id === id)
-            return lookup
+            if (lookup) {
+                return lookup
+            } else {
+                return { yStick: 0, yRelease: 0 }
+            }
         }
 
         return (

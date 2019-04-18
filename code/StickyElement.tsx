@@ -1,26 +1,19 @@
 import * as React from "react"
-import { Frame, useTransform, transform, RenderTarget } from "framer"
+import { Frame, transform, useTransform } from "framer"
 import { NotConnected } from "./NotConnected"
 import { ScrollContext } from "./StickyScroll"
 
 export function StickyElement(props) {
     const { children, ...restProps } = props
+    const { contentOffsetY, getStickyRange } = React.useContext(ScrollContext)
+    const { yStick, yRelease } = getStickyRange(props.id)
 
-    let y
-    if (RenderTarget.current() === RenderTarget.preview) {
-        const { contentOffsetY, getStickyRange } = React.useContext(
-            ScrollContext
-        )
+    const convertScrollRange = transform(
+        [0, -yStick, -yRelease],
+        [0, 0, yRelease - yStick]
+    )
 
-        const { yStick, yRelease } = getStickyRange(props.id)
-
-        const convertScrollRange = transform(
-            [0, -yStick, -yRelease],
-            [0, 0, yRelease - yStick]
-        )
-
-        y = useTransform(contentOffsetY, convertScrollRange)
-    }
+    const y = useTransform(contentOffsetY, convertScrollRange)
 
     if (React.Children.count(children) === 0) {
         return <NotConnected prompt="Connect to something sticky" />
