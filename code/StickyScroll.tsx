@@ -90,6 +90,7 @@ StickyScroll.defaultProps = {
     offset: 0,
     direction: "vertical",
     overflow: "hidden",
+    wheelEnabled: true,
     onScroll: () => null,
 }
 
