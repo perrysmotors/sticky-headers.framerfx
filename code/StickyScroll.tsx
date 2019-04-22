@@ -54,8 +54,7 @@ export function StickyScroll(props) {
         return stickyPositionLookup
     }
 
-    const { children, ...restProps } = props
-    const contentOffsetY = useMotionValue(0)
+    const { children, contentOffsetY = motionValue(0), ...restProps } = props
 
     if (React.Children.count(children) === 0) {
         return <NotConnected prompt="Connect to scrollable content" />
@@ -119,6 +118,8 @@ function getStickyElements(parent) {
 // Get y position in parent
 function getY(element) {
     let { top, bottom, centerY, height, parentSize } = element.props.constraints
+
+    if (!parentSize) return // On the canvas parentSize is sometimes null?
 
     if (top) {
         return top
