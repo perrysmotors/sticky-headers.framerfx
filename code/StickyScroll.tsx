@@ -54,7 +54,7 @@ export function StickyScroll(props) {
         return stickyPositionLookup
     }
 
-    const { children, contentOffsetY = motionValue(0), ...restProps } = props
+    const { children, contentOffsetY = useMotionValue(0), ...restProps } = props
 
     if (React.Children.count(children) === 0) {
         return <NotConnected prompt="Connect to scrollable content" />
