@@ -33,21 +33,19 @@ export function StickyScroll(props) {
             for (i = 0; i < stickyFrames.length - 1; i++) {
                 stickyPositionLookup.push({
                     id: stickyFrames[i].props.id,
-                    yStick: getY(stickyFrames[i]) - offset,
+                    yStick: getY(stickyFrames[i], parent) - offset,
                     yRelease:
-                        getY(stickyFrames[i + 1]) -
-                        stickyFrames[i].props.constraints.height -
+                        getY(stickyFrames[i + 1], parent) -
+                        stickyFrames[i].props.height -
                         offset,
                 })
             }
 
             stickyPositionLookup.push({
                 id: stickyFrames[i].props.id,
-                yStick: getY(stickyFrames[i]) - offset,
+                yStick: getY(stickyFrames[i], parent) - offset,
                 yRelease:
-                    parent.props.constraints.height -
-                    stickyFrames[i].props.constraints.height -
-                    offset,
+                    parent.props.height - stickyFrames[i].props.height - offset,
             })
         }
 
@@ -112,22 +110,24 @@ function getStickyElements(parent) {
     const { children } = parent.props
     return children
         .filter(element => isSticky(element))
-        .sort((a, b) => getY(a) - getY(b))
+        .sort((a, b) => getY(a, parent) - getY(b, parent))
 }
 
 // Get y position in parent
-function getY(element) {
-    let { top, bottom, centerY, height, parentSize } = element.props.constraints
+function getY(element, parent) {
+    const { top, bottom, height } = element.props
 
-    if (!parentSize) return // On the canvas parentSize is sometimes null?
-
-    if (top) {
-        return top
-    } else if (bottom) {
-        return parentSize.height - bottom - height
-    } else {
+    if (typeof top === "string") {
+        // Not constrained to top or bottom.
+        // In this case, top is distance to centre of element as a percentage of parent height.
         return Math.round(
-            (parseFloat(centerY) / 100) * parentSize.height - height / 2
+            (parseFloat(top) / 100) * parent.props.height - height / 2
         )
+    } else if (top) {
+        // Constrained to top
+        return top
+    } else {
+        // Constrained to bottom
+        return parent.props.height - bottom - height
     }
 }
