@@ -15,9 +15,15 @@ After you install this package you will see two components: `StickyScroll` and `
 
 You can use multiple StickyElements in your scroll content. Each StickyElement reaching the top **pushes** the StickyElement above it up and off the top of scroll component.
 
+## Properties Controls for `StickyScroll` Component
+
+| Property | Type | Description | Default |
+| --- | --- | --- | --- |
+| Offset | `number` | Makes elements stick at a set distance below the top of the scroll component | `0` |
+
+
 ## Features:
 
-- The `offset` parameter on StickyScroll makes elements stick at a set distance below the top of the scroll component.
 - Only supports vertical scrolling.
 
 ![Screen Recording (Framer X)](https://user-images.githubusercontent.com/12557727/54369321-a3808800-466d-11e9-8b50-4f245ac8075b.gif)

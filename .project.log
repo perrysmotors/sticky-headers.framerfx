@@ -2428,3 +2428,71 @@
 [2019-05-07 11:48:26.0780] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
 [2019-05-07 11:48:26.4100] - INFO - Marking changed: false
 [2019-05-07 11:48:26.4140] - DEBUG - [Save session: 0] Completed super.save
+[2019-05-07 14:51:20.8000] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-05-07 14:51:21.0910] - INFO - Done reading
+[2019-05-07 14:51:21.0910] - INFO - Marking changed: false
+[2019-05-07 14:51:21.2150] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-07 14:51:22.1980] - INFO - GET 200 /design/document.json 0 B (2ms)
+[2019-05-07 14:51:23.8110] - ERROR - Error: ENOENT: no such file or directory, lstat '/Users/giles/Documents/github/sticky-headers.framerfx/node_modules/buffer-from'
+[2019-05-07 14:51:23.8110] - ERROR -     at Object.lstatSync (fs.js:838:3)
+[2019-05-07 14:51:23.8110] - ERROR -     at Gaze._addToWatched (/Applications/Framer X Beta.app/Contents/Resources/Server/node_modules/gaze/lib/gaze.js:292:14)
+[2019-05-07 14:51:23.8120] - ERROR -     at Gaze._internalAdd (/Applications/Framer X Beta.app/Contents/Resources/Server/node_modules/gaze/lib/gaze.js:206:10)
+[2019-05-07 14:51:23.8120] - ERROR -     at /Applications/Framer X Beta.app/Contents/Resources/Server/node_modules/gaze/lib/gaze.js:419:16
+[2019-05-07 14:51:23.8120] - ERROR -     at Array.forEach (<anonymous>)
+[2019-05-07 14:51:23.8120] - ERROR -     at /Applications/Framer X Beta.app/Contents/Resources/Server/node_modules/gaze/lib/gaze.js:415:12
+[2019-05-07 14:51:23.8120] - ERROR -     at FSReqWrap.oncomplete (fs.js:141:20)
+[2019-05-07 14:51:24.4950] - ERROR - Server Crashed! Exit code 1
+[2019-05-07 14:51:24.5490] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-07 14:51:28.5930] - ERROR - Project does not have a Framer Library installed.
+[2019-05-07 14:51:28.5930] - ERROR - Try to re-open the project.
+[2019-05-07 14:51:29.6180] - INFO - Marking changed: false
+[2019-05-07 14:51:29.7660] - INFO - GET 404 /node_modules/framer/build/framer.debug.js 180 B (3ms)
+[2019-05-07 14:51:30.1450] - ERROR - Project does not have a Framer Library installed.
+[2019-05-07 14:51:30.1450] - ERROR - Try to re-open the project.
+[2019-05-07 14:52:21.1680] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-07 14.52.21.zip
+[2019-05-07 15:12:31.1400] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-07 15.12.31.zip
+[2019-05-07 15:31:43.2120] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation
+[2019-05-07 15:31:43.2120] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-05-07 15:31:43.2120] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-05-07 15:31:43.2410] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-05-07 15:31:43.2410] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-05-07 15:31:43.2450] - DEBUG - [Save session: 0] Completed super.save
+[2019-05-07 15:31:45.6490] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-07 15.31.45.zip
+[2019-05-07 15:32:27.0740] - DEBUG - [Save session: 1] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-07 15:32:27.0740] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-05-07 15:32:27.0740] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-05-07 15:32:27.1040] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-05-07 15:32:27.1040] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-05-07 15:32:27.1100] - DEBUG - [Save session: 1] Completed super.save
+[2019-05-07 15:32:46.1840] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-07 15.32.46.zip
+[2019-05-07 15:33:46.3750] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-07 15.33.46.zip
+[2019-05-07 15:34:15.3090] - DEBUG - [Save session: 2] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-07 15:34:15.3090] - DEBUG - [Save session: 2] Before container.writeChanges
+[2019-05-07 15:34:15.3090] - DEBUG - [Save session: 2] Before waitUsingRecursiveRunLoop
+[2019-05-07 15:34:15.3340] - DEBUG - [Save session: 2] Completed container.writeChanges
+[2019-05-07 15:34:15.3340] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
+[2019-05-07 15:34:15.3390] - DEBUG - [Save session: 2] Completed super.save
+[2019-05-07 15:34:46.4900] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-07 15.34.46.zip
+[2019-05-07 15:34:58.6630] - DEBUG - [Save session: 3] Started, operation: saveOperation
+[2019-05-07 15:34:58.6640] - DEBUG - [Save session: 3] Before container.writeChanges
+[2019-05-07 15:34:58.6650] - DEBUG - [Save session: 3] Before waitUsingRecursiveRunLoop
+[2019-05-07 15:34:58.6660] - DEBUG - [Save session: 3] Completed container.writeChanges
+[2019-05-07 15:34:58.6660] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
+[2019-05-07 15:34:58.6680] - INFO - Marking changed: false
+[2019-05-07 15:34:58.6710] - DEBUG - [Save session: 3] Completed super.save
+[2019-05-07 15:35:46.6040] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-07 15.35.46.zip
+[2019-05-07 15:36:06.0800] - INFO - GET 200 /package.json 452 B (1ms)
+[2019-05-07 15:36:06.0810] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 15:40:11.9260] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 15:40:37.3040] - DEBUG - [Save session: 4] Started, operation: saveOperation
+[2019-05-07 15:40:37.3040] - DEBUG - [Save session: 4] Before container.writeChanges
+[2019-05-07 15:40:37.3060] - DEBUG - [Save session: 4] Before waitUsingRecursiveRunLoop
+[2019-05-07 15:40:37.3080] - DEBUG - [Save session: 4] Completed container.writeChanges
+[2019-05-07 15:40:37.3080] - DEBUG - [Save session: 4] Completed waitUsingRecursiveRunLoop
+[2019-05-07 15:40:37.3090] - INFO - Marking changed: false
+[2019-05-07 15:40:37.3120] - DEBUG - [Save session: 4] Completed super.save
+[2019-05-07 15:41:04.0520] - INFO - GET 200 /package.json 423 B (1ms)
+[2019-05-07 15:41:04.0520] - INFO - GET 200 /README.md 0 B (2ms)
+[2019-05-07 15:41:04.9630] - INFO - GET 200 /package.json 452 B (1ms)
+[2019-05-07 15:41:04.9630] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 15:41:06.3990] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)

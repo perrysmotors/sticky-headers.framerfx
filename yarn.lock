@@ -61,9 +61,9 @@ framer-motion@^0.15.1:
     stylefire "^4.1.0"
 
 "framer@^0.10.5 || ^1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/framer/-/framer-1.0.1.tgz#86a8f479227fb56551b43ab440c27a04f288d2dc"
-  integrity sha512-BtQOpJJIfa6yvn83sHoxFcvo++Hxbx8v6eztz8rIa13mRPM93oOe5khJBHMaD1kF1ANAbTeBCgU3QtxZcmNBrg==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/framer/-/framer-1.0.2.tgz#9d9a523e00f1e2b059f2b0b3ad850ff468fc53fe"
+  integrity sha512-/EenhGgBTZA7CxmrUEz/8lCLVCs/BhbsUy+avGmxUbaZugOv7D4iJ9e44pYqqHpeDsAs8ulHUhrknp3RHxDrrA==
   dependencies:
     style-value-types "^3.1.4"
 
