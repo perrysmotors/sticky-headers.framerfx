@@ -1094,3 +1094,83 @@
 [2019-03-14 15:30:44.0830] - INFO - GET 200 /metadata/artwork.png?1552577364756 9.74 kB (2ms)
 [2019-03-14 15:30:44.1150] - INFO - GET 200 /metadata/icon.png?1552577364756 2.59 kB (1ms)
 [2019-03-14 15:30:44.1150] - INFO - GET 200 /metadata/artwork.png?1552577364756 9.74 kB (1ms)
+[2019-05-07 10:50:44.8750] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-05-07 10:50:44.9170] - INFO - Done reading
+[2019-05-07 10:50:44.9170] - INFO - Marking changed: false
+[2019-05-07 10:50:45.0250] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-07 10:50:45.9550] - INFO - GET 200 /design/document.json 0 B (6ms)
+[2019-05-07 10:50:49.4420] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-05-07 10:50:50.6660] - INFO - GET 404 /node_modules/framer/build/framer.debug.js 180 B (6ms)
+[2019-05-07 10:50:51.1350] - ERROR - No installed Framer version
+[2019-05-07 10:50:51.1410] - ERROR - Project does not have a Framer Library installed.
+
+Try to re-open the project.
+[2019-05-07 10:50:57.3340] - INFO - GET 200 /package.json 416 B (1ms)
+[2019-05-07 10:50:57.3340] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 10:51:03.5330] - INFO - GET 200 /metadata/icon.png?1557222657329 2.59 kB (1ms)
+[2019-05-07 10:51:03.5330] - INFO - GET 200 /metadata/artwork.png?1557222657329 9.74 kB (2ms)
+[2019-05-07 10:51:03.5670] - INFO - GET 200 /metadata/icon.png?1557222657329 2.59 kB (1ms)
+[2019-05-07 10:51:03.5680] - INFO - GET 200 /metadata/artwork.png?1557222657329 9.74 kB (1ms)
+[2019-05-07 10:51:23.7100] - DEBUG - [Save session: 0] Started, operation: saveOperation
+[2019-05-07 10:51:23.7100] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-05-07 10:51:23.7100] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-05-07 10:51:23.7400] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-05-07 10:51:23.7400] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-05-07 10:51:23.7430] - INFO - Marking changed: false
+[2019-05-07 10:51:23.7450] - DEBUG - [Save session: 0] Completed super.save
+[2019-05-07 10:51:26.3130] - INFO - GET 200 /package.json 415 B (1ms)
+[2019-05-07 10:51:26.3180] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 10:51:26.5980] - INFO - GET 200 /package.json 416 B (1ms)
+[2019-05-07 10:51:26.5980] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 10:51:27.0400] - INFO - GET 200 /metadata/icon.png?1557222686292 2.59 kB (1ms)
+[2019-05-07 10:51:27.0420] - INFO - GET 200 /metadata/artwork.png?1557222686292 9.74 kB (2ms)
+[2019-05-07 10:51:27.0500] - INFO - GET 200 /metadata/icon.png?1557222686292 2.59 kB (4ms)
+[2019-05-07 10:51:27.0510] - INFO - GET 200 /metadata/artwork.png?1557222686292 9.74 kB (3ms)
+[2019-05-07 10:51:27.1250] - INFO - GET 200 /metadata/icon.png?1557222686595 2.59 kB (1ms)
+[2019-05-07 10:51:27.1260] - INFO - GET 200 /metadata/artwork.png?1557222686595 9.74 kB (1ms)
+[2019-05-07 10:51:27.1290] - INFO - GET 200 /metadata/icon.png?1557222686595 2.59 kB (1ms)
+[2019-05-07 10:51:27.1300] - INFO - GET 200 /metadata/artwork.png?1557222686595 9.74 kB (1ms)
+[2019-05-07 10:51:45.8970] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-07 10.51.45.zip
+[2019-05-07 10:52:46.5310] - ERROR - No installed Framer version
+[2019-05-07 10:54:14.3970] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-05-07 10:54:14.4250] - INFO - Done reading
+[2019-05-07 10:54:14.4250] - INFO - Marking changed: false
+[2019-05-07 10:54:14.4860] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-07 10:54:14.9840] - ERROR - No installed Framer version
+[2019-05-07 10:54:14.9850] - ERROR - No installed Framer version
+[2019-05-07 10:54:15.0640] - INFO - GET 200 /design/document.json 0 B (6ms)
+[2019-05-07 10:54:15.9850] - ERROR - No installed Framer version
+[2019-05-07 10:54:17.8550] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-05-07 10:54:19.1400] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (10ms)
+[2019-05-07 10:54:21.4250] - DEBUG - [Save session: 0] Started, operation: saveOperation
+[2019-05-07 10:54:21.4250] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-05-07 10:54:21.4250] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-05-07 10:54:21.4490] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-05-07 10:54:21.4490] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-05-07 10:54:21.4510] - INFO - Marking changed: false
+[2019-05-07 10:54:21.4550] - DEBUG - [Save session: 0] Completed super.save
+[2019-05-07 10:54:25.4310] - INFO - GET 200 /package.json 416 B (1ms)
+[2019-05-07 10:54:25.4320] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 10:54:28.0870] - INFO - GET 200 /metadata/icon.png?1557222865426 2.59 kB (1ms)
+[2019-05-07 10:54:28.0870] - INFO - GET 200 /metadata/artwork.png?1557222865426 9.74 kB (1ms)
+[2019-05-07 10:54:28.1820] - INFO - GET 200 /metadata/icon.png?1557222865426 2.59 kB (1ms)
+[2019-05-07 10:54:28.1830] - INFO - GET 200 /metadata/artwork.png?1557222865426 9.74 kB (1ms)
+[2019-05-07 10:54:34.3780] - INFO - GET 200 /package.json 415 B (5ms)
+[2019-05-07 10:54:34.3790] - INFO - GET 200 /README.md 0 B (5ms)
+[2019-05-07 10:54:34.7550] - INFO - GET 200 /package.json 416 B (1ms)
+[2019-05-07 10:54:34.7560] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 10:54:35.0470] - INFO - GET 200 /metadata/icon.png?1557222874353 2.59 kB (1ms)
+[2019-05-07 10:54:35.0480] - INFO - GET 200 /metadata/artwork.png?1557222874353 9.74 kB (1ms)
+[2019-05-07 10:54:35.1160] - INFO - GET 200 /metadata/icon.png?1557222874353 2.59 kB (1ms)
+[2019-05-07 10:54:35.1170] - INFO - GET 200 /metadata/artwork.png?1557222874353 9.74 kB (1ms)
+[2019-05-07 10:54:35.2390] - INFO - GET 200 /metadata/artwork.png?1557222874752 9.74 kB (1ms)
+[2019-05-07 10:54:35.2400] - INFO - GET 200 /metadata/icon.png?1557222874752 2.59 kB (1ms)
+[2019-05-07 10:54:35.2470] - INFO - GET 200 /metadata/artwork.png?1557222874752 9.74 kB (1ms)
+[2019-05-07 10:54:35.2480] - INFO - GET 200 /metadata/icon.png?1557222874752 2.59 kB (1ms)
+[2019-05-07 10:54:47.2010] - DEBUG - [Save session: 1] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-07 10:54:47.2010] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-05-07 10:54:47.2010] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-05-07 10:54:47.2290] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-05-07 10:54:47.2290] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-05-07 10:54:47.2340] - DEBUG - [Save session: 1] Completed super.save
+[2019-05-07 10:55:14.8790] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-07 10.55.14.zip
