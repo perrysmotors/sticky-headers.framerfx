@@ -8,8 +8,6 @@ This package lets you add headers that stick to the top of the screen when you s
 
 ## Usage
 
-**This version of Sticky Headers is not compatible with Framer X22. Look out for an updated version when Framer X22 is released.**
-
 After you install this package you will see two components: `StickyScroll` and `StickyElement`.
 
 `StickyScroll` works like a native Scroll component.
