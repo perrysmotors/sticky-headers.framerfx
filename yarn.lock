@@ -60,6 +60,13 @@ framer-motion@^0.15.1:
     style-value-types "^3.1.0"
     stylefire "^4.1.0"
 
+"framer@^0.10.5 || ^1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/framer/-/framer-1.0.1.tgz#86a8f479227fb56551b43ab440c27a04f288d2dc"
+  integrity sha512-BtQOpJJIfa6yvn83sHoxFcvo++Hxbx8v6eztz8rIa13mRPM93oOe5khJBHMaD1kF1ANAbTeBCgU3QtxZcmNBrg==
+  dependencies:
+    style-value-types "^3.1.4"
+
 framesync@^4.0.0, framesync@^4.0.1, framesync@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/framesync/-/framesync-4.0.2.tgz#b03b62852f12b0d80086b60834b089718f03cda5"
@@ -89,6 +96,13 @@ style-value-types@3.1.0, style-value-types@^3.0.6, style-value-types@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/style-value-types/-/style-value-types-3.1.0.tgz#07e06090e7581adff4c7955d544c1029d0663795"
   integrity sha512-7eaMZ8RKWIQUKHPQK7qv3zLYmvZNb2pCmO4WguXdVFymd2Qj9xqSUoo7LQ8Wd8eiLuoSd+uqzsvcodyvD8nn6Q==
+
+style-value-types@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/style-value-types/-/style-value-types-3.1.4.tgz#8c0959d26405eb0cbad40097b496220d41c22169"
+  integrity sha512-jHxRZWQpx6imY+QIveHTZwGOJWJqX3Cmt6Yk1zCGeQjk4noEsX+lfvFJUmRPpZL3VTrfGrHtjVWTcvcHx/OFhQ==
+  dependencies:
+    hey-listen "^1.0.8"
 
 stylefire@2.4.3:
   version "2.4.3"

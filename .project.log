@@ -2400,3 +2400,31 @@
 [2019-05-07 11:05:03.9230] - INFO - GET 200 /README.md 0 B (1ms)
 [2019-05-07 11:23:08.7080] - INFO - GET 200 /README.md 0 B (1ms)
 [2019-05-07 11:27:53.9800] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 11:47:51.7760] - INFO - GET 200 /metadata/icon.png?1557223503916 2.59 kB (1ms)
+[2019-05-07 11:47:51.7760] - INFO - GET 200 /metadata/artwork.png?1557223503916 9.74 kB (1ms)
+[2019-05-07 11:47:51.7990] - INFO - GET 200 /metadata/icon.png?1557223503916 2.59 kB (1ms)
+[2019-05-07 11:47:51.7990] - INFO - GET 200 /metadata/artwork.png?1557223503916 9.74 kB (1ms)
+[2019-05-07 11:48:10.2740] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-05-07 11:48:10.3070] - INFO - Done reading
+[2019-05-07 11:48:10.3080] - INFO - Marking changed: false
+[2019-05-07 11:48:10.5640] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-07 11:48:11.4840] - INFO - GET 200 /design/document.json 0 B (1ms)
+[2019-05-07 11:48:13.4650] - ERROR - Project does not have a Framer Library installed.
+[2019-05-07 11:48:13.4650] - ERROR - Try to re-open the project.
+[2019-05-07 11:48:13.7570] - ERROR - Project does not have a Framer Library installed.
+[2019-05-07 11:48:13.7570] - ERROR - Try to re-open the project.
+[2019-05-07 11:48:14.7970] - INFO - Marking changed: false
+[2019-05-07 11:48:14.9890] - INFO - GET 404 /node_modules/framer/build/framer.debug.js 180 B (70ms)
+[2019-05-07 11:48:15.3990] - ERROR - Project does not have a Framer Library installed.
+[2019-05-07 11:48:15.3990] - ERROR - Try to re-open the project.
+[2019-05-07 11:48:15.4180] - INFO - GET 404 /node_modules/framer/build/framer.debug.js 180 B (4ms)
+[2019-05-07 11:48:15.6140] - ERROR - Project does not have a Framer Library installed.
+[2019-05-07 11:48:15.6140] - ERROR - Try to re-open the project.
+[2019-05-07 11:48:25.7540] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-05-07 11:48:26.0750] - DEBUG - [Save session: 0] Started, operation: saveOperation
+[2019-05-07 11:48:26.0750] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-05-07 11:48:26.0760] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-05-07 11:48:26.0780] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-05-07 11:48:26.0780] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-05-07 11:48:26.4100] - INFO - Marking changed: false
+[2019-05-07 11:48:26.4140] - DEBUG - [Save session: 0] Completed super.save
