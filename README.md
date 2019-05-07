@@ -18,55 +18,49 @@ You can use multiple StickyElements in your scroll content. Each StickyElement r
 ## Features:
 
 - The `offset` parameter on StickyScroll makes elements stick at a set distance below the top of the scroll component.
-- Can be used together with '**Parallax**' by Linton Ye
 - Only supports vertical scrolling.
 
 ![Screen Recording (Framer X)](https://user-images.githubusercontent.com/12557727/54369321-a3808800-466d-11e9-8b50-4f245ac8075b.gif)
 
 ## How to use with overrides
 
-You can do stuff based on the scroll position by adding an override to the your StickyScroll component that sets an `onScroll` event handler.
+You can do stuff based on the scroll position by adding an override to the your StickyScroll component that sets an `onScroll` event handler:
 
 ```
 import { Override } from "framer"
 
-export const isStickyScroll: Override = () => {
+// Apply this override to your scroll component
+export const StickyScroll: Override = () => {
   return {
-    onScroll: pos => {
-      console.log(pos.y)
+    onScroll: info => {
+      console.log(info.point.y)
     },
   }
 }
 ```
 
-## How to use with 'Parallax' by Linton Ye
-
-If you install 'Parallax' by Linton Ye. You can combine the behaviour you get from `StickyElement` components with more complex scroll interactions applied to other elements.
+... or you can track changes to the scroll position using a `MotionValue`. Here's how you could use this approach to add a parallax effect:
 
 ```
-// Import functions from the Parallax component
-import {
-  scrollOverrides,
-  modulate,
-  speedY,
-  stickyY
-} from "@framer/lintonye.parallax/code/Parallax";
+import { Override, motionValue, useTransform } from "framer"
 
-// Define define custom scrolling behaviors
-const overrides = scrollOverrides(
-  [0, 88],
-  [{ id: "element1", op: modulate("opacity", [0, 1]) }],
-  // etc.
-);
+const contentOffsetY = motionValue(0)
 
-// Set an override on the StickScroll component:
-export const Scroll: Override = props => overrides.scroll(props);
+// Apply this override to your scroll component
+export function StickyScroll(): Override {
+    return { contentOffsetY: contentOffsetY }
+}
 
-// Set overrides on the elements that have custom scrolling behaviours:
-export const Element1: Override = props => overrides.element1(props);
+// Apply this override to your parallax layer
+export function ParallaxLayer(): Override {
+    const y = useTransform(contentOffsetY, [0, -100], [0, 50], {
+        clamp: false,
+    })
+    return {
+        y: y,
+    }
+}
 ```
-
-`StickyElement` components should not be overridden in this way.
 
 ## Changelog
 
