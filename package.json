@@ -5,7 +5,7 @@
 		"@types/react": "^16.4.16"
 	},
 	"peerDependencies": {
-		"framer": "^0.10.5",
+		"framer": "^0.10.5 || ^1",
 		"react": "^16.3.0",
 		"react-dom": "^16.3.0"
 	},
@@ -14,7 +14,9 @@
 		"displayName": "Sticky Headers"
 	},
 	"author": "Giles Perry",
-	"dependencies": {},
+	"dependencies": {
+		"framer-motion": "^0.15.1"
+	},
 	"name": "@framer/perrysmotors.sticky-headers",
-	"version": "1.16.0"
+	"version": "2.0.0"
 }

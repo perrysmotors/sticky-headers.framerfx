@@ -565,6 +565,7 @@
               }
             ],
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportIncludesBackground" : false,
             "exportOptions" : [
 
@@ -593,8 +594,10 @@
             "navigationTransition" : "push",
             "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
             "navigationTransitionDirection" : "left",
+            "opacity" : 1,
             "originalid" : null,
             "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -928,6 +931,7 @@
                   }
                 ],
                 "constraintsLocked" : false,
+                "deviceType" : null,
                 "exportIncludesBackground" : false,
                 "exportOptions" : [
 
@@ -956,8 +960,10 @@
                 "navigationTransition" : "push",
                 "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
                 "navigationTransitionDirection" : "left",
+                "opacity" : 1,
                 "originalid" : null,
                 "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-gQATiYE8L",
+                "previewSettings" : null,
                 "radius" : 0,
                 "radiusBottomLeft" : 0,
                 "radiusBottomRight" : 0,
@@ -1615,6 +1621,7 @@
               }
             ],
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportIncludesBackground" : false,
             "exportOptions" : [
 
@@ -1643,8 +1650,10 @@
             "navigationTransition" : "push",
             "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
             "navigationTransitionDirection" : "left",
+            "opacity" : 1,
             "originalid" : null,
             "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -2293,6 +2302,7 @@
               }
             ],
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportIncludesBackground" : false,
             "exportOptions" : [
 
@@ -2321,8 +2331,10 @@
             "navigationTransition" : "push",
             "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
             "navigationTransitionDirection" : "left",
+            "opacity" : 1,
             "originalid" : null,
             "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -2969,6 +2981,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : true,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -2997,6 +3010,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "vOzHogTzA",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -3033,6 +3047,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : true,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -3061,6 +3076,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "vOzHogTzA",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -3097,6 +3113,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : true,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -3125,6 +3142,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "vOzHogTzA",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,
@@ -3227,6 +3245,7 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
+            "deviceType" : null,
             "exportOptions" : [
 
             ],
@@ -3255,6 +3274,7 @@
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "NWhtdX_Wc",
+            "previewSettings" : null,
             "radius" : 0,
             "radiusBottomLeft" : 0,
             "radiusBottomRight" : 0,

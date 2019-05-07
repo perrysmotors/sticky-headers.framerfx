@@ -1,64 +1,27 @@
-import * as React from "react";
-import { Frame, Animatable } from "framer";
-import { NotConnected } from "./NotConnected";
-import { RegisterContext } from "./RegisterContext";
+import * as React from "react"
+import { Frame, transform, useTransform } from "framer"
+import { NotConnected } from "./NotConnected"
+import { ScrollContext } from "./StickyScroll"
 
-interface RegistrarProps {
-  registerLayer: (layerConfig) => any;
-  unregisterLayer: (layerConfig) => any;
-}
+export function StickyElement(props) {
+    const { children, ...restProps } = props
+    const { contentOffsetY, getStickyRange } = React.useContext(ScrollContext)
+    const { yStick, yRelease } = getStickyRange(props.id)
 
-class StickyElementRegistrar extends React.Component<RegistrarProps> {
-  layerConfig = {
-    top: Animatable(0),
-    id: null,
-    props: null
-  };
-  componentDidMount() {
-    const { registerLayer } = this.props;
-    if (registerLayer) {
-      this.layerConfig.props = this.props;
-      this.layerConfig.id = this.props.id;
-      registerLayer(this.layerConfig);
-    }
-  }
-  componentWillUnmount() {
-    const { unregisterLayer } = this.props;
-    if (unregisterLayer) {
-      unregisterLayer(this.layerConfig);
-    }
-  }
-  render() {
-    return (
-      <Frame {...this.props} background={null} top={this.layerConfig.top}>
-        {this.props.children}
-      </Frame>
-    );
-  }
-}
+    const convertScrollRange = transform(
+        [0, -yStick, -yRelease],
+        [0, 0, yRelease - yStick]
+    )
 
-export class StickyElement extends React.Component {
-  render() {
-    const { children, ...restProps } = this.props;
+    const y = useTransform(contentOffsetY, convertScrollRange)
 
     if (React.Children.count(children) === 0) {
-      return <NotConnected prompt="Connect to something sticky" />;
+        return <NotConnected prompt="Connect to something sticky" />
     } else {
-      return (
-        <RegisterContext.Consumer>
-          {({ registerLayer, unregisterLayer }) => {
-            return (
-              <StickyElementRegistrar
-                {...restProps}
-                registerLayer={registerLayer}
-                unregisterLayer={unregisterLayer}
-              >
+        return (
+            <Frame {...restProps} background={null} y={y}>
                 {children}
-              </StickyElementRegistrar>
-            );
-          }}
-        </RegisterContext.Consumer>
-      );
+            </Frame>
+        )
     }
-  }
 }
