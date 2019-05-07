@@ -2496,3 +2496,11 @@
 [2019-05-07 15:41:04.9630] - INFO - GET 200 /package.json 452 B (1ms)
 [2019-05-07 15:41:04.9630] - INFO - GET 200 /README.md 0 B (1ms)
 [2019-05-07 15:41:06.3990] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-05-07 16:10:22.3490] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-05-07 16:10:22.3990] - INFO - Done reading
+[2019-05-07 16:10:22.4000] - INFO - Marking changed: false
+[2019-05-07 16:10:22.5260] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-07 16:10:23.5050] - INFO - GET 200 /design/document.json 0 B (2ms)
+[2019-05-07 16:10:28.1890] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (8ms)
+[2019-05-07 16:10:28.7400] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-05-07 16:10:31.0040] - INFO - Marking changed: false
