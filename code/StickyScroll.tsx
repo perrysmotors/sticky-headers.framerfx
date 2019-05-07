@@ -96,7 +96,6 @@ addPropertyControls(StickyScroll, {
         type: ControlType.Number,
         title: "Offset",
         min: 0,
-        max: 500,
     },
 })
 
