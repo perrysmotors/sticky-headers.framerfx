@@ -184,7 +184,7 @@ exports.__info__ = [];
 
 "use strict";
 
-//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiU3RpY2t5RWxlbWVudC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL2NvZGUvU3RpY2t5RWxlbWVudC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIsbUNBQXVEO0FBQ3ZELGlEQUE2QztBQUM3QyxpREFBOEM7QUFFOUMsU0FBZ0IsYUFBYSxDQUFDLEtBQUs7O0lBQy9CLE1BQU0sRUFBRSxRQUFRLEtBQW1CLEtBQUssRUFBdEIsdUNBQXNCLENBQUE7SUFDeEMsTUFBTSxFQUFFLGNBQWMsRUFBRSxjQUFjLEVBQUUsR0FBRyxLQUFLLENBQUMsVUFBVSxDQUFDLDRCQUFhLENBQUMsQ0FBQTtJQUMxRSxNQUFNLEVBQUUsTUFBTSxFQUFFLFFBQVEsRUFBRSxHQUFHLGNBQWMsQ0FBQyxLQUFLLENBQUMsRUFBRSxDQUFDLENBQUE7SUFFckQsTUFBTSxrQkFBa0IsR0FBRyxrQkFBUyxDQUNoQyxDQUFDLENBQUMsRUFBRSxDQUFDLE1BQU0sRUFBRSxDQUFDLFFBQVEsQ0FBQyxFQUN2QixDQUFDLENBQUMsRUFBRSxDQUFDLEVBQUUsUUFBUSxHQUFHLE1BQU0sQ0FBQyxDQUM1QixDQUFBO0lBRUQsTUFBTSxDQUFDLEdBQUcscUJBQVksQ0FBQyxjQUFjLEVBQUUsa0JBQWtCLENBQUMsQ0FBQTtJQUUxRCxJQUFJLEtBQUssQ0FBQyxRQUFRLENBQUMsS0FBSyxDQUFDLFFBQVEsQ0FBQyxLQUFLLENBQUMsRUFBRTtRQUN0QyxPQUFPLG9CQUFDLDJCQUFZLElBQUMsTUFBTSxFQUFDLDZCQUE2QixHQUFHLENBQUE7S0FDL0Q7U0FBTTtRQUNILE9BQU8sQ0FDSCxvQkFBQyxjQUFLLG9CQUFLLFNBQVMsSUFBRSxVQUFVLEVBQUUsSUFBSSxFQUFFLENBQUMsRUFBRSxDQUFDLEtBQ3ZDLFFBQVEsQ0FDTCxDQUNYLENBQUE7S0FDSjtDQUNKO0FBckJELHNDQXFCQztBQUNEIn0=
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiU3RpY2t5RWxlbWVudC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL2NvZGUvU3RpY2t5RWxlbWVudC50c3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQSwrQkFBOEI7QUFDOUIsbUNBQXVEO0FBQ3ZELGlEQUE2QztBQUM3QyxpREFBOEM7QUFFOUMsU0FBZ0IsYUFBYSxDQUFDLEtBQUs7O0lBQy9CLE1BQU0sRUFBRSxRQUFRLEtBQW1CLEtBQUssRUFBdEIsdUNBQXNCLENBQUE7SUFDeEMsTUFBTSxFQUFFLGNBQWMsRUFBRSxjQUFjLEVBQUUsR0FBRyxLQUFLLENBQUMsVUFBVSxDQUFDLDRCQUFhLENBQUMsQ0FBQTtJQUMxRSxNQUFNLEVBQUUsTUFBTSxFQUFFLFFBQVEsRUFBRSxHQUFHLGNBQWMsQ0FBQyxLQUFLLENBQUMsRUFBRSxDQUFDLENBQUE7SUFFckQsTUFBTSxrQkFBa0IsR0FBRyxrQkFBUyxDQUNoQyxDQUFDLENBQUMsRUFBRSxDQUFDLE1BQU0sRUFBRSxDQUFDLFFBQVEsQ0FBQyxFQUN2QixDQUFDLENBQUMsRUFBRSxDQUFDLEVBQUUsUUFBUSxHQUFHLE1BQU0sQ0FBQyxDQUM1QixDQUFBO0lBRUQsTUFBTSxDQUFDLEdBQUcscUJBQVksQ0FBQyxjQUFjLEVBQUUsa0JBQWtCLENBQUMsQ0FBQTtJQUUxRCxJQUFJLEtBQUssQ0FBQyxRQUFRLENBQUMsS0FBSyxDQUFDLFFBQVEsQ0FBQyxLQUFLLENBQUMsRUFBRTtRQUN0QyxPQUFPLG9CQUFDLDJCQUFZLElBQUMsTUFBTSxFQUFDLDZCQUE2QixHQUFHLENBQUE7S0FDL0Q7U0FBTTtRQUNILE9BQU8sQ0FDSCxvQkFBQyxjQUFLLG9CQUNFLFNBQVMsSUFDYixVQUFVLEVBQUUsSUFBSSxFQUNoQixDQUFDLEVBQUUsQ0FBQyxFQUNKLEtBQUssRUFBQyxNQUFNLEVBQ1osTUFBTSxFQUFDLE1BQU0sS0FFWixRQUFRLENBQ0wsQ0FDWCxDQUFBO0tBQ0o7Q0FDSjtBQTNCRCxzQ0EyQkM7QUFDRCJ9
 
 var __rest = (this && this.__rest) || function (s, e) {
     var t = {};
@@ -211,7 +211,7 @@ function StickyElement(props) {
         return React.createElement(NotConnected_1.NotConnected, { prompt: "Connect to something sticky" });
     }
     else {
-        return (React.createElement(framer_1.Frame, Object.assign({}, restProps, { background: null, y: y }), children));
+        return (React.createElement(framer_1.Frame, Object.assign({}, restProps, { background: null, y: y, width: "100%", height: "100%" }), children));
     }
 }
 exports.StickyElement = StickyElement;
@@ -229,7 +229,7 @@ exports.__info__ = [{ name: "StickyElement", children: true, type: "component" }
 
 "use strict";
 
-//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiU3RpY2t5U2Nyb2xsLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vY29kZS9TdGlja3lTY3JvbGwudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQUEsK0JBQThCO0FBQzlCLG1DQU9lO0FBQ2YsaURBQTZDO0FBT2hDLFFBQUEsYUFBYSxHQUFHLEtBQUssQ0FBQyxhQUFhLENBQWdCO0lBQzVELGNBQWMsRUFBRSxvQkFBVyxDQUFDLENBQUMsQ0FBQztJQUM5QixjQUFjLEVBQUUsR0FBRyxFQUFFLENBQUMsQ0FBQyxFQUFFLE1BQU0sRUFBRSxDQUFDLEVBQUUsUUFBUSxFQUFFLENBQUMsRUFBRSxDQUFDO0NBQ3JELENBQUMsQ0FBQTtBQUVGLFNBQWdCLFlBQVksQ0FBQyxLQUFLOztJQUM5Qix1Q0FBdUM7SUFDdkMsU0FBUyx3QkFBd0I7O1FBQzdCLE1BQU0sRUFBRSxNQUFNLEVBQUUsR0FBRyxLQUFLLENBQUE7UUFDeEIsTUFBTSxNQUFNLEdBQUcsS0FBSyxDQUFDLFFBQVEsQ0FBQyxDQUFDLENBQUMsQ0FBQTtRQUNoQyxNQUFNLFlBQVksR0FBRyxpQkFBaUIsQ0FBQyxNQUFNLENBQUMsQ0FBQTtRQUU5QyxNQUFNLG9CQUFvQixHQUFHLEVBQUUsQ0FBQTtRQUUvQixJQUFJLFlBQVksQ0FBQyxNQUFNLEdBQUcsQ0FBQyxFQUFFO1lBQ3pCLElBQUksQ0FBQyxDQUFBO1lBQ0wsS0FBSyxDQUFDLEdBQUcsQ0FBQyxFQUFFLENBQUMsR0FBRyxZQUFZLENBQUMsTUFBTSxHQUFHLENBQUMsRUFBRSxDQUFDLEVBQUUsRUFBRTs7Z0JBQzFDLG9CQUFvQixDQUFDLElBQUksQ0FBQztvQkFDdEIsRUFBRSxFQUFFLFlBQVksQ0FBQyxDQUFDLENBQUMsQ0FBQyxLQUFLLENBQUMsRUFBRTtvQkFDNUIsTUFBTSxFQUFFLElBQUksQ0FBQyxZQUFZLENBQUMsQ0FBQyxDQUFDLEVBQUUsTUFBTSxDQUFDLEdBQUcsTUFBTTtvQkFDOUMsUUFBUSxF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
+//# framerSourceMap=eyJ2ZXJzaW9uIjozLCJmaWxlIjoiU3RpY2t5U2Nyb2xsLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vY29kZS9TdGlja3lTY3JvbGwudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7O0FBQUEsK0JBQThCO0FBQzlCLG1DQU9lO0FBQ2YsaURBQTZDO0FBT2hDLFFBQUEsYUFBYSxHQUFHLEtBQUssQ0FBQyxhQUFhLENBQWdCO0lBQzVELGNBQWMsRUFBRSxvQkFBVyxDQUFDLENBQUMsQ0FBQztJQUM5QixjQUFjLEVBQUUsR0FBRyxFQUFFLENBQUMsQ0FBQyxFQUFFLE1BQU0sRUFBRSxDQUFDLEVBQUUsUUFBUSxFQUFFLENBQUMsRUFBRSxDQUFDO0NBQ3JELENBQUMsQ0FBQTtBQUVGLFNBQWdCLFlBQVksQ0FBQyxLQUFLOztJQUM5QixNQUFNLEVBQ0YsTUFBTSxFQUNOLFFBQVEsRUFDUixjQUFjLEdBQUcsdUJBQWMsQ0FBQyxDQUFDLENBQUMsS0FFbEMsS0FBSyxFQURMLG1FQUNLLENBQUE7SUFFVCxJQUFJLEtBQUssQ0FBQyxRQUFRLENBQUMsS0FBSyxDQUFDLFFBQVEsQ0FBQyxLQUFLLENBQUMsRUFBRTtRQUN0QyxPQUFPLG9CQUFDLDJCQUFZLElBQUMsTUFBTSxFQUFDLCtCQUErQixHQUFHLENBQUE7S0FDakU7U0FBTTtRQUNILE1BQU0sb0JBQW9CLEdBQUcsd0JBQXdCLENBQ2pELFFBQVEsQ0FBQyxDQUFDLENBQUMsRUFDWCxNQUFNLENBQ1QsQ0FBQTtRQUVELE1BQU0sY0FBYyxHQUFHLEVBQUUsQ0FBQyxFQUFFOztZQUN4QixNQUFNLE1BQU0sR0FBRyxvQkFBb0IsQ0FBQyxJQUFJLENBQUMsS0FBSyxDQUFDLEVBQUUsQ0FBQyxLQUFLLENBQUMsRUFBRSxLQUFLLEVBQUUsQ0FBQyxDQUFBO1lBQ2xFLElBQUksTUFBTSxFQUFFO2dCQUNSLE9BQU8sTUFBTSxDQUFBO2FBQ2hCO2lCQUFNO2dCQUNILE9BQU8sRUFBRSxNQUFNLEVBQUUsQ0FBQyxFQUFFLFFBQVEs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
 
 var __rest = (this && this.__rest) || function (s, e) {
     var t = {};
@@ -250,39 +250,12 @@ exports.ScrollContext = React.createContext({
 });
 function StickyScroll(props) {
     window["__checkBudget__"]();
-    // Calculate and store sticky positions
-    function setStickyPositionsLookup() {
-        window["__checkBudget__"]();
-        const { offset } = props;
-        const parent = props.children[0];
-        const stickyFrames = getStickyElements(parent);
-        const stickyPositionLookup = [];
-        if (stickyFrames.length > 0) {
-            let i;
-            for (i = 0; i < stickyFrames.length - 1; i++) {
-                window["__checkBudget__"]();
-                stickyPositionLookup.push({
-                    id: stickyFrames[i].props.id,
-                    yStick: getY(stickyFrames[i], parent) - offset,
-                    yRelease: getY(stickyFrames[i + 1], parent) -
-                        stickyFrames[i].props.height -
-                        offset,
-                });
-            }
-            stickyPositionLookup.push({
-                id: stickyFrames[i].props.id,
-                yStick: getY(stickyFrames[i], parent) - offset,
-                yRelease: parent.props.height - stickyFrames[i].props.height - offset,
-            });
-        }
-        return stickyPositionLookup;
-    }
-    const { children, contentOffsetY = framer_1.useMotionValue(0) } = props, restProps = __rest(props, ["children", "contentOffsetY"]);
+    const { offset, children, contentOffsetY = framer_1.useMotionValue(0) } = props, restProps = __rest(props, ["offset", "children", "contentOffsetY"]);
     if (React.Children.count(children) === 0) {
         return React.createElement(NotConnected_1.NotConnected, { prompt: "Connect to scrollable content" });
     }
     else {
-        const stickyPositionLookup = setStickyPositionsLookup();
+        const stickyPositionLookup = setStickyPositionsLookup(children[0], offset);
         const getStickyRange = id => {
             window["__checkBudget__"]();
             const lookup = stickyPositionLookup.find(found => found.id === id);
@@ -297,7 +270,7 @@ function StickyScroll(props) {
                 contentOffsetY: contentOffsetY,
                 getStickyRange: getStickyRange,
             } },
-            React.createElement(framer_1.Scroll, Object.assign({}, restProps, { contentOffsetY: contentOffsetY }), children)));
+            React.createElement(framer_1.Scroll, Object.assign({}, restProps, { contentOffsetY: contentOffsetY, width: "100%", height: "100%" }), children)));
     }
 }
 exports.StickyScroll = StickyScroll;
@@ -345,6 +318,31 @@ function getY(element, parent) {
         // Constrained to bottom
         return parent.props.height - bottom - height;
     }
+}
+// Calculate sticky positions
+function setStickyPositionsLookup(parent, offset) {
+    window["__checkBudget__"]();
+    const stickyPositionLookup = [];
+    const stickyFrames = getStickyElements(parent);
+    if (stickyFrames.length > 0) {
+        let i;
+        for (i = 0; i < stickyFrames.length - 1; i++) {
+            window["__checkBudget__"]();
+            stickyPositionLookup.push({
+                id: stickyFrames[i].props.id,
+                yStick: getY(stickyFrames[i], parent) - offset,
+                yRelease: getY(stickyFrames[i + 1], parent) -
+                    stickyFrames[i].props.height -
+                    offset,
+            });
+        }
+        stickyPositionLookup.push({
+            id: stickyFrames[i].props.id,
+            yStick: getY(stickyFrames[i], parent) - offset,
+            yRelease: parent.props.height - stickyFrames[i].props.height - offset,
+        });
+    }
+    return stickyPositionLookup;
 }
 exports.__info__ = [{ name: "StickyScroll", children: true, type: "component" }];
 
@@ -404,7 +402,7 @@ const packages = {}
                         console.log(e)
                     }
                     package.__framer__ = package.__framer__ || {}
-                    package.__framer__.packageJson = {"name":"framer","version":"1.0.2","main":"build/framer.js","author":"Framer","license":"MIT","scripts":{"coverage":"jest --coverage","test":"jest","watch":"jest --watch"},"devDependencies":{"@microsoft/api-documenter":"^1.5.47","@microsoft/api-extractor":"7.0.13","@types/chalk":"^2.2.0","@types/draft-js":"0.10.19","@types/enzyme":"^3.1.10","@types/enzyme-adapter-react-16":"^1.0.3","@types/hsluv":"https://github.com/framer/typed_hsluv#bump","@types/jest":"^23.0.0","@types/jest-diff":"^20.0.0","@types/jest-matcher-utils":"^21.0.1","@types/node":"^10.12.9","@types/react":"16.8.4","@types/react-dom":"^16.8","cache-loader":"^1.2.2","chalk":"^2.4.1","convert-tsconfig-paths-to-webpack-aliases":"^0.9.2","css.escape":"^1.5.1","draft-js":"0.10.4","enzyme":"^3.9.0","enzyme-adapter-react-16":"^1.9.1","eventemitter3":"^3.1.0","fork-ts-checker-webpack-plugin":"^0.4.1","framer-motion":"^0.16.8","hoist-non-react-statics":"^2.5.0","hsluv":"^0.0.3","immutable":"^3.8.2","jest":"^23.1.0","jest-diff":"^23.6.0","jest-dom":"^3.1.3","jest-junit":"^5.2.0","modclean":"^3.0.0-beta.1","progress-bar-webpack-plugin":"^1.11.0","raf":"^3.4.0","react":"^16.8","react-dev-utils":"^5.0.1","react-dom":"^16.8","react-testing-library":"^6.0.0","resize-observer-polyfill":"^1.5.1","semver":"^5.6.0","ts-jest":"^23.10.5","ts-loader":"^4.1.0","tslint":"^5.12.1","tslint-react-hooks":"^1.1.0","typescript":"3.3","watch":"^1.0.2","webpack":"^4.4.1","webpack-cli":"^3.1.2","webpack-dev-server":"^3.1.10","xcssmatrix":"^0.2.2"},"peerDependencies":{"react":"^16.8.2","react-dom":"^16.8.2"},"tsdoc":{"tsdocFlavor":"AEDoc"},"framer":{"components":[{"name":"Scroll","children":true,"properties":[{"key":"direction","title":"Direction","kind":"enum","options":["horizontal","vertical","both"]}]},{"name":"Page"},{"name":"Stack"},{"name":"FramerAppleWatch38","type":"device"},{"name":"FramerAppleWatch42","type":"device"},{"name":"FramerSonySmartWatch","type":"device"},{"name":"FramerAppleIPhoneSE","type":"device"},{"name":"FramerAppleIPhone8","type":"device"},{"name":"FramerAppleIPhone8Plus","type":"device"},{"name":"FramerAppleIPhoneXS","type":"device"},{"name":"FramerAppleIPhoneXR","type":"device"},{"name":"FramerAppleIPhoneXSMax","type":"device"},{"name":"FramerGooglePixel2","type":"device"},{"name":"FramerGooglePixel2XL","type":"device"},{"name":"FramerGooglePixel3","type":"device"},{"name":"FramerGooglePixel3XL","type":"device"},{"name":"FramerSamsungNote5","type":"device"},{"name":"FramerSamsungGalaxyS9","type":"device"},{"name":"FramerAppleIPadAir","type":"device"},{"name":"FramerAppleIPadMini","type":"device"},{"name":"FramerAppleIPadPro","type":"device"},{"name":"FramerGoogleNexusTablet","type":"device"},{"name":"FramerMicrosoftSurfacePro3","type":"device"},{"name":"FramerMicrosoftSurfacePro4","type":"device"},{"name":"FramerAppleIMac","type":"device"},{"name":"FramerAppleThunderboltDisplay","type":"device"},{"name":"FramerAppleMacBook","type":"device"},{"name":"FramerAppleMacBookAir","type":"device"},{"name":"FramerAppleMacBookPro","type":"device"},{"name":"FramerDellXPS","type":"device"},{"name":"FramerMicrosoftSurfaceBook","type":"device"},{"name":"FramerSonyW850C","type":"device"},{"name":"FramerStoreArtwork","type":"device"},{"name":"FramerStoreIcon","type":"device"}]},"dependencies":{"style-value-types":"^3.1.4"}}
+                    package.__framer__.packageJson = {"name":"framer","version":"1.0.4","main":"build/framer.js","author":"Framer","license":"MIT","scripts":{"coverage":"jest --coverage","test":"jest","watch":"jest --watch"},"devDependencies":{"@microsoft/api-documenter":"^1.5.47","@microsoft/api-extractor":"7.0.13","@types/chalk":"^2.2.0","@types/draft-js":"0.10.19","@types/enzyme":"^3.1.10","@types/enzyme-adapter-react-16":"^1.0.3","@types/hsluv":"https://github.com/framer/typed_hsluv#bump","@types/jest":"^23.0.0","@types/jest-diff":"^20.0.0","@types/jest-matcher-utils":"^21.0.1","@types/node":"^10.12.9","@types/react":"16.8.4","@types/react-dom":"^16.8","cache-loader":"^1.2.2","chalk":"^2.4.1","convert-tsconfig-paths-to-webpack-aliases":"^0.9.2","css.escape":"^1.5.1","draft-js":"0.10.4","enzyme":"^3.9.0","enzyme-adapter-react-16":"^1.9.1","eventemitter3":"^3.1.0","fork-ts-checker-webpack-plugin":"^0.4.1","framer-motion":"^0.16.11","hoist-non-react-statics":"^2.5.0","hsluv":"^0.0.3","immutable":"^3.8.2","jest":"^23.1.0","jest-diff":"^23.6.0","jest-dom":"^3.1.3","jest-junit":"^5.2.0","modclean":"^3.0.0-beta.1","progress-bar-webpack-plugin":"^1.11.0","raf":"^3.4.0","react":"^16.8","react-dev-utils":"^5.0.1","react-dom":"^16.8","react-testing-library":"^6.0.0","resize-observer-polyfill":"^1.5.1","semver":"^5.6.0","ts-jest":"^23.10.5","ts-loader":"^4.1.0","tslint":"^5.12.1","tslint-react-hooks":"^1.1.0","typescript":"3.3","watch":"^1.0.2","webpack":"^4.4.1","webpack-cli":"^3.1.2","webpack-dev-server":"^3.1.10","xcssmatrix":"^0.2.2"},"peerDependencies":{"react":"^16.8.2","react-dom":"^16.8.2"},"tsdoc":{"tsdocFlavor":"AEDoc"},"framer":{"components":[{"name":"Scroll","children":true,"properties":[{"key":"direction","title":"Direction","kind":"enum","options":["horizontal","vertical","both"]}]},{"name":"Page"},{"name":"Stack"},{"name":"FramerAppleWatch38","type":"device"},{"name":"FramerAppleWatch42","type":"device"},{"name":"FramerSonySmartWatch","type":"device"},{"name":"FramerAppleIPhoneSE","type":"device"},{"name":"FramerAppleIPhone8","type":"device"},{"name":"FramerAppleIPhone8Plus","type":"device"},{"name":"FramerAppleIPhoneXS","type":"device"},{"name":"FramerAppleIPhoneXR","type":"device"},{"name":"FramerAppleIPhoneXSMax","type":"device"},{"name":"FramerGooglePixel2","type":"device"},{"name":"FramerGooglePixel2XL","type":"device"},{"name":"FramerGooglePixel3","type":"device"},{"name":"FramerGooglePixel3XL","type":"device"},{"name":"FramerSamsungNote5","type":"device"},{"name":"FramerSamsungGalaxyS9","type":"device"},{"name":"FramerAppleIPadAir","type":"device"},{"name":"FramerAppleIPadMini","type":"device"},{"name":"FramerAppleIPadPro","type":"device"},{"name":"FramerGoogleNexusTablet","type":"device"},{"name":"FramerMicrosoftSurfacePro3","type":"device"},{"name":"FramerMicrosoftSurfacePro4","type":"device"},{"name":"FramerAppleIMac","type":"device"},{"name":"FramerAppleThunderboltDisplay","type":"device"},{"name":"FramerAppleMacBook","type":"device"},{"name":"FramerAppleMacBookAir","type":"device"},{"name":"FramerAppleMacBookPro","type":"device"},{"name":"FramerDellXPS","type":"device"},{"name":"FramerMicrosoftSurfaceBook","type":"device"},{"name":"FramerSonyW850C","type":"device"},{"name":"FramerStoreArtwork","type":"device"},{"name":"FramerStoreIcon","type":"device"}]},"dependencies":{"style-value-types":"^3.1.4"}}
                     return package
                 }
 
@@ -422,7 +420,7 @@ exports.__framer__ = package
 /*! exports provided: main, license, devDependencies, peerDependencies, framer, author, dependencies, name, version, default */
 /***/ (function(module) {
 
-module.exports = {"main":"dist/index.js","license":"MIT","devDependencies":{"@types/react":"^16.4.16"},"peerDependencies":{"framer":"^0.10.5 || ^1","react":"^16.3.0","react-dom":"^16.3.0"},"framer":{"id":"5f4411f5-e210-4355-ad08-d04613afe3a1","displayName":"Sticky Headers"},"author":"Giles Perry","dependencies":{"framer-motion":"^0.15.1"},"name":"@framer/perrysmotors.sticky-headers","version":"2.0.0"};
+module.exports = {"main":"dist/index.js","license":"MIT","devDependencies":{"@types/react":"^16.4.16"},"peerDependencies":{"framer":"^0.10.5 || ^1","react":"^16.3.0","react-dom":"^16.3.0"},"framer":{"id":"5f4411f5-e210-4355-ad08-d04613afe3a1","displayName":"Sticky Headers"},"author":"Giles Perry","dependencies":{"framer-motion":"^0.15.1"},"name":"@framer/perrysmotors.sticky-headers","version":"2.1.0"};
 
 /***/ }),
 
