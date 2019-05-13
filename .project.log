@@ -2504,3 +2504,167 @@
 [2019-05-07 16:10:28.1890] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (8ms)
 [2019-05-07 16:10:28.7400] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
 [2019-05-07 16:10:31.0040] - INFO - Marking changed: false
+[2019-05-07 16:18:02.5650] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-05-07 16:18:02.6270] - INFO - Done reading
+[2019-05-07 16:18:02.6280] - INFO - Marking changed: false
+[2019-05-07 16:18:02.7420] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-07 16:18:03.4120] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-05-07 16:18:03.6810] - INFO - GET 200 /design/document.json 0 B (2ms)
+[2019-05-07 16:18:06.5360] - INFO - GET 200 /package.json 452 B (1ms)
+[2019-05-07 16:18:06.5360] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:18:07.7420] - INFO - Marking changed: false
+[2019-05-07 16:18:07.8770] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (26ms)
+[2019-05-07 16:18:08.4820] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (42ms)
+[2019-05-07 16:18:10.5990] - INFO - GET 200 /metadata/icon.png?1557242286532 2.59 kB (2ms)
+[2019-05-07 16:18:10.5990] - INFO - GET 200 /metadata/artwork.png?1557242286532 9.74 kB (2ms)
+[2019-05-07 16:18:10.6980] - INFO - GET 200 /metadata/icon.png?1557242286532 2.59 kB (1ms)
+[2019-05-07 16:18:10.6990] - INFO - GET 200 /metadata/artwork.png?1557242286532 9.74 kB (1ms)
+[2019-05-07 16:18:20.6990] - DEBUG - [Save session: 0] Started, operation: saveOperation
+[2019-05-07 16:18:20.6990] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-05-07 16:18:20.7000] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-05-07 16:18:20.7010] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-05-07 16:18:20.7010] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-05-07 16:18:20.7030] - INFO - Marking changed: false
+[2019-05-07 16:18:20.7060] - DEBUG - [Save session: 0] Completed super.save
+[2019-05-07 16:19:02.7150] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-07 16.19.02.zip
+[2019-05-07 16:19:21.4360] - INFO - POST 200 /upload/metadata/readme.md 2 B (10ms)
+[2019-05-07 16:19:21.4480] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:19:21.4510] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:19:24.7070] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-05-07 16:19:24.8040] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:19:24.8060] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:19:27.3170] - INFO - POST 200 /upload/metadata/readme.md 2 B (1ms)
+[2019-05-07 16:19:27.3380] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:19:27.3400] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:19:30.2400] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-05-07 16:19:30.2750] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:19:30.2790] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:22:47.4520] - INFO - GET 200 /metadata/icon.png?1557242286532 2.59 kB (1ms)
+[2019-05-07 16:22:47.4520] - INFO - GET 200 /metadata/artwork.png?1557242286532 9.74 kB (1ms)
+[2019-05-07 16:22:47.4770] - INFO - GET 200 /metadata/icon.png?1557242286532 2.59 kB (1ms)
+[2019-05-07 16:22:47.4780] - INFO - GET 200 /metadata/artwork.png?1557242286532 9.74 kB (1ms)
+[2019-05-07 16:23:12.1230] - INFO - POST 200 /upload/metadata/readme.md 2 B (4ms)
+[2019-05-07 16:23:12.1600] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:12.1630] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:16.1040] - INFO - POST 200 /upload/metadata/readme.md 2 B (3ms)
+[2019-05-07 16:23:16.1190] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:16.1220] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:17.9520] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-05-07 16:23:17.9630] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:17.9660] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:20.6780] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-05-07 16:23:20.7060] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:20.7110] - INFO - GET 200 /README.md 0 B (3ms)
+[2019-05-07 16:23:32.2700] - INFO - POST 200 /upload/metadata/readme.md 2 B (3ms)
+[2019-05-07 16:23:32.3000] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:32.3020] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:35.8030] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-05-07 16:23:35.8930] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:35.8950] - INFO - GET 200 /README.md 0 B (0ms)
+[2019-05-07 16:23:38.4570] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-05-07 16:23:38.5400] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:38.5430] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:42.9270] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-05-07 16:23:43.0310] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:43.0340] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:44.7410] - INFO - POST 200 /upload/metadata/readme.md 2 B (3ms)
+[2019-05-07 16:23:44.7730] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:44.7760] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:46.4080] - INFO - POST 200 /upload/metadata/readme.md 2 B (3ms)
+[2019-05-07 16:23:46.4950] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:23:46.4970] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:24:14.3610] - INFO - POST 200 /upload/metadata/readme.md 2 B (3ms)
+[2019-05-07 16:24:14.3800] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:24:14.3830] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:24:16.1600] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-05-07 16:24:16.2140] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:24:16.2160] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:24:18.6300] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-05-07 16:24:18.6480] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:24:18.6500] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:24:20.6460] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-05-07 16:24:20.6960] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:24:20.6990] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:24:56.2430] - INFO - POST 200 /upload/metadata/readme.md 2 B (3ms)
+[2019-05-07 16:24:56.2630] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:24:56.2650] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:24:57.7770] - INFO - POST 200 /upload/metadata/readme.md 2 B (3ms)
+[2019-05-07 16:24:57.7940] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:24:57.7960] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:25:02.5410] - INFO - POST 200 /upload/metadata/readme.md 2 B (1ms)
+[2019-05-07 16:25:02.5850] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:25:02.5870] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:25:03.7220] - INFO - POST 200 /upload/metadata/readme.md 2 B (3ms)
+[2019-05-07 16:25:03.8070] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:25:03.8090] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:25:07.0330] - INFO - POST 200 /upload/metadata/readme.md 2 B (3ms)
+[2019-05-07 16:25:07.1060] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:25:07.1080] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:25:10.8330] - INFO - POST 200 /upload/metadata/readme.md 2 B (2ms)
+[2019-05-07 16:25:10.8760] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:25:10.8790] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:29:47.2870] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-05-07 16:29:47.3480] - INFO - Done reading
+[2019-05-07 16:29:47.3490] - INFO - Marking changed: false
+[2019-05-07 16:29:47.4190] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-07 16:29:48.4650] - INFO - GET 200 /design/document.json 0 B (2ms)
+[2019-05-07 16:29:52.1790] - INFO - Marking changed: false
+[2019-05-07 16:29:52.3560] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-05-07 16:29:52.9470] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (112ms)
+[2019-05-07 16:30:21.5120] - INFO - GET 200 /package.json 452 B (1ms)
+[2019-05-07 16:30:21.5130] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:30:25.4030] - INFO - GET 200 /metadata/icon.png?1557243021508 2.59 kB (1ms)
+[2019-05-07 16:30:25.4030] - INFO - GET 200 /metadata/artwork.png?1557243021508 9.74 kB (2ms)
+[2019-05-07 16:30:25.5190] - INFO - GET 200 /metadata/icon.png?1557243021508 2.59 kB (1ms)
+[2019-05-07 16:30:25.5190] - INFO - GET 200 /metadata/artwork.png?1557243021508 9.74 kB (1ms)
+[2019-05-07 16:30:47.7180] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-07 16.30.47.zip
+[2019-05-07 16:31:28.7690] - INFO - POST 200 /upload/metadata/readme.md 2 B (9ms)
+[2019-05-07 16:31:28.7820] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:31:28.7860] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:31:33.9530] - INFO - POST 200 /upload/metadata/readme.md 2 B (3ms)
+[2019-05-07 16:31:34.0010] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:31:34.0040] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:31:45.1370] - INFO - GET 200 /package.json 451 B (5ms)
+[2019-05-07 16:31:45.1400] - INFO - GET 200 /README.md 0 B (6ms)
+[2019-05-07 16:31:45.1410] - INFO - GET 200 /package.json 451 B (2ms)
+[2019-05-07 16:31:45.1420] - INFO - GET 200 /README.md 0 B (2ms)
+[2019-05-07 16:31:45.5060] - INFO - GET 200 /package.json 452 B (1ms)
+[2019-05-07 16:31:45.5070] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-07 16:31:45.5080] - INFO - GET 200 /package.json 452 B (2ms)
+[2019-05-07 16:31:45.5080] - INFO - GET 200 /README.md 0 B (2ms)
+[2019-05-07 16:31:45.8840] - INFO - GET 200 /metadata/icon.png?1557243105503 2.59 kB (1ms)
+[2019-05-07 16:31:45.8840] - INFO - GET 200 /metadata/artwork.png?1557243105503 9.74 kB (1ms)
+[2019-05-07 16:31:45.9200] - INFO - GET 200 /metadata/icon.png?1557243105125 2.59 kB (1ms)
+[2019-05-07 16:31:45.9200] - INFO - GET 200 /metadata/artwork.png?1557243105125 9.74 kB (1ms)
+[2019-05-07 16:31:45.9240] - INFO - GET 200 /metadata/icon.png?1557243105125 2.59 kB (1ms)
+[2019-05-07 16:31:45.9250] - INFO - GET 200 /metadata/artwork.png?1557243105125 9.74 kB (1ms)
+[2019-05-07 16:31:46.0000] - INFO - GET 200 /metadata/icon.png?1557243105504 2.59 kB (1ms)
+[2019-05-07 16:31:46.0000] - INFO - GET 200 /metadata/artwork.png?1557243105504 9.74 kB (1ms)
+[2019-05-07 16:31:46.0650] - INFO - GET 200 /metadata/icon.png?1557243105132 2.59 kB (1ms)
+[2019-05-07 16:31:46.0650] - INFO - GET 200 /metadata/artwork.png?1557243105132 9.74 kB (1ms)
+[2019-05-07 16:31:46.0690] - INFO - GET 200 /metadata/icon.png?1557243105132 2.59 kB (1ms)
+[2019-05-07 16:31:46.0690] - INFO - GET 200 /metadata/artwork.png?1557243105132 9.74 kB (1ms)
+[2019-05-13 16:12:34.0840] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-05-13 16:12:34.1330] - INFO - Done reading
+[2019-05-13 16:12:34.1330] - INFO - Marking changed: false
+[2019-05-13 16:12:34.2450] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-05-13 16:12:35.2160] - INFO - GET 200 /design/document.json 0 B (4ms)
+[2019-05-13 16:12:35.3330] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (9ms)
+[2019-05-13 16:12:39.4600] - DEBUG - [Save session: 0] Started, operation: saveOperation
+[2019-05-13 16:12:39.4600] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-05-13 16:12:39.4610] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-05-13 16:12:39.4620] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-05-13 16:12:39.4620] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-05-13 16:12:39.4640] - INFO - Marking changed: false
+[2019-05-13 16:12:39.4660] - DEBUG - [Save session: 0] Completed super.save
+[2019-05-13 16:12:39.8770] - INFO - Marking changed: false
+[2019-05-13 16:12:40.0450] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-05-13 16:12:40.6090] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (164ms)
+[2019-05-13 16:13:34.2090] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-13 16.13.34.zip
+[2019-05-13 16:14:28.8910] - DEBUG - [Save session: 1] Started, operation: saveOperation
+[2019-05-13 16:14:28.8910] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-05-13 16:14:28.8930] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-05-13 16:14:28.8950] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-05-13 16:14:28.8950] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-05-13 16:14:28.8960] - INFO - Marking changed: false
+[2019-05-13 16:14:28.8990] - DEBUG - [Save session: 1] Completed super.save
