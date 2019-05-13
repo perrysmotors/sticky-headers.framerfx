@@ -19,7 +19,13 @@ export function StickyElement(props) {
         return <NotConnected prompt="Connect to something sticky" />
     } else {
         return (
-            <Frame {...restProps} background={null} y={y}>
+            <Frame
+                {...restProps}
+                background={null}
+                y={y}
+                width="100%"
+                height="100%"
+            >
                 {children}
             </Frame>
         )

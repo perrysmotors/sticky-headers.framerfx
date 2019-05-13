@@ -2668,3 +2668,20 @@
 [2019-05-13 16:14:28.8950] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
 [2019-05-13 16:14:28.8960] - INFO - Marking changed: false
 [2019-05-13 16:14:28.8990] - DEBUG - [Save session: 1] Completed super.save
+[2019-05-13 16:18:58.0660] - DEBUG - [Save session: 2] Started, operation: saveOperation
+[2019-05-13 16:18:58.0660] - DEBUG - [Save session: 2] Before container.writeChanges
+[2019-05-13 16:18:58.0670] - DEBUG - [Save session: 2] Before waitUsingRecursiveRunLoop
+[2019-05-13 16:18:58.0680] - DEBUG - [Save session: 2] Completed container.writeChanges
+[2019-05-13 16:18:58.0680] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
+[2019-05-13 16:18:58.0690] - INFO - Marking changed: false
+[2019-05-13 16:18:58.0720] - DEBUG - [Save session: 2] Completed super.save
+[2019-05-13 16:19:26.7460] - DEBUG - [Save session: 3] Started, operation: saveOperation
+[2019-05-13 16:19:26.7460] - DEBUG - [Save session: 3] Before container.writeChanges
+[2019-05-13 16:19:26.7470] - DEBUG - [Save session: 3] Before waitUsingRecursiveRunLoop
+[2019-05-13 16:19:26.7480] - DEBUG - [Save session: 3] Completed container.writeChanges
+[2019-05-13 16:19:26.7480] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
+[2019-05-13 16:19:26.7490] - INFO - Marking changed: false
+[2019-05-13 16:19:26.7520] - DEBUG - [Save session: 3] Completed super.save
+[2019-05-13 16:19:44.4820] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-13 16.19.44.zip
+[2019-05-13 16:20:45.1870] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-13 16.20.45.zip
+[2019-05-13 16:21:51.4980] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-13 16.21.51.zip

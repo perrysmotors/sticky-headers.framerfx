@@ -75,7 +75,12 @@ export function StickyScroll(props) {
                     getStickyRange: getStickyRange,
                 }}
             >
-                <Scroll {...restProps} contentOffsetY={contentOffsetY}>
+                <Scroll
+                    {...restProps}
+                    contentOffsetY={contentOffsetY}
+                    width="100%"
+                    height="100%"
+                >
                     {children}
                 </Scroll>
             </ScrollContext.Provider>
