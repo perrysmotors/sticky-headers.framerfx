@@ -69,6 +69,7 @@ export function ParallaxLayer(): Override {
 
 ## Changelog
 
+- **2.2.0** — Add suport for responsive scroll content width.
 - **2.0.0** — Complete rewrite to use new API.
 - **1.14.0** — Update artwork
 - **1.13.0** — Bug fix

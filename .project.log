@@ -2720,3 +2720,24 @@
 [2019-05-13 16:32:58.4470] - DEBUG - [Save session: 7] Completed waitUsingRecursiveRunLoop
 [2019-05-13 16:32:58.4530] - DEBUG - [Save session: 7] Completed super.save
 [2019-05-13 16:32:59.5000] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-13 16.32.59.zip
+[2019-05-13 16:35:57.6250] - DEBUG - [Save session: 8] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-13 16:35:57.6260] - DEBUG - [Save session: 8] Before container.writeChanges
+[2019-05-13 16:35:57.6260] - DEBUG - [Save session: 8] Before waitUsingRecursiveRunLoop
+[2019-05-13 16:35:57.6510] - DEBUG - [Save session: 8] Completed container.writeChanges
+[2019-05-13 16:35:57.6510] - DEBUG - [Save session: 8] Completed waitUsingRecursiveRunLoop
+[2019-05-13 16:35:57.6550] - DEBUG - [Save session: 8] Completed super.save
+[2019-05-13 16:36:05.4780] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-13 16.36.05.zip
+[2019-05-13 16:54:07.4740] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-13 16.54.07.zip
+[2019-05-13 16:55:08.5310] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-05-13 16.55.08.zip
+[2019-05-13 16:55:28.4280] - DEBUG - [Save session: 9] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-05-13 16:55:28.4280] - DEBUG - [Save session: 9] Before container.writeChanges
+[2019-05-13 16:55:28.4280] - DEBUG - [Save session: 9] Before waitUsingRecursiveRunLoop
+[2019-05-13 16:55:28.4560] - DEBUG - [Save session: 9] Completed container.writeChanges
+[2019-05-13 16:55:28.4560] - DEBUG - [Save session: 9] Completed waitUsingRecursiveRunLoop
+[2019-05-13 16:55:28.4620] - DEBUG - [Save session: 9] Completed super.save
+[2019-05-13 17:32:58.3610] - INFO - GET 200 /package.json 452 B (1ms)
+[2019-05-13 17:32:58.3620] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-13 17:34:43.5980] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-13 17:34:43.6020] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-13 17:35:56.9260] - INFO - GET 200 /README.md 0 B (1ms)
+[2019-05-13 17:35:56.9270] - INFO - GET 200 /README.md 0 B (1ms)
