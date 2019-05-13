@@ -20,44 +20,20 @@ export const ScrollContext = React.createContext<ScrollContext>({
 })
 
 export function StickyScroll(props) {
-    // Calculate and store sticky positions
-    function setStickyPositionsLookup() {
-        const { offset } = props
-        const parent = props.children[0]
-        const stickyFrames = getStickyElements(parent)
-
-        const stickyPositionLookup = []
-
-        if (stickyFrames.length > 0) {
-            let i
-            for (i = 0; i < stickyFrames.length - 1; i++) {
-                stickyPositionLookup.push({
-                    id: stickyFrames[i].props.id,
-                    yStick: getY(stickyFrames[i], parent) - offset,
-                    yRelease:
-                        getY(stickyFrames[i + 1], parent) -
-                        stickyFrames[i].props.height -
-                        offset,
-                })
-            }
-
-            stickyPositionLookup.push({
-                id: stickyFrames[i].props.id,
-                yStick: getY(stickyFrames[i], parent) - offset,
-                yRelease:
-                    parent.props.height - stickyFrames[i].props.height - offset,
-            })
-        }
-
-        return stickyPositionLookup
-    }
-
-    const { children, contentOffsetY = useMotionValue(0), ...restProps } = props
+    const {
+        offset,
+        children,
+        contentOffsetY = useMotionValue(0),
+        ...restProps
+    } = props
 
     if (React.Children.count(children) === 0) {
         return <NotConnected prompt="Connect to scrollable content" />
     } else {
-        const stickyPositionLookup = setStickyPositionsLookup()
+        const stickyPositionLookup = setStickyPositionsLookup(
+            children[0],
+            offset
+        )
 
         const getStickyRange = id => {
             const lookup = stickyPositionLookup.find(found => found.id === id)
@@ -134,4 +110,33 @@ function getY(element, parent) {
         // Constrained to bottom
         return parent.props.height - bottom - height
     }
+}
+
+// Calculate sticky positions
+function setStickyPositionsLookup(parent, offset) {
+    const stickyPositionLookup = []
+    const stickyFrames = getStickyElements(parent)
+
+    if (stickyFrames.length > 0) {
+        let i
+        for (i = 0; i < stickyFrames.length - 1; i++) {
+            stickyPositionLookup.push({
+                id: stickyFrames[i].props.id,
+                yStick: getY(stickyFrames[i], parent) - offset,
+                yRelease:
+                    getY(stickyFrames[i + 1], parent) -
+                    stickyFrames[i].props.height -
+                    offset,
+            })
+        }
+
+        stickyPositionLookup.push({
+            id: stickyFrames[i].props.id,
+            yStick: getY(stickyFrames[i], parent) - offset,
+            yRelease:
+                parent.props.height - stickyFrames[i].props.height - offset,
+        })
+    }
+
+    return stickyPositionLookup
 }
