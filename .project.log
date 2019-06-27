@@ -8,6 +8,12 @@
 [2019-02-15 10:36:28.1550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.36.28.zip
 [2019-02-15 10:37:28.8550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.37.28.zip
 [2019-02-15 10:37:49.9500] - ERROR -    10 modules
+[2019-02-15 10:37:.backups/2019-02-15 10.37.28.zip
+[2019-02-15 10:37:49.9500] - ERROR -    10 modules
+[2019-02-15 10:37: 10:11:40.4390] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.11.40.zip
+[2019-02-15 10:36:28.1550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.36.28.zip
+[2019-02-15 10:37:28.8550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.37.28.zip
+[2019-02-15 10:37:49.9500] - ERROR -    10 modules
 [2019-02-15 10:37:49.9500] - ERROR - ERROR in ./code/NotConnected.tsx
 [2019-02-15 10:37:49.9500] - ERROR - Module not found: Error: Can't resolve './Parallax' in '/Users/giles/Documents/github/sticky-headers.framerfx/code'
 [2019-02-15 10:38:29.4670] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.38.29.zip
@@ -2765,3 +2771,205 @@
 [2019-05-13 17:39:33.0890] - INFO - GET 200 /metadata/artwork.png?1557765572399 9.74 kB (1ms)
 [2019-05-13 17:39:33.1260] - INFO - GET 200 /metadata/icon.png?1557765572399 2.59 kB (1ms)
 [2019-05-13 17:39:33.1260] - INFO - GET 200 /metadata/artwork.png?1557765572399 9.74 kB (1ms)
+
+[2019-06-27 11:38:10.8460] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-06-27 11:38:10.8970] - INFO - Done reading
+[2019-06-27 11:38:10.8970] - INFO - Marking changed: false
+[2019-06-27 11:38:11.0390] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-06-27 11:38:11.7790] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-06-27 11:38:12.1070] - INFO - GET 200 /design/document.json 0 B (2ms)
+[2019-06-27 11:38:14.0430] - ERROR - Thu, 27 Jun 2019 10:38:14 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at Applications/Framer X.app/Contents/Resources/Server/lib/server.js:117:17
+[2019-06-27 11:38:15.8940] - INFO - Marking changed: false
+[2019-06-27 11:38:16.1490] - INFO - _handleWatch: build took 276ms
+[2019-06-27 11:39:10.5170] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-06-27 11:39:10.9820] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.39.10.zip
+[2019-06-27 11:40:11.2600] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.40.11.zip
+[2019-06-27 11:41:12.2860] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.41.12.zip
+[2019-06-27 11:43:08.2640] - INFO - _handleWatch: build took 50ms
+[2019-06-27 11:43:09.6720] - INFO - _handleWatch: build took 39ms
+[2019-06-27 11:43:10.8370] - INFO - _handleWatch: build took 35ms
+[2019-06-27 11:43:13.7100] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.43.13.zip
+[2019-06-27 11:43:14.0170] - INFO - _handleWatch: build took 33ms
+[2019-06-27 11:43:18.9100] - INFO - _handleWatch: build took 38ms
+[2019-06-27 11:43:20.1560] - INFO - _handleWatch: build took 30ms
+[2019-06-27 11:43:25.2940] - INFO - _handleWatch: build took 43ms
+[2019-06-27 11:43:44.5250] - INFO - _handleWatch: build took 32ms
+[2019-06-27 11:43:45.3750] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation
+[2019-06-27 11:43:45.3750] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-06-27 11:43:45.3750] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-06-27 11:43:45.4040] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-06-27 11:43:45.4040] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-06-27 11:43:45.4090] - DEBUG - [Save session: 0] Completed super.save
+[2019-06-27 11:43:54.2120] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-06-27 11:44:07.8820] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2019-06-27 11:44:14.0750] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.44.14.zip
+[2019-06-27 11:44:14.1770] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-06-27 11:44:52.1800] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-06-27 11:45:14.2030] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.45.14.zip
+[2019-06-27 11:49:04.3910] - INFO - _handleWatch: build took 66ms
+[2019-06-27 11:49:05.5780] - INFO - _handleWatch: build took 57ms
+[2019-06-27 11:49:06.8640] - INFO - _handleWatch: build took 57ms
+[2019-06-27 11:49:08.1370] - INFO - _handleWatch: build took 46ms
+[2019-06-27 11:49:09.4350] - INFO - _handleWatch: build took 56ms
+[2019-06-27 11:49:10.1430] - INFO - _handleWatch: build took 59ms
+[2019-06-27 11:49:11.4230] - INFO - _handleWatch: build took 45ms
+[2019-06-27 11:49:16.3040] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.49.16.zip
+[2019-06-27 11:49:22.0870] - INFO - _handleWatch: build took 57ms
+[2019-06-27 11:49:27.2130] - INFO - _handleWatch: build took 54ms
+[2019-06-27 11:49:29.8780] - DEBUG - [Save session: 1] Started, operation: autosaveInPlaceOperation
+[2019-06-27 11:49:29.8780] - DEBUG - [Save session: 1] Before container.writeChanges
+[2019-06-27 11:49:29.8780] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2019-06-27 11:49:29.9070] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2019-06-27 11:49:29.9070] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2019-06-27 11:49:29.9150] - DEBUG - [Save session: 1] Completed super.save
+[2019-06-27 11:50:09.2640] - INFO - _handleWatch: build took 46ms
+[2019-06-27 11:50:09.7530] - INFO - _handleWatch: build took 33ms
+[2019-06-27 11:50:17.2210] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.50.17.zip
+[2019-06-27 11:50:26.3290] - INFO - _handleWatch: build took 34ms
+[2019-06-27 11:51:29.1710] - INFO - _handleWatch: build took 68ms
+[2019-06-27 11:51:30.5590] - INFO - _handleWatch: build took 55ms
+[2019-06-27 11:51:31.8360] - INFO - _handleWatch: build took 46ms
+[2019-06-27 11:51:34.7910] - INFO - _handleWatch: build took 36ms
+[2019-06-27 11:51:38.1460] - INFO - _handleWatch: build took 35ms
+[2019-06-27 11:51:39.4240] - INFO - _handleWatch: build took 39ms
+[2019-06-27 11:51:52.4800] - INFO - _handleWatch: build took 57ms
+[2019-06-27 11:51:53.8100] - INFO - _handleWatch: build took 66ms
+[2019-06-27 11:52:04.6390] - INFO - _handleWatch: build took 51ms
+[2019-06-27 11:52:18.1870] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.52.18.zip
+[2019-06-27 11:52:20.4290] - INFO - _handleWatch: build took 61ms
+[2019-06-27 11:52:24.9760] - INFO - _handleWatch: build took 48ms
+[2019-06-27 11:52:35.0380] - INFO - _handleWatch: build took 44ms
+[2019-06-27 11:53:10.2530] - INFO - _handleWatch: build took 66ms
+[2019-06-27 11:53:19.2040] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.53.19.zip
+[2019-06-27 11:53:27.1830] - INFO - _handleWatch: build took 61ms
+[2019-06-27 11:53:29.1150] - INFO - _handleWatch: build took 48ms
+[2019-06-27 11:53:30.4180] - INFO - _handleWatch: build took 42ms
+[2019-06-27 11:53:31.7580] - INFO - _handleWatch: build took 43ms
+[2019-06-27 11:53:38.3060] - INFO - _handleWatch: build took 48ms
+[2019-06-27 11:53:57.4800] - INFO - _handleWatch: build took 62ms
+[2019-06-27 11:53:58.7600] - INFO - _handleWatch: build took 54ms
+[2019-06-27 11:54:01.6980] - INFO - _handleWatch: build took 36ms
+[2019-06-27 11:54:10.6050] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-06-27 11:54:20.2190] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.54.20.zip
+[2019-06-27 11:54:26.6710] - INFO - _handleWatch: build took 48ms
+[2019-06-27 11:54:35.1490] - DEBUG - [Save session: 2] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-06-27 11:54:35.1490] - DEBUG - [Save session: 2] Before container.writeChanges
+[2019-06-27 11:54:35.1490] - DEBUG - [Save session: 2] Before waitUsingRecursiveRunLoop
+[2019-06-27 11:54:35.1760] - DEBUG - [Save session: 2] Completed container.writeChanges
+[2019-06-27 11:54:35.1760] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
+[2019-06-27 11:54:35.1810] - DEBUG - [Save session: 2] Completed super.save
+[2019-06-27 11:55:03.2880] - INFO - _handleWatch: build took 61ms
+[2019-06-27 11:55:08.1190] - INFO - _handleWatch: build took 59ms
+[2019-06-27 11:55:12.4300] - INFO - _handleWatch: build took 46ms
+[2019-06-27 11:55:14.9320] - INFO - _handleWatch: build took 53ms
+[2019-06-27 11:55:16.5500] - INFO - _handleWatch: build took 46ms
+[2019-06-27 11:55:21.1450] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.55.21.zip
+[2019-06-27 11:55:39.3560] - INFO - _handleWatch: build took 51ms
+[2019-06-27 11:55:40.6350] - INFO - _handleWatch: build took 40ms
+[2019-06-27 11:55:55.5640] - INFO - _handleWatch: build took 60ms
+[2019-06-27 11:55:56.8100] - INFO - _handleWatch: build took 58ms
+[2019-06-27 11:55:58.1690] - INFO - _handleWatch: build took 41ms
+[2019-06-27 11:56:01.8240] - INFO - _handleWatch: build took 38ms
+[2019-06-27 11:56:05.5120] - INFO - _handleWatch: build took 35ms
+[2019-06-27 11:56:10.7070] - INFO - _handleWatch: build took 38ms
+[2019-06-27 11:56:13.0590] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (1ms)
+[2019-06-27 11:56:21.2480] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.56.21.zip
+[2019-06-27 11:56:25.4330] - INFO - _handleWatch: build took 48ms
+[2019-06-27 11:57:09.6070] - INFO - _handleWatch: build took 39ms
+[2019-06-27 11:57:10.9710] - INFO - _handleWatch: build took 50ms
+[2019-06-27 11:57:12.2370] - INFO - _handleWatch: build took 39ms
+[2019-06-27 11:57:13.5070] - INFO - _handleWatch: build took 42ms
+[2019-06-27 11:57:14.8920] - INFO - _handleWatch: build took 43ms
+[2019-06-27 11:57:21.7250] - INFO - _handleWatch: build took 46ms
+[2019-06-27 11:57:21.7950] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.57.21.zip
+[2019-06-27 11:57:22.2310] - INFO - _handleWatch: build took 53ms
+[2019-06-27 11:57:22.9910] - INFO - _handleWatch: build took 47ms
+[2019-06-27 11:57:26.1330] - INFO - _handleWatch: build took 59ms
+[2019-06-27 11:57:27.3790] - INFO - _handleWatch: build took 46ms
+[2019-06-27 11:57:32.9770] - INFO - _handleWatch: build took 46ms
+[2019-06-27 11:58:10.7090] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-06-27 11:58:22.1770] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 11.58.22.zip
+[2019-06-27 11:59:44.6860] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-06-27 12:00:08.8050] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (1ms)
+[2019-06-27 12:00:09.9300] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-06-27 12:00:23.2750] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 12.00.23.zip
+[2019-06-27 12:00:45.4560] - INFO - _handleWatch: build took 60ms
+[2019-06-27 12:00:45.7190] - INFO - _handleWatch: build took 50ms
+[2019-06-27 12:01:10.9980] - INFO - _handleWatch: build took 45ms
+[2019-06-27 12:01:13.6550] - INFO - _handleWatch: build took 32ms
+[2019-06-27 12:01:14.8980] - INFO - _handleWatch: build took 48ms
+[2019-06-27 12:01:16.1700] - INFO - _handleWatch: build took 39ms
+[2019-06-27 12:01:17.8360] - INFO - _handleWatch: build took 41ms
+[2019-06-27 12:01:24.2230] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 12.01.24.zip
+[2019-06-27 12:01:26.9060] - INFO - _handleWatch: build took 44ms
+[2019-06-27 12:01:33.1570] - INFO - _handleWatch: build took 42ms
+[2019-06-27 12:01:39.5450] - INFO - _handleWatch: build took 48ms
+[2019-06-27 12:02:00.5010] - INFO - _handleWatch: build took 51ms
+[2019-06-27 12:02:04.6240] - INFO - _handleWatch: build took 52ms
+[2019-06-27 12:02:06.5150] - DEBUG - [Save session: 3] Started, operation: autosaveInPlaceOperation
+[2019-06-27 12:02:06.5160] - DEBUG - [Save session: 3] Before container.writeChanges
+[2019-06-27 12:02:06.5160] - DEBUG - [Save session: 3] Before waitUsingRecursiveRunLoop
+[2019-06-27 12:02:06.5420] - DEBUG - [Save session: 3] Completed container.writeChanges
+[2019-06-27 12:02:06.5420] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
+[2019-06-27 12:02:06.5480] - DEBUG - [Save session: 3] Completed super.save
+[2019-06-27 12:02:24.8890] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 12.02.24.zip
+[2019-06-27 12:03:25.1390] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 12.03.25.zip
+[2019-06-27 12:03:51.0050] - INFO - _handleWatch: build took 65ms
+[2019-06-27 12:04:00.2990] - INFO - _handleWatch: build took 58ms
+[2019-06-27 12:04:25.2730] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 12.04.25.zip
+[2019-06-27 12:05:04.5970] - INFO - _handleWatch: build took 69ms
+[2019-06-27 12:05:11.0840] - INFO - _handleWatch: build took 54ms
+[2019-06-27 12:05:18.1400] - INFO - _handleWatch: build took 50ms
+[2019-06-27 12:05:25.4550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 12.05.25.zip
+[2019-06-27 12:06:08.3600] - DEBUG - [Save session: 4] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2019-06-27 12:06:08.3600] - DEBUG - [Save session: 4] Before container.writeChanges
+[2019-06-27 12:06:08.3600] - DEBUG - [Save session: 4] Before waitUsingRecursiveRunLoop
+[2019-06-27 12:06:08.3860] - DEBUG - [Save session: 4] Completed container.writeChanges
+[2019-06-27 12:06:08.3860] - DEBUG - [Save session: 4] Completed waitUsingRecursiveRunLoop
+[2019-06-27 12:06:08.3920] - DEBUG - [Save session: 4] Completed super.save
+[2019-06-27 12:06:25.9530] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 12.06.25.zip
+[2019-06-27 12:06:29.6200] - INFO - _handleWatch: build took 53ms
+[2019-06-27 12:06:39.4820] - INFO - _handleWatch: build took 60ms
+[2019-06-27 12:06:40.1300] - INFO - _handleWatch: build took 53ms
+[2019-06-27 12:06:41.6410] - INFO - _handleWatch: build took 36ms
+[2019-06-27 12:06:44.0740] - INFO - _handleWatch: build took 40ms
+[2019-06-27 12:06:46.0680] - INFO - _handleWatch: build took 46ms
+[2019-06-27 12:07:12.6390] - INFO - _handleWatch: build took 49ms
+[2019-06-27 12:07:13.9160] - INFO - _handleWatch: build took 49ms
+[2019-06-27 12:07:18.5260] - INFO - _handleWatch: build took 51ms
+[2019-06-27 12:07:22.6340] - INFO - _handleWatch: build took 48ms
+[2019-06-27 12:07:23.9260] - INFO - _handleWatch: build took 60ms
+[2019-06-27 12:07:26.0840] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 12.07.26.zip
+[2019-06-27 12:07:26.1520] - INFO - _handleWatch: build took 51ms
+[2019-06-27 12:07:55.5050] - INFO - _handleWatch: build took 53ms
+[2019-06-27 12:07:56.7880] - INFO - _handleWatch: build took 52ms
+[2019-06-27 12:08:12.9400] - INFO - _handleWatch: build took 51ms
+[2019-06-27 12:08:26.2160] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 12.08.26.zip
+[2019-06-27 12:09:26.5940] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-06-27 12.09.26.zip
+[2019-06-27 12:10:05.1810] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-06-27 12:10:43.3200] - DEBUG - [Save session: 5] Started, operation: saveOperation
+[2019-06-27 12:10:43.3200] - DEBUG - [Save session: 5] Before container.writeChanges
+[2019-06-27 12:10:43.3220] - DEBUG - [Save session: 5] Before waitUsingRecursiveRunLoop
+[2019-06-27 12:10:43.3240] - DEBUG - [Save session: 5] Completed container.writeChanges
+[2019-06-27 12:10:43.3240] - DEBUG - [Save session: 5] Completed waitUsingRecursiveRunLoop
+[2019-06-27 12:10:43.3250] - INFO - Marking changed: false
+[2019-06-27 12:10:43.3340] - DEBUG - [Save session: 5] Completed super.save
+
+[2019-06-27 12:11:36.3540] - INFO - Reading from /Users/giles/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2019-06-27 12:11:36.4070] - INFO - Done reading
+[2019-06-27 12:11:36.4070] - INFO - Marking changed: false
+[2019-06-27 12:11:36.4950] - INFO - Proxy Config: exceptions: *.local, 169.254/16
+[2019-06-27 12:11:37.1950] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2019-06-27 12:11:37.3410] - INFO - GET 200 /design/document.json 0 B (4ms)
+[2019-06-27 12:11:39.2630] - ERROR - Thu, 27 Jun 2019 11:11:39 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at Applications/Framer X.app/Contents/Resources/Server/lib/server.js:117:17
+[2019-06-27 12:11:40.0670] - INFO - Marking changed: false
+[2019-06-27 12:11:40.3360] - INFO - _handleWatch: build took 290ms
+[2019-06-27 12:11:47.6360] - INFO - _handleWatch: build took 59ms
+[2019-06-27 12:11:48.3290] - DEBUG - [Save session: 0] Started, operation: saveOperation
+[2019-06-27 12:11:48.3290] - DEBUG - [Save session: 0] Before container.writeChanges
+[2019-06-27 12:11:48.3310] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2019-06-27 12:11:48.3320] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2019-06-27 12:11:48.3320] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2019-06-27 12:11:48.3330] - INFO - Marking changed: false
+[2019-06-27 12:11:48.3350] - DEBUG - [Save session: 0] Completed super.save
+[2019-06-27 12:11:48.5940] - INFO - _handleWatch: build took 53ms
