@@ -103,7 +103,7 @@ function getY(element, parent) {
         return Math.round(
             (parseFloat(top) / 100) * parent.props.height - height / 2
         )
-    } else if (top) {
+    } else if (top != undefined) {
         // Constrained to top
         return top
     } else {
