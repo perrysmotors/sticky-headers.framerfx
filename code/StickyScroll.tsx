@@ -22,6 +22,8 @@ export const ScrollContext = React.createContext<ScrollContext>({
 export function StickyScroll(props) {
     const {
         offset,
+        fill,
+        background,
         children,
         contentOffsetY = useMotionValue(0),
         ...restProps
@@ -53,6 +55,7 @@ export function StickyScroll(props) {
             >
                 <Scroll
                     {...restProps}
+                    background={fill ? background : null}
                     contentOffsetY={contentOffsetY}
                     width="100%"
                     height="100%"
@@ -67,8 +70,11 @@ export function StickyScroll(props) {
 StickyScroll.defaultProps = {
     offset: 0,
     direction: "vertical",
-    overflow: "hidden",
+    // overflow: "hidden",
+    dragEnabled: true,
     wheelEnabled: true,
+    fill: false,
+    background: "#fff",
     onScroll: () => null,
 }
 
@@ -77,6 +83,35 @@ addPropertyControls(StickyScroll, {
         type: ControlType.Number,
         title: "Offset",
         min: 0,
+    },
+    dragEnabled: {
+        type: ControlType.Boolean,
+        title: "Drag scroll",
+        defaultValue: true,
+        enabledTitle: "On",
+        disabledTitle: "Off",
+    },
+    wheelEnabled: {
+        type: ControlType.Boolean,
+        title: "Wheel scroll",
+        defaultValue: true,
+        enabledTitle: "On",
+        disabledTitle: "Off",
+    },
+    fill: {
+        type: ControlType.Boolean,
+        title: "Fill",
+        defaultValue: false,
+        enabledTitle: "Show",
+        disabledTitle: "Hide",
+    },
+    background: {
+        type: ControlType.Color,
+        title: "Fill Color",
+        defaultValue: "#fff",
+        hidden(props) {
+            return props.fill === false
+        },
     },
 })
 

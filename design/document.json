@@ -3426,7 +3426,7 @@
                 {
                   "enabled" : true,
                   "type" : "componentinstance",
-                  "value" : "gEFwnhsE9"
+                  "value" : "LwnXkJQ7U"
                 }
               ]
             },
@@ -3617,6 +3617,7 @@
             "codeComponentIdentifier" : ".\/StickyScroll.tsx_StickyScroll",
             "codeComponentPackageVersion" : null,
             "codeComponentProps" : {
+              "background" : "hsl(0, 59%, 56%)",
               "children" : [
                 {
                   "enabled" : true,
@@ -3624,7 +3625,10 @@
                   "value" : "vOzHogTzA"
                 }
               ],
-              "offset" : 0
+              "dragEnabled" : true,
+              "fill" : false,
+              "offset" : 0,
+              "wheelEnabled" : true
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
@@ -3772,7 +3776,7 @@
               ],
               "direction" : "vertical",
               "directionLock" : true,
-              "dragEnabled" : true,
+              "dragEnabled" : false,
               "wheelEnabled" : true
             },
             "codeOverrideEnabled" : false,
