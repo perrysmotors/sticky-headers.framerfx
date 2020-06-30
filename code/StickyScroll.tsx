@@ -70,7 +70,7 @@ export function StickyScroll(props) {
 StickyScroll.defaultProps = {
     offset: 0,
     direction: "vertical",
-    // overflow: "hidden",
+    directionLock: true,
     dragEnabled: true,
     wheelEnabled: true,
     fill: false,
@@ -83,6 +83,13 @@ addPropertyControls(StickyScroll, {
         type: ControlType.Number,
         title: "Offset",
         min: 0,
+    },
+    directionLock: {
+        type: ControlType.Boolean,
+        title: "Lock",
+        defaultValue: true,
+        enabledTitle: "1 Axis",
+        disabledTitle: "Off",
     },
     dragEnabled: {
         type: ControlType.Boolean,

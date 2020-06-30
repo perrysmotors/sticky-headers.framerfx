@@ -3625,6 +3625,7 @@
                   "value" : "vOzHogTzA"
                 }
               ],
+              "directionLock" : true,
               "dragEnabled" : true,
               "fill" : false,
               "offset" : 0,

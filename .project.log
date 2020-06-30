@@ -8,6 +8,8 @@
 [2019-02-15 10:36:28.1550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.36.28.zip
 [2019-02-15 10:37:28.8550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.37.28.zip
 [2019-02-15 10:37:49.9500] - ERROR -    10 modules
+[2019-02-15 10:37:] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.37.28.zip
+[2019-02-15 10:37:49.9500] - ERROR -    10 modules
 [2019-02-15 10:37:19-02-15 10:10:39.0480] - INFO - Marking changed: false
 [2019-02-15 10:10:39.9100] - INFO - GET 200 /design/document.json 0 B (6ms)
 [2019-02-15 10:10:42.6900] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (6ms)
@@ -3378,3 +3380,78 @@
 [2020-06-30 18:42:07.8990] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
 [2020-06-30 18:42:07.9010] - INFO - Marking changed: false
 [2020-06-30 18:42:07.9030] - DEBUG - [Save session: 2] Completed super.save
+
+[2020-06-30 22:21:58.8500] - INFO - Reading from /Users/gilesperry/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2020-06-30 22:21:58.9250] - INFO - Done reading
+[2020-06-30 22:21:58.9260] - INFO - Marking changed: false
+[2020-06-30 22:21:59.0700] - INFO - Proxy Config: none
+[2020-06-30 22:22:00.1970] - INFO - Project server PID: 17168
+[2020-06-30 22:22:00.3130] - ERROR - Tue, 30 Jun 2020 21:22:00 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at Applications/Framer.app/Contents/Resources/Server/lib/server.js:131:17
+[2020-06-30 22:22:00.3250] - ERROR - Unhandled Rejection at: Promise Promise {
+[2020-06-30 22:22:00.3250] - ERROR -   <rejected> AssertionError [ERR_ASSERTION]: project is not defined
+[2020-06-30 22:22:00.3250] - ERROR -       at assertProject (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:618:21)
+[2020-06-30 22:22:00.3250] - ERROR -       at Server.<anonymous> (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:265:13)
+[2020-06-30 22:22:00.3250] - ERROR -       at Generator.next (<anonymous>)
+[2020-06-30 22:22:00.3250] - ERROR -       at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:8:71
+[2020-06-30 22:22:00.3250] - ERROR -       at new Promise (<anonymous>)
+[2020-06-30 22:22:00.3250] - ERROR -       at __awaiter (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:4:12)
+[2020-06-30 22:22:00.3250] - ERROR -       at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:264:89
+[2020-06-30 22:22:00.3250] - ERROR -       at Layer.handle [as handle_request] (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2020-06-30 22:22:00.3260] - ERROR -       at next (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2020-06-30 22:22:00.3260] - ERROR -       at jsonParser (/Applications/Framer.app/Contents/Resources/Server/node_modules/body-parser/lib/types/json.js:109:7) {
+[2020-06-30 22:22:00.3260] - ERROR -     generatedMessage: false,
+[2020-06-30 22:22:00.3260] - ERROR -     code: 'ERR_ASSERTION',
+[2020-06-30 22:22:00.3260] - ERROR -     actual: undefined,
+[2020-06-30 22:22:00.3260] - ERROR -     expected: true,
+[2020-06-30 22:22:00.3260] - ERROR -     operator: '=='
+[2020-06-30 22:22:00.3260] - ERROR -   }
+[2020-06-30 22:22:00.3260] - ERROR - } reason: AssertionError [ERR_ASSERTION]: project is not defined
+[2020-06-30 22:22:00.3260] - ERROR -     at assertProject (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:618:21)
+[2020-06-30 22:22:00.3260] - ERROR -     at Server.<anonymous> (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:265:13)
+[2020-06-30 22:22:00.3260] - ERROR -     at Generator.next (<anonymous>)
+[2020-06-30 22:22:00.3260] - ERROR -     at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:8:71
+[2020-06-30 22:22:00.3260] - ERROR -     at new Promise (<anonymous>)
+[2020-06-30 22:22:00.3260] - ERROR -     at __awaiter (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:4:12)
+[2020-06-30 22:22:00.3260] - ERROR -     at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:264:89
+[2020-06-30 22:22:00.3260] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2020-06-30 22:22:00.3260] - ERROR -     at next (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2020-06-30 22:22:00.3260] - ERROR -     at jsonParser (/Applications/Framer.app/Contents/Resources/Server/node_modules/body-parser/lib/types/json.js:109:7) {
+[2020-06-30 22:22:00.3260] - ERROR -   generatedMessage: false,
+[2020-06-30 22:22:00.3260] - ERROR -   code: 'ERR_ASSERTION',
+[2020-06-30 22:22:00.3260] - ERROR -   actual: undefined,
+[2020-06-30 22:22:00.3260] - ERROR -   expected: true,
+[2020-06-30 22:22:00.3260] - ERROR -   operator: '=='
+[2020-06-30 22:22:00.3260] - ERROR - }
+[2020-06-30 22:22:00.3270] - ERROR - This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2020-06-30 22:22:00.3280] - ERROR - AssertionError [ERR_ASSERTION]: project is not defined
+[2020-06-30 22:22:00.3280] - ERROR -     at assertProject (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:618:21)
+[2020-06-30 22:22:00.3280] - ERROR -     at Server.<anonymous> (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:265:13)
+[2020-06-30 22:22:00.3280] - ERROR -     at Generator.next (<anonymous>)
+[2020-06-30 22:22:00.3280] - ERROR -     at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:8:71
+[2020-06-30 22:22:00.3280] - ERROR -     at new Promise (<anonymous>)
+[2020-06-30 22:22:00.3280] - ERROR -     at __awaiter (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:4:12)
+[2020-06-30 22:22:00.3280] - ERROR -     at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:264:89
+[2020-06-30 22:22:00.3280] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2020-06-30 22:22:00.3280] - ERROR -     at next (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2020-06-30 22:22:00.3280] - ERROR -     at jsonParser (/Applications/Framer.app/Contents/Resources/Server/node_modules/body-parser/lib/types/json.js:109:7)
+[2020-06-30 22:22:00.3810] - INFO - Installing dependencies…
+[2020-06-30 22:22:00.5520] - INFO - GET 200 /design/document.json 0 B (3ms)
+[2020-06-30 22:22:00.7230] - INFO - GET 304 /node_modules/framer/build/framer.debug.js 0 B (0ms)
+[2020-06-30 22:22:01.6580] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-06-30 22:22:01.6590] - INFO - Installing dependencies - DONE. Took 1277ms
+[2020-06-30 22:22:01.7990] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-06-30 22:22:02.6540] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-06-30 22:22:18.5590] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-06-30 22:22:18.6230] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-06-30 22:22:19.5680] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-06-30 22:23:31.5990] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2020-06-30 22:23:31.5990] - DEBUG - [Save session: 0] Before container.writeChanges
+[2020-06-30 22:23:31.5990] - DEBUG - [Save session: 0] Not autosaving to archive, implicitly cancellable
+[2020-06-30 22:23:31.6440] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2020-06-30 22:26:11.6800] - DEBUG - [Save session: 1] Started, operation: saveOperation
+[2020-06-30 22:26:11.6800] - DEBUG - [Save session: 1] Before container.writeChanges
+[2020-06-30 22:26:11.6800] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2020-06-30 22:26:11.7120] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2020-06-30 22:26:11.7120] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2020-06-30 22:26:11.7160] - INFO - Marking changed: false
+[2020-06-30 22:26:11.7190] - DEBUG - [Save session: 1] Completed super.save
