@@ -15,6 +15,8 @@ export function StickyElement(props) {
 
     const y = useTransform(contentOffsetY, convertScrollRange)
 
+    const responsiveChildren = React.Children.map(children, (child) => React.cloneElement(child, { width: "100%"}))
+
     if (React.Children.count(children) === 0) {
         return <NotConnected prompt="Connect to something sticky" />
     } else {
@@ -26,7 +28,7 @@ export function StickyElement(props) {
                 width="100%"
                 height="100%"
             >
-                {children}
+                {responsiveChildren}
             </Frame>
         )
     }
