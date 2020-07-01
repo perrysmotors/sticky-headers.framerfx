@@ -26,6 +26,7 @@
             "blur" : 4,
             "color" : "hsla(0, 0%, 0%, 0.16)",
             "enabled" : true,
+            "id" : "@framer\/sebcglbailey.masonry-jpOovsmlr-x-1001",
             "inset" : false,
             "spread" : 0,
             "x" : 0,
@@ -48,10 +49,12 @@
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.5,
             "centerAnchorY" : 0.26548672566371678,
+            "clip" : true,
             "codeOverrideEnabled" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
+            "duplicatedFrom" : null,
             "exportOptions" : [
 
             ],
@@ -129,19 +132,11 @@
                   "type" : "unstyled"
                 }
               ],
-              "cached" : {
-                "html" : "<div data-offset-key=\"4t8v8-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"4t8v8-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Bold&quot;, &quot;SFProText-Bold&quot;, &quot;SFUIText-Bold&quot;, &quot;.SFUIText-Bold&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:24px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Name<\/span><\/span><\/div>",
-                "os" : "10_14",
-                "size" : {
-                  "height" : 28,
-                  "width" : 312
-                },
-                "width" : 311
-              },
               "entityMap" : {
 
               }
             },
+            "textVerticalAlignment" : "top",
             "top" : 16,
             "visible" : true,
             "width" : 311,
@@ -158,10 +153,12 @@
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.5,
             "centerAnchorY" : 0.48672566371681408,
+            "clip" : true,
             "codeOverrideEnabled" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
+            "duplicatedFrom" : null,
             "exportOptions" : [
 
             ],
@@ -239,19 +236,11 @@
                   "type" : "unstyled"
                 }
               ],
-              "cached" : {
-                "html" : "<div data-offset-key=\"4t8v8-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"4t8v8-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Light&quot;, &quot;SFProText-Light&quot;, &quot;SFUIText-Light&quot;, &quot;.SFUIText-Light&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:12px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Country of Origin<\/span><\/span><\/div>",
-                "os" : "10_14",
-                "size" : {
-                  "height" : 14,
-                  "width" : 312
-                },
-                "width" : 311
-              },
               "entityMap" : {
 
               }
             },
+            "textVerticalAlignment" : "top",
             "top" : 48,
             "visible" : true,
             "width" : 311,
@@ -268,10 +257,12 @@
             "brightnessEnabled" : 0,
             "centerAnchorX" : 0.5,
             "centerAnchorY" : 0.77433628318584069,
+            "clip" : true,
             "codeOverrideEnabled" : false,
             "constraintsLocked" : true,
             "contrast" : 100,
             "contrastEnabled" : 0,
+            "duplicatedFrom" : null,
             "exportOptions" : [
 
             ],
@@ -349,19 +340,11 @@
                   "type" : "unstyled"
                 }
               ],
-              "cached" : {
-                "html" : "<div data-offset-key=\"4t8v8-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"4t8v8-0-0\" style=\"tab-size:4;font-family:&quot;.SFNSText-Light&quot;, &quot;SFProText-Light&quot;, &quot;SFUIText-Light&quot;, &quot;.SFUIText-Light&quot;, sans-serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:16px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">Description<\/span><\/span><\/div>",
-                "os" : "10_14",
-                "size" : {
-                  "height" : 19,
-                  "width" : 312
-                },
-                "width" : 311
-              },
               "entityMap" : {
 
               }
             },
+            "textVerticalAlignment" : "top",
             "top" : 78,
             "visible" : true,
             "width" : 311,
@@ -373,13 +356,14 @@
         "constraintsLocked" : false,
         "contrast" : 100,
         "contrastEnabled" : 0,
-        "deviceType" : null,
+        "duplicatedFrom" : null,
         "exportOptions" : [
 
         ],
         "fillColor" : "rgb(255, 255, 255)",
         "fillEnabled" : true,
         "fillImage" : null,
+        "fillImageOriginalName" : null,
         "fillImagePixelHeight" : null,
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
@@ -401,8 +385,15 @@
           ]
         },
         "fillType" : "color",
+        "framePreset" : null,
         "grayscale" : 0,
         "grayScaleEnabled" : 0,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 113,
         "heightType" : 0,
         "hueRotate" : 0,
@@ -418,10 +409,6 @@
         "left" : 0,
         "locked" : false,
         "name" : "Card",
-        "navigationTarget" : null,
-        "navigationTransition" : "push",
-        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-        "navigationTransitionDirection" : "left",
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "Ffg3b0wZP",
@@ -484,15 +471,14 @@
                 "boxShadows" : [
 
                 ],
-                "children" : [
-
-                ],
+                "duplicatedFrom" : null,
                 "exportOptions" : [
 
                 ],
                 "fillColor" : "rgba(0,170,255,0.5)",
                 "fillEnabled" : false,
                 "fillImage" : null,
+                "fillImageOriginalName" : null,
                 "fillImagePixelHeight" : null,
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
@@ -585,7 +571,7 @@
               }
             ],
             "constraintsLocked" : false,
-            "deviceType" : null,
+            "duplicatedFrom" : null,
             "exportIncludesBackground" : false,
             "exportOptions" : [
 
@@ -593,6 +579,7 @@
             "fillColor" : "#FFF",
             "fillEnabled" : false,
             "fillImage" : null,
+            "fillImageOriginalName" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
@@ -620,10 +607,6 @@
             "left" : 0,
             "locked" : false,
             "name" : null,
-            "navigationTarget" : null,
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW",
@@ -680,15 +663,14 @@
                     "boxShadows" : [
 
                     ],
-                    "children" : [
-
-                    ],
+                    "duplicatedFrom" : null,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "rgba(0,170,255,0.5)",
                     "fillEnabled" : false,
                     "fillImage" : null,
+                    "fillImageOriginalName" : null,
                     "fillImagePixelHeight" : null,
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
@@ -785,15 +767,14 @@
                     "boxShadows" : [
 
                     ],
-                    "children" : [
-
-                    ],
+                    "duplicatedFrom" : null,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "rgba(0,0,0,1)",
                     "fillEnabled" : true,
                     "fillImage" : null,
+                    "fillImageOriginalName" : null,
                     "fillImagePixelHeight" : null,
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
@@ -890,15 +871,14 @@
                     "boxShadows" : [
 
                     ],
-                    "children" : [
-
-                    ],
+                    "duplicatedFrom" : null,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "rgba(0,0,0,1)",
                     "fillEnabled" : true,
                     "fillImage" : null,
+                    "fillImageOriginalName" : null,
                     "fillImagePixelHeight" : null,
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
@@ -991,7 +971,7 @@
                   }
                 ],
                 "constraintsLocked" : false,
-                "deviceType" : null,
+                "duplicatedFrom" : null,
                 "exportIncludesBackground" : false,
                 "exportOptions" : [
 
@@ -999,6 +979,7 @@
                 "fillColor" : "#FFF",
                 "fillEnabled" : false,
                 "fillImage" : null,
+                "fillImageOriginalName" : null,
                 "fillImagePixelHeight" : null,
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
@@ -1026,10 +1007,6 @@
                 "left" : 0,
                 "locked" : false,
                 "name" : null,
-                "navigationTarget" : null,
-                "navigationTransition" : "push",
-                "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-                "navigationTransitionDirection" : "left",
                 "opacity" : 1,
                 "originalid" : null,
                 "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW-gQATiYE8L",
@@ -1056,13 +1033,14 @@
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "deviceType" : null,
+            "duplicatedFrom" : null,
             "exportOptions" : [
 
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
             "fillImage" : null,
+            "fillImageOriginalName" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
@@ -1084,8 +1062,15 @@
               ]
             },
             "fillType" : "color",
+            "framePreset" : null,
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
             "height" : 12,
             "heightType" : 0,
             "hueRotate" : 0,
@@ -1101,10 +1086,6 @@
             "left" : 336,
             "locked" : false,
             "name" : "Battery",
-            "navigationTarget" : null,
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW",
@@ -1148,15 +1129,14 @@
                     "boxShadows" : [
 
                     ],
-                    "children" : [
-
-                    ],
+                    "duplicatedFrom" : null,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "rgba(0,170,255,0.5)",
                     "fillEnabled" : false,
                     "fillImage" : null,
+                    "fillImageOriginalName" : null,
                     "fillImagePixelHeight" : null,
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
@@ -1341,15 +1321,14 @@
                     "boxShadows" : [
 
                     ],
-                    "children" : [
-
-                    ],
+                    "duplicatedFrom" : null,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "rgba(0,170,255,0.5)",
                     "fillEnabled" : false,
                     "fillImage" : null,
+                    "fillImageOriginalName" : null,
                     "fillImagePixelHeight" : null,
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
@@ -1534,15 +1513,14 @@
                     "boxShadows" : [
 
                     ],
-                    "children" : [
-
-                    ],
+                    "duplicatedFrom" : null,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "rgba(0,170,255,0.5)",
                     "fillEnabled" : false,
                     "fillImage" : null,
+                    "fillImageOriginalName" : null,
                     "fillImagePixelHeight" : null,
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
@@ -1689,12 +1667,14 @@
                     "y" : 7.591164409202463
                   }
                 ],
+                "duplicatedFrom" : null,
                 "exportOptions" : [
 
                 ],
                 "fillColor" : "rgba(0,0,0,1)",
                 "fillEnabled" : true,
                 "fillImage" : null,
+                "fillImageOriginalName" : null,
                 "fillImagePixelHeight" : null,
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
@@ -1741,7 +1721,7 @@
               }
             ],
             "constraintsLocked" : false,
-            "deviceType" : null,
+            "duplicatedFrom" : null,
             "exportIncludesBackground" : false,
             "exportOptions" : [
 
@@ -1749,6 +1729,7 @@
             "fillColor" : "#FFF",
             "fillEnabled" : false,
             "fillImage" : null,
+            "fillImageOriginalName" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
@@ -1776,10 +1757,6 @@
             "left" : 315,
             "locked" : false,
             "name" : null,
-            "navigationTarget" : null,
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW",
@@ -1817,15 +1794,14 @@
                     "boxShadows" : [
 
                     ],
-                    "children" : [
-
-                    ],
+                    "duplicatedFrom" : null,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "rgba(0,170,255,0.5)",
                     "fillEnabled" : false,
                     "fillImage" : null,
+                    "fillImageOriginalName" : null,
                     "fillImagePixelHeight" : null,
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
@@ -1977,15 +1953,14 @@
                     "boxShadows" : [
 
                     ],
-                    "children" : [
-
-                    ],
+                    "duplicatedFrom" : null,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "rgba(0,170,255,0.5)",
                     "fillEnabled" : false,
                     "fillImage" : null,
+                    "fillImageOriginalName" : null,
                     "fillImagePixelHeight" : null,
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
@@ -2126,15 +2101,14 @@
                     "boxShadows" : [
 
                     ],
-                    "children" : [
-
-                    ],
+                    "duplicatedFrom" : null,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "rgba(0,170,255,0.5)",
                     "fillEnabled" : false,
                     "fillImage" : null,
+                    "fillImageOriginalName" : null,
                     "fillImagePixelHeight" : null,
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
@@ -2275,15 +2249,14 @@
                     "boxShadows" : [
 
                     ],
-                    "children" : [
-
-                    ],
+                    "duplicatedFrom" : null,
                     "exportOptions" : [
 
                     ],
                     "fillColor" : "rgba(0,170,255,0.5)",
                     "fillEnabled" : false,
                     "fillImage" : null,
+                    "fillImageOriginalName" : null,
                     "fillImagePixelHeight" : null,
                     "fillImagePixelWidth" : null,
                     "fillImageResize" : "fill",
@@ -2430,12 +2403,14 @@
                     "y" : 0
                   }
                 ],
+                "duplicatedFrom" : null,
                 "exportOptions" : [
 
                 ],
                 "fillColor" : "rgba(0,0,0,1)",
                 "fillEnabled" : true,
                 "fillImage" : null,
+                "fillImageOriginalName" : null,
                 "fillImagePixelHeight" : null,
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
@@ -2482,7 +2457,7 @@
               }
             ],
             "constraintsLocked" : false,
-            "deviceType" : null,
+            "duplicatedFrom" : null,
             "exportIncludesBackground" : false,
             "exportOptions" : [
 
@@ -2490,6 +2465,7 @@
             "fillColor" : "#FFF",
             "fillEnabled" : false,
             "fillImage" : null,
+            "fillImageOriginalName" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
@@ -2517,10 +2493,6 @@
             "left" : 293,
             "locked" : false,
             "name" : null,
-            "navigationTarget" : null,
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW",
@@ -2575,10 +2547,12 @@
                 "brightnessEnabled" : 0,
                 "centerAnchorX" : 0,
                 "centerAnchorY" : 0,
+                "clip" : true,
                 "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
                 "contrast" : 100,
                 "contrastEnabled" : 0,
+                "duplicatedFrom" : null,
                 "exportOptions" : [
 
                 ],
@@ -2650,19 +2624,11 @@
                       "type" : "unstyled"
                     }
                   ],
-                  "cached" : {
-                    "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"1kvvv-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"1kvvv-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;SFProText-Semibold&quot;, serif;-webkit-text-fill-color:rgb(0, 0, 0);font-size:14px;letter-spacing:0px;line-height:1.2\"><span data-text=\"true\">9:41<\/span><\/span><\/div><\/div>",
-                    "os" : "10_14",
-                    "size" : {
-                      "height" : 16,
-                      "width" : 55
-                    },
-                    "width" : 54
-                  },
                   "entityMap" : {
 
                   }
                 },
+                "textVerticalAlignment" : "top",
                 "top" : 0.5,
                 "visible" : true,
                 "width" : 54,
@@ -2677,13 +2643,14 @@
             "constraintsLocked" : false,
             "contrast" : 100,
             "contrastEnabled" : 0,
-            "deviceType" : null,
+            "duplicatedFrom" : null,
             "exportOptions" : [
 
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
             "fillImage" : null,
+            "fillImageOriginalName" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
@@ -2705,8 +2672,15 @@
               ]
             },
             "fillType" : "color",
+            "framePreset" : null,
             "grayscale" : 0,
             "grayScaleEnabled" : 0,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
             "height" : 17,
             "heightType" : 0,
             "hueRotate" : 0,
@@ -2722,10 +2696,6 @@
             "left" : 21,
             "locked" : false,
             "name" : "Time Style",
-            "navigationTarget" : null,
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "@framer\/jezper.iphone-x-status-bar-black-XXnp9m1nW",
@@ -2758,13 +2728,14 @@
         "constraintsLocked" : false,
         "contrast" : 100,
         "contrastEnabled" : 0,
-        "deviceType" : null,
+        "duplicatedFrom" : null,
         "exportOptions" : [
 
         ],
         "fillColor" : "rgba(255,255,255,1)",
         "fillEnabled" : false,
         "fillImage" : null,
+        "fillImageOriginalName" : null,
         "fillImagePixelHeight" : null,
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
@@ -2786,8 +2757,15 @@
           ]
         },
         "fillType" : "color",
+        "framePreset" : null,
         "grayscale" : 0,
         "grayScaleEnabled" : 0,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 44,
         "heightType" : 0,
         "hueRotate" : 0,
@@ -2803,10 +2781,6 @@
         "left" : 0,
         "locked" : false,
         "name" : "iPhone X\/Status Bars\/Status Bar (Black)",
-        "navigationTarget" : null,
-        "navigationTransition" : "push",
-        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-        "navigationTransitionDirection" : "left",
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "Ffg3b0wZP",
@@ -2844,13 +2818,14 @@
         "clip" : true,
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
-        "deviceType" : null,
+        "duplicatedFrom" : null,
         "exportOptions" : [
 
         ],
         "fillColor" : "#FFEE66",
         "fillEnabled" : true,
         "fillImage" : null,
+        "fillImageOriginalName" : null,
         "fillImagePixelHeight" : null,
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
@@ -2872,6 +2847,13 @@
           ]
         },
         "fillType" : "color",
+        "framePreset" : null,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 40,
         "heightType" : 0,
         "id" : "tZ1Azp8Et",
@@ -2883,10 +2865,6 @@
         "left" : 1923,
         "locked" : false,
         "name" : null,
-        "navigationTarget" : null,
-        "navigationTransition" : "push",
-        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-        "navigationTransitionDirection" : "left",
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "Ffg3b0wZP",
@@ -2929,13 +2907,14 @@
             "clip" : true,
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
-            "deviceType" : null,
+            "duplicatedFrom" : null,
             "exportOptions" : [
 
             ],
             "fillColor" : "#FFAA22",
             "fillEnabled" : true,
             "fillImage" : null,
+            "fillImageOriginalName" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
@@ -2957,6 +2936,13 @@
               ]
             },
             "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
             "height" : 40,
             "heightType" : 0,
             "id" : "gEFwnhsE9",
@@ -2968,10 +2954,6 @@
             "left" : 0,
             "locked" : false,
             "name" : null,
-            "navigationTarget" : null,
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "LwnXkJQ7U",
@@ -2995,13 +2977,14 @@
         "clip" : true,
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
-        "deviceType" : null,
+        "duplicatedFrom" : null,
         "exportOptions" : [
 
         ],
         "fillColor" : "rgba(255,255,255,1)",
         "fillEnabled" : true,
         "fillImage" : null,
+        "fillImageOriginalName" : null,
         "fillImagePixelHeight" : null,
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
@@ -3023,6 +3006,13 @@
           ]
         },
         "fillType" : "color",
+        "framePreset" : null,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 40,
         "heightType" : 0,
         "id" : "LwnXkJQ7U",
@@ -3034,10 +3024,6 @@
         "left" : 1900,
         "locked" : false,
         "name" : null,
-        "navigationTarget" : null,
-        "navigationTransition" : "push",
-        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-        "navigationTransitionDirection" : "left",
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "Ffg3b0wZP",
@@ -3066,18 +3052,81 @@
         "centerAnchorX" : 0.5,
         "centerAnchorY" : 0.5,
         "children" : [
+          {
+            "__class" : "FrameNode",
+            "aspectRatio" : null,
+            "blendingEnabled" : 0,
+            "blendingMode" : "normal",
+            "bottom" : null,
+            "centerAnchorX" : 0.8645038167938931,
+            "centerAnchorY" : 0.48749999999999999,
+            "children" : [
 
+            ],
+            "clip" : false,
+            "codeOverrideEnabled" : false,
+            "constraintsLocked" : false,
+            "duplicatedFrom" : null,
+            "exportOptions" : [
+
+            ],
+            "fillColor" : "rgba(0, 153, 255, 0.5)",
+            "fillEnabled" : true,
+            "fillImage" : null,
+            "fillImageOriginalName" : null,
+            "fillImagePixelHeight" : null,
+            "fillImagePixelWidth" : null,
+            "fillImageResize" : "fill",
+            "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
+            "height" : 19,
+            "heightType" : 0,
+            "id" : "TD5SuCvUZ",
+            "intrinsicHeight" : null,
+            "intrinsicWidth" : null,
+            "isExternalMaster" : null,
+            "isMaster" : false,
+            "isTarget" : false,
+            "left" : null,
+            "locked" : false,
+            "name" : null,
+            "opacity" : 1,
+            "originalid" : null,
+            "parentid" : "eipMKoMxJ",
+            "previewSettings" : null,
+            "radius" : 0,
+            "radiusBottomLeft" : 0,
+            "radiusBottomRight" : 0,
+            "radiusIsRelative" : false,
+            "radiusPerCorner" : false,
+            "radiusTopLeft" : 0,
+            "radiusTopRight" : 0,
+            "replicaInfo" : null,
+            "right" : 25,
+            "rotation" : 0,
+            "top" : null,
+            "visible" : true,
+            "width" : 21,
+            "widthType" : 0
+          }
         ],
         "clip" : true,
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
-        "deviceType" : null,
+        "duplicatedFrom" : null,
         "exportOptions" : [
 
         ],
         "fillColor" : "#EE4444",
         "fillEnabled" : true,
         "fillImage" : null,
+        "fillImageOriginalName" : null,
         "fillImagePixelHeight" : null,
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
@@ -3099,6 +3148,13 @@
           ]
         },
         "fillType" : "color",
+        "framePreset" : null,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 40,
         "heightType" : 0,
         "id" : "eipMKoMxJ",
@@ -3110,10 +3166,6 @@
         "left" : 1900,
         "locked" : false,
         "name" : null,
-        "navigationTarget" : null,
-        "navigationTransition" : "push",
-        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-        "navigationTransitionDirection" : "left",
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "Ffg3b0wZP",
@@ -3130,7 +3182,7 @@
         "rotation" : 0,
         "top" : 0,
         "visible" : true,
-        "width" : 375,
+        "width" : 262,
         "widthType" : 0
       },
       {
@@ -3156,13 +3208,14 @@
             "clip" : false,
             "codeOverrideEnabled" : false,
             "constraintsLocked" : true,
-            "deviceType" : null,
+            "duplicatedFrom" : null,
             "exportOptions" : [
 
             ],
             "fillColor" : "rgba(0, 153, 255, 0.5)",
             "fillEnabled" : true,
             "fillImage" : null,
+            "fillImageOriginalName" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
@@ -3184,6 +3237,13 @@
               ]
             },
             "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
             "height" : 80,
             "heightType" : 0,
             "id" : "bUJLDAXRn",
@@ -3195,10 +3255,6 @@
             "left" : null,
             "locked" : false,
             "name" : null,
-            "navigationTarget" : null,
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "vOzHogTzA",
@@ -3232,13 +3288,14 @@
             "clip" : false,
             "codeOverrideEnabled" : false,
             "constraintsLocked" : true,
-            "deviceType" : null,
+            "duplicatedFrom" : null,
             "exportOptions" : [
 
             ],
             "fillColor" : "rgba(0, 153, 255, 0.5)",
             "fillEnabled" : true,
             "fillImage" : null,
+            "fillImageOriginalName" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
@@ -3260,6 +3317,13 @@
               ]
             },
             "fillType" : "color",
+            "framePreset" : null,
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
             "height" : 80,
             "heightType" : 0,
             "id" : "gbALWkqam",
@@ -3271,10 +3335,6 @@
             "left" : 60,
             "locked" : false,
             "name" : null,
-            "navigationTarget" : null,
-            "navigationTransition" : "push",
-            "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-            "navigationTransitionDirection" : "left",
             "opacity" : 1,
             "originalid" : null,
             "parentid" : "vOzHogTzA",
@@ -3299,12 +3359,10 @@
             "aspectRatio" : null,
             "bottom" : null,
             "centerAnchorX" : 0.5,
-            "centerAnchorY" : 0.01,
-            "children" : [
-
-            ],
+            "centerAnchorY" : 0.032000000000000001,
             "clip" : true,
             "codeComponentIdentifier" : ".\/StickyElement.tsx_StickyElement",
+            "codeComponentPackageVersion" : null,
             "codeComponentProps" : {
               "children" : [
                 {
@@ -3316,18 +3374,19 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : true,
-            "deviceType" : null,
+            "duplicatedFrom" : null,
             "exportOptions" : [
 
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
             "fillImage" : null,
+            "fillImageOriginalName" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
-            "height" : 40,
+            "height" : 128,
             "heightType" : 0,
             "id" : "R8hPDK3mt",
             "intrinsicHeight" : null,
@@ -3359,29 +3418,28 @@
             "bottom" : null,
             "centerAnchorX" : 0.5,
             "centerAnchorY" : 0.252,
-            "children" : [
-
-            ],
             "clip" : true,
             "codeComponentIdentifier" : ".\/StickyElement.tsx_StickyElement",
+            "codeComponentPackageVersion" : null,
             "codeComponentProps" : {
               "children" : [
                 {
                   "enabled" : true,
                   "type" : "componentinstance",
-                  "value" : "gEFwnhsE9"
+                  "value" : "LwnXkJQ7U"
                 }
               ]
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
-            "deviceType" : null,
+            "duplicatedFrom" : null,
             "exportOptions" : [
 
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
             "fillImage" : null,
+            "fillImageOriginalName" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
@@ -3418,11 +3476,9 @@
             "bottom" : 908,
             "centerAnchorX" : 0.5,
             "centerAnchorY" : 0.53600000000000003,
-            "children" : [
-
-            ],
             "clip" : true,
             "codeComponentIdentifier" : ".\/StickyElement.tsx_StickyElement",
+            "codeComponentPackageVersion" : null,
             "codeComponentProps" : {
               "children" : [
                 {
@@ -3434,13 +3490,14 @@
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
-            "deviceType" : null,
+            "duplicatedFrom" : null,
             "exportOptions" : [
 
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
             "fillImage" : null,
+            "fillImageOriginalName" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
@@ -3475,13 +3532,14 @@
         "clip" : true,
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
-        "deviceType" : null,
+        "duplicatedFrom" : null,
         "exportOptions" : [
 
         ],
         "fillColor" : "white",
         "fillEnabled" : true,
         "fillImage" : null,
+        "fillImageOriginalName" : null,
         "fillImagePixelHeight" : null,
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
@@ -3503,6 +3561,13 @@
           ]
         },
         "fillType" : "color",
+        "framePreset" : null,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 2000,
         "heightType" : 0,
         "id" : "vOzHogTzA",
@@ -3514,10 +3579,6 @@
         "left" : 1425,
         "locked" : false,
         "name" : "Scroll Content",
-        "navigationTarget" : null,
-        "navigationTransition" : "push",
-        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-        "navigationTransitionDirection" : "left",
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "Ffg3b0wZP",
@@ -3552,12 +3613,11 @@
             "bottom" : 0,
             "centerAnchorX" : 0.5,
             "centerAnchorY" : 0.5,
-            "children" : [
-
-            ],
             "clip" : true,
             "codeComponentIdentifier" : ".\/StickyScroll.tsx_StickyScroll",
+            "codeComponentPackageVersion" : null,
             "codeComponentProps" : {
+              "background" : "hsl(0, 59%, 56%)",
               "children" : [
                 {
                   "enabled" : true,
@@ -3565,17 +3625,22 @@
                   "value" : "vOzHogTzA"
                 }
               ],
-              "offset" : 0
+              "directionLock" : true,
+              "dragEnabled" : true,
+              "fill" : false,
+              "offset" : 0,
+              "wheelEnabled" : true
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
-            "deviceType" : null,
+            "duplicatedFrom" : null,
             "exportOptions" : [
 
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
             "fillImage" : null,
+            "fillImageOriginalName" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
@@ -3610,13 +3675,14 @@
         "clip" : true,
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
-        "deviceType" : null,
+        "duplicatedFrom" : null,
         "exportOptions" : [
 
         ],
         "fillColor" : "rgba(255,255,255,1)",
         "fillEnabled" : true,
         "fillImage" : null,
+        "fillImageOriginalName" : null,
         "fillImagePixelHeight" : null,
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
@@ -3638,6 +3704,13 @@
           ]
         },
         "fillType" : "color",
+        "framePreset" : null,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 812,
         "heightType" : 0,
         "id" : "NWhtdX_Wc",
@@ -3649,10 +3722,6 @@
         "left" : 950,
         "locked" : false,
         "name" : null,
-        "navigationTarget" : null,
-        "navigationTransition" : "push",
-        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-        "navigationTransitionDirection" : "left",
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "Ffg3b0wZP",
@@ -3695,11 +3764,9 @@
             "bottom" : 0,
             "centerAnchorX" : 0.5,
             "centerAnchorY" : 0.5,
-            "children" : [
-
-            ],
             "clip" : true,
             "codeComponentIdentifier" : "framer\/Scroll",
+            "codeComponentPackageVersion" : null,
             "codeComponentProps" : {
               "children" : [
                 {
@@ -3709,17 +3776,20 @@
                 }
               ],
               "direction" : "vertical",
-              "directionLock" : true
+              "directionLock" : true,
+              "dragEnabled" : false,
+              "wheelEnabled" : true
             },
             "codeOverrideEnabled" : false,
             "constraintsLocked" : false,
-            "deviceType" : null,
+            "duplicatedFrom" : null,
             "exportOptions" : [
 
             ],
             "fillColor" : "rgba(255,255,255,1)",
             "fillEnabled" : false,
             "fillImage" : null,
+            "fillImageOriginalName" : null,
             "fillImagePixelHeight" : null,
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
@@ -3771,13 +3841,14 @@
         "clip" : true,
         "codeOverrideEnabled" : false,
         "constraintsLocked" : false,
-        "deviceType" : null,
+        "duplicatedFrom" : null,
         "exportOptions" : [
 
         ],
         "fillColor" : "rgba(255,255,255,1)",
         "fillEnabled" : true,
         "fillImage" : null,
+        "fillImageOriginalName" : null,
         "fillImagePixelHeight" : null,
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
@@ -3799,6 +3870,13 @@
           ]
         },
         "fillType" : "color",
+        "framePreset" : null,
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 812,
         "heightType" : 0,
         "id" : "C4u7N95UE",
@@ -3810,10 +3888,6 @@
         "left" : 2398,
         "locked" : false,
         "name" : null,
-        "navigationTarget" : null,
-        "navigationTransition" : "push",
-        "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
-        "navigationTransitionDirection" : "left",
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "Ffg3b0wZP",
@@ -3842,6 +3916,15 @@
         "widthType" : 0
       }
     ],
+    "disableBackdropFilters" : false,
+    "duplicatedFrom" : null,
+    "guidesX" : [
+
+    ],
+    "guidesY" : [
+
+    ],
+    "homeNodeId" : "C4u7N95UE",
     "id" : "Ffg3b0wZP",
     "name" : null,
     "originalid" : null,
@@ -3854,5 +3937,5 @@
     ],
     "visible" : false
   },
-  "version" : 52
+  "version" : 66
 }
