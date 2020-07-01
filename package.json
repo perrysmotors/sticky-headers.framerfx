@@ -18,6 +18,6 @@
 		"@framer/framer.default": "^1.71.0",
 		"framer-motion": "^0.15.1"
 	},
-	"name": "@framer/gilesperry.sticky-headers",
-	"version": "1.0.0"
+	"name": "@framer/perrysmotors.sticky-headers",
+	"version": "2.4.0"
 }
