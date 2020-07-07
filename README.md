@@ -6,6 +6,11 @@ This package lets you add headers that stick to the top of the screen when you s
 
 [View the code on Github](https://github.com/perrysmotors/sticky-headers.framerfx)
 
+## Features:
+
+- **New in version 2.5** – Place StickyElements anywhere in the scroll content including inside stacks and frames
+- Only supports vertical scrolling
+
 ## Usage
 
 After you install this package you will see two components: `StickyScroll` and `StickyElement`.
@@ -24,11 +29,6 @@ You can use multiple StickyElements in your scroll content. Each StickyElement r
 | Drag scroll | `boolean` | Controls whether the Scroll should respond to drag interactions | `On` |
 | Wheel scroll | `boolean` | Controls whether the Scroll should respond to scroll interactions | `On` |
 | Fill | `color` | Show or hide, and set the fill color | `Hide` |
-
-## Features:
-
-- **New in version 2.5** – Place StickyElements anywhere in the scroll content including inside stacks and frames
-- Only supports vertical scrolling
 
 ![Screen Recording (Framer X)](https://user-images.githubusercontent.com/12557727/54369321-a3808800-466d-11e9-8b50-4f245ac8075b.gif)
 
