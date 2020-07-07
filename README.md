@@ -20,10 +20,15 @@ You can use multiple StickyElements in your scroll content. Each StickyElement r
 | Property | Type | Description | Default |
 | --- | --- | --- | --- |
 | Offset | `number` | Makes elements stick at a set distance below the top of the scroll component | `0` |
+| Lock | `boolean` | Controls whether the Scroll should ignore dragging in its opposite direction while scrolling | `1 Axis` |
+| Drag scroll | `boolean` | Controls whether the Scroll should respond to drag interactions | `On` |
+| Wheel scroll | `boolean` | Controls whether the Scroll should respond to scroll interactions | `On` |
+| Fill | `color` | Show or hide, and set the fill color | `Hide` |
 
 ## Features:
 
-- Only supports vertical scrolling.
+- **New in version 2.5** – Place StickyElements anywhere in the scroll content including inside stacks and frames
+- Only supports vertical scrolling
 
 ![Screen Recording (Framer X)](https://user-images.githubusercontent.com/12557727/54369321-a3808800-466d-11e9-8b50-4f245ac8075b.gif)
 
@@ -69,6 +74,7 @@ export function ParallaxLayer(): Override {
 
 ## Changelog
 
+- **2.5.0** — Rewrite to allow StickyElements to be placed anywhere in scroll content including inside stacks.
 - **2.4.0** — Add standard scroll component property controls and support for responsive StickyElements.
 - **2.3.0** — Fix bug where StickyElement would not stick if positioned at top of scroll content.
 - **2.2.0** — Add support for responsive scroll content width.
