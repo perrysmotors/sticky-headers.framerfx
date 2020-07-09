@@ -8,6 +8,14 @@
 [2019-02-15 10:36:28.1550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.36.28.zip
 [2019-02-15 10:37:28.8550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.37.28.zip
 [2019-02-15 10:37:49.9500] - ERROR -    10 modules
+[2019-02-15 10:37:/sticky-headers.framerfx/.backups/2019-02-15 10.11.40.zip
+[2019-02-15 10:36:28.1550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.36.28.zip
+[2019-02-15 10:37:28.8550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.37.28.zip
+[2019-02-15 10:37:49.9500] - ERROR -    10 modules
+[2019-02-15 10:37:- INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.11.40.zip
+[2019-02-15 10:36:28.1550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.36.28.zip
+[2019-02-15 10:37:28.8550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.37.28.zip
+[2019-02-15 10:37:49.9500] - ERROR -    10 modules
 [2019-02-15 10:37:ments/github/sticky-headers.framerfx/.backups/2019-02-15 10.37.28.zip
 [2019-02-15 10:37:49.9500] - ERROR -    10 modules
 [2019-02-15 10:37:s 0 B (6ms)
@@ -4947,3 +4955,81 @@
 [2020-07-09 11:11:01.7120] - DEBUG - [Save session: 1] Completed super.save
 [2020-07-09 11:11:05.0510] - INFO - GET 304 /metadata/icon.png?1594289457502 0 B (0ms)
 [2020-07-09 11:11:05.0530] - INFO - GET 304 /metadata/artwork.png?1594289457502 0 B (0ms)
+
+[2020-07-09 21:08:19.3350] - INFO - Reading from /Users/gilesperry/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2020-07-09 21:08:19.4950] - INFO - Done reading
+[2020-07-09 21:08:19.4960] - INFO - Marking changed: false
+[2020-07-09 21:08:19.6700] - INFO - Proxy Config: none
+[2020-07-09 21:08:20.8280] - INFO - Project server PID: 2065
+[2020-07-09 21:08:21.0070] - INFO - Installing dependencies…
+[2020-07-09 21:08:22.2980] - ERROR - Thu, 09 Jul 2020 20:08:22 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at Applications/Framer.app/Contents/Resources/Server/lib/server.js:131:17
+[2020-07-09 21:08:22.5550] - INFO - GET 200 /design/document.json 0 B (7ms)
+[2020-07-09 21:08:22.7300] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:08:22.7310] - INFO - Installing dependencies - DONE. Took 1724ms
+[2020-07-09 21:08:22.8370] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (1ms)
+[2020-07-09 21:08:22.8450] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:08:23.3200] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:08:23.7950] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:08:30.0170] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2020-07-09 21:08:30.0170] - DEBUG - [Save session: 0] Before container.writeChanges
+[2020-07-09 21:08:30.0170] - DEBUG - [Save session: 0] Not autosaving to archive, implicitly cancellable
+[2020-07-09 21:08:30.0440] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2020-07-09 21:08:39.3330] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:08:39.6350] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:08:44.0410] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:08:44.4240] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:08:46.0040] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:08:46.0520] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:18:19.6660] - INFO - Backing up to /Users/gilesperry/Documents/github/sticky-headers.framerfx/.backups/2020-07-09 21.18.19.zip
+[2020-07-09 21:25:05.2500] - DEBUG - [Save session: 1] Started, operation: saveOperation
+[2020-07-09 21:25:05.2500] - DEBUG - [Save session: 1] Before container.writeChanges
+[2020-07-09 21:25:05.2520] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2020-07-09 21:25:05.2530] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2020-07-09 21:25:05.2530] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2020-07-09 21:25:05.2550] - INFO - Marking changed: false
+[2020-07-09 21:25:05.2900] - DEBUG - [Save session: 1] Completed super.save
+
+[2020-07-09 21:28:50.1540] - INFO - Reading from /Users/gilesperry/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2020-07-09 21:28:50.1940] - INFO - Done reading
+[2020-07-09 21:28:50.1940] - INFO - Marking changed: false
+[2020-07-09 21:28:50.3120] - INFO - Proxy Config: none
+[2020-07-09 21:28:50.9160] - INFO - Project server PID: 2705
+[2020-07-09 21:28:51.0620] - INFO - Installing dependencies…
+[2020-07-09 21:28:51.1180] - ERROR - Thu, 09 Jul 2020 20:28:51 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at Applications/Framer.app/Contents/Resources/Server/lib/server.js:131:17
+[2020-07-09 21:28:51.3760] - INFO - GET 200 /design/document.json 0 B (3ms)
+[2020-07-09 21:28:51.5260] - INFO - GET 304 /node_modules/framer/build/framer.debug.js 0 B (1ms)
+[2020-07-09 21:28:56.2600] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:28:56.2610] - INFO - Installing dependencies - DONE. Took 5199ms
+[2020-07-09 21:28:56.3750] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:28:56.8670] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:28:56.9740] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:28:58.4460] - DEBUG - [Save session: 0] Started, operation: saveOperation
+[2020-07-09 21:28:58.4460] - DEBUG - [Save session: 0] Before container.writeChanges
+[2020-07-09 21:28:58.4460] - DEBUG - [Save session: 0] Before waitUsingRecursiveRunLoop
+[2020-07-09 21:28:58.4750] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2020-07-09 21:28:58.4750] - DEBUG - [Save session: 0] Completed waitUsingRecursiveRunLoop
+[2020-07-09 21:28:58.4780] - INFO - Marking changed: false
+[2020-07-09 21:28:58.4800] - DEBUG - [Save session: 0] Completed super.save
+[2020-07-09 21:29:02.3970] - INFO - GET 200 /metadata/icon.png?1594326542031 2.59 kB (1ms)
+[2020-07-09 21:29:02.3970] - INFO - GET 200 /metadata/artwork.png?1594326542031 9.74 kB (1ms)
+[2020-07-09 21:29:02.4370] - INFO - GET 304 /metadata/icon.png?1594326542031 0 B (0ms)
+[2020-07-09 21:29:02.4390] - INFO - GET 304 /metadata/artwork.png?1594326542031 0 B (0ms)
+[2020-07-09 21:29:05.6890] - DEBUG - [Save session: 1] Started, operation: saveOperation
+[2020-07-09 21:29:05.6890] - DEBUG - [Save session: 1] Before container.writeChanges
+[2020-07-09 21:29:05.6900] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2020-07-09 21:29:05.6910] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2020-07-09 21:29:05.6910] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2020-07-09 21:29:05.6930] - INFO - Marking changed: false
+[2020-07-09 21:29:05.6950] - DEBUG - [Save session: 1] Completed super.save
+[2020-07-09 21:29:08.7780] - INFO - GET 304 /metadata/icon.png?1594326542031 0 B (0ms)
+[2020-07-09 21:29:08.7790] - INFO - GET 304 /metadata/artwork.png?1594326542031 0 B (0ms)
+[2020-07-09 21:29:13.2630] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:29:13.4610] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:29:14.6900] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 21:29:16.0420] - DEBUG - [Save session: 2] Started, operation: saveOperation
+[2020-07-09 21:29:16.0420] - DEBUG - [Save session: 2] Before container.writeChanges
+[2020-07-09 21:29:16.0440] - DEBUG - [Save session: 2] Before waitUsingRecursiveRunLoop
+[2020-07-09 21:29:16.0450] - DEBUG - [Save session: 2] Completed container.writeChanges
+[2020-07-09 21:29:16.0450] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
+[2020-07-09 21:29:16.5860] - INFO - Marking changed: false
+[2020-07-09 21:29:16.5890] - DEBUG - [Save session: 2] Completed super.save
