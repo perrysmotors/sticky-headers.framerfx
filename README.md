@@ -74,6 +74,7 @@ export function ParallaxLayer(): Override {
 
 ## Changelog
 
+- **2.7.0** — Minor refactor 
 - **2.6.0** — Fix issue where StickyElements break when overriding `contentOffsetY` using a number.
 - **2.5.0** — Rewrite to allow StickyElements to be placed anywhere in scroll content including inside stacks.
 - **2.4.0** — Add standard scroll component property controls and support for responsive StickyElements.

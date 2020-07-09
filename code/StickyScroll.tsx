@@ -38,13 +38,14 @@ const initialState: State = {
 
 // Take either a MotionValue or a number and always return MotionValue
 function useMotionValueGenerator(value) {
-    const isNumber = typeof value === "number"
-    const initialValue = isNumber ? value : 0
+    const isMotionValue = value instanceof MotionValue
+    const initialValue = Number(value) === NaN ? 0 : Number(value)
     const newMotionValue = useMotionValue(initialValue)
-    if (isNumber) {
-        return newMotionValue
-    } else {
+
+    if (isMotionValue) {
         return value
+    } else {
+        return newMotionValue
     }
 }
 
