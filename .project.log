@@ -8,6 +8,15 @@
 [2019-02-15 10:36:28.1550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.36.28.zip
 [2019-02-15 10:37:28.8550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.37.28.zip
 [2019-02-15 10:37:49.9500] - ERROR -    10 modules
+[2019-02-15 10:37:s 0 B (6ms)
+[2019-02-15 10:10:44.3830] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (5ms)
+[2019-02-15 10:11:40.4390] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.11.40.zip
+[2019-02-15 10:36:28.1550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.36.28.zip
+[2019-02-15 10:37:28.8550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.37.28.zip
+[2019-02-15 10:37:49.9500] - ERROR -    10 modules
+[2019-02-15 10:37:merfx/.backups/2019-02-15 10.36.28.zip
+[2019-02-15 10:37:28.8550] - INFO - Backing up to /Users/giles/Documents/github/sticky-headers.framerfx/.backups/2019-02-15 10.37.28.zip
+[2019-02-15 10:37:49.9500] - ERROR -    10 modules
 [2019-02-15 10:37:-02-15 10:10:39.0470] - INFO - Done reading
 [2019-02-15 10:10:39.0480] - INFO - Marking changed: false
 [2019-02-15 10:10:39.9100] - INFO - GET 200 /design/document.json 0 B (6ms)
@@ -4685,3 +4694,161 @@
 [2020-07-07 18:04:04.5330] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
 [2020-07-07 18:04:04.5350] - INFO - Marking changed: false
 [2020-07-07 18:04:04.5370] - DEBUG - [Save session: 2] Completed super.save
+
+[2020-07-09 07:50:36.4770] - INFO - Reading from /Users/gilesperry/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2020-07-09 07:50:36.5310] - INFO - Done reading
+[2020-07-09 07:50:36.5310] - INFO - Marking changed: false
+[2020-07-09 07:50:36.6690] - INFO - Proxy Config: none
+[2020-07-09 07:50:37.3020] - INFO - Project server PID: 27821
+[2020-07-09 07:50:37.4390] - ERROR - Thu, 09 Jul 2020 06:50:37 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at Applications/Framer.app/Contents/Resources/Server/lib/server.js:131:17
+[2020-07-09 07:50:37.4500] - ERROR - Unhandled Rejection at: Promise Promise {
+[2020-07-09 07:50:37.4500] - ERROR -   <rejected> AssertionError [ERR_ASSERTION]: project is not defined
+[2020-07-09 07:50:37.4500] - ERROR -       at assertProject (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:618:21)
+[2020-07-09 07:50:37.4500] - ERROR -       at Server.<anonymous> (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:265:13)
+[2020-07-09 07:50:37.4500] - ERROR -       at Generator.next (<anonymous>)
+[2020-07-09 07:50:37.4500] - ERROR -       at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:8:71
+[2020-07-09 07:50:37.4500] - ERROR -       at new Promise (<anonymous>)
+[2020-07-09 07:50:37.4500] - ERROR -       at __awaiter (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:4:12)
+[2020-07-09 07:50:37.4500] - ERROR -       at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:264:89
+[2020-07-09 07:50:37.4500] - ERROR -       at Layer.handle [as handle_request] (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2020-07-09 07:50:37.4500] - ERROR -       at next (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2020-07-09 07:50:37.4500] - ERROR -       at jsonParser (/Applications/Framer.app/Contents/Resources/Server/node_modules/body-parser/lib/types/json.js:109:7) {
+[2020-07-09 07:50:37.4500] - ERROR -     generatedMessage: false,
+[2020-07-09 07:50:37.4500] - ERROR -     code: 'ERR_ASSERTION',
+[2020-07-09 07:50:37.4500] - ERROR -     actual: undefined,
+[2020-07-09 07:50:37.4510] - ERROR -     expected: true,
+[2020-07-09 07:50:37.4510] - ERROR -     operator: '=='
+[2020-07-09 07:50:37.4510] - ERROR -   }
+[2020-07-09 07:50:37.4510] - ERROR - } reason: AssertionError [ERR_ASSERTION]: project is not defined
+[2020-07-09 07:50:37.4510] - ERROR -     at assertProject (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:618:21)
+[2020-07-09 07:50:37.4510] - ERROR -     at Server.<anonymous> (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:265:13)
+[2020-07-09 07:50:37.4510] - ERROR -     at Generator.next (<anonymous>)
+[2020-07-09 07:50:37.4510] - ERROR -     at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:8:71
+[2020-07-09 07:50:37.4510] - ERROR -     at new Promise (<anonymous>)
+[2020-07-09 07:50:37.4510] - ERROR -     at __awaiter (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:4:12)
+[2020-07-09 07:50:37.4510] - ERROR -     at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:264:89
+[2020-07-09 07:50:37.4510] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2020-07-09 07:50:37.4510] - ERROR -     at next (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2020-07-09 07:50:37.4510] - ERROR -     at jsonParser (/Applications/Framer.app/Contents/Resources/Server/node_modules/body-parser/lib/types/json.js:109:7) {
+[2020-07-09 07:50:37.4510] - ERROR -   generatedMessage: false,
+[2020-07-09 07:50:37.4510] - ERROR -   code: 'ERR_ASSERTION',
+[2020-07-09 07:50:37.4510] - ERROR -   actual: undefined,
+[2020-07-09 07:50:37.4510] - ERROR -   expected: true,
+[2020-07-09 07:50:37.4510] - ERROR -   operator: '=='
+[2020-07-09 07:50:37.4510] - ERROR - }
+[2020-07-09 07:50:37.4520] - ERROR - This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2020-07-09 07:50:37.4520] - ERROR - AssertionError [ERR_ASSERTION]: project is not defined
+[2020-07-09 07:50:37.4520] - ERROR -     at assertProject (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:618:21)
+[2020-07-09 07:50:37.4520] - ERROR -     at Server.<anonymous> (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:265:13)
+[2020-07-09 07:50:37.4520] - ERROR -     at Generator.next (<anonymous>)
+[2020-07-09 07:50:37.4520] - ERROR -     at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:8:71
+[2020-07-09 07:50:37.4530] - ERROR -     at new Promise (<anonymous>)
+[2020-07-09 07:50:37.4530] - ERROR -     at __awaiter (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:4:12)
+[2020-07-09 07:50:37.4530] - ERROR -     at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:264:89
+[2020-07-09 07:50:37.4530] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2020-07-09 07:50:37.4530] - ERROR -     at next (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2020-07-09 07:50:37.4530] - ERROR -     at jsonParser (/Applications/Framer.app/Contents/Resources/Server/node_modules/body-parser/lib/types/json.js:109:7)
+[2020-07-09 07:50:37.5170] - INFO - Installing dependencies…
+[2020-07-09 07:50:37.5970] - INFO - GET 304 /node_modules/framer/build/framer.debug.js 0 B (2ms)
+[2020-07-09 07:50:37.8990] - INFO - GET 200 /design/document.json 0 B (2ms)
+[2020-07-09 07:50:38.0940] - INFO - GET 304 /node_modules/framer/build/framer.debug.js 0 B (0ms)
+[2020-07-09 07:50:38.7080] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 07:50:38.7090] - INFO - Installing dependencies - DONE. Took 1192ms
+[2020-07-09 07:50:38.8150] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 07:50:39.3570] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+
+[2020-07-09 10:06:13.9660] - INFO - Reading from /Users/gilesperry/Documents/github/sticky-headers.framerfx (origin); preserving existing contents of project folder: true
+[2020-07-09 10:06:14.0200] - INFO - Done reading
+[2020-07-09 10:06:14.0200] - INFO - Marking changed: false
+[2020-07-09 10:06:14.1260] - INFO - Proxy Config: none
+[2020-07-09 10:06:15.0000] - INFO - Project server PID: 29058
+[2020-07-09 10:06:15.1670] - ERROR - Thu, 09 Jul 2020 09:06:15 GMT express deprecated res.send(status): Use res.sendStatus(status) instead at Applications/Framer.app/Contents/Resources/Server/lib/server.js:131:17
+[2020-07-09 10:06:15.1730] - ERROR - Unhandled Rejection at: Promise Promise {
+[2020-07-09 10:06:15.1730] - ERROR -   <rejected> AssertionError [ERR_ASSERTION]: project is not defined
+[2020-07-09 10:06:15.1730] - ERROR -       at assertProject (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:618:21)
+[2020-07-09 10:06:15.1730] - ERROR -       at Server.<anonymous> (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:265:13)
+[2020-07-09 10:06:15.1730] - ERROR -       at Generator.next (<anonymous>)
+[2020-07-09 10:06:15.1730] - ERROR -       at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:8:71
+[2020-07-09 10:06:15.1730] - ERROR -       at new Promise (<anonymous>)
+[2020-07-09 10:06:15.1730] - ERROR -       at __awaiter (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:4:12)
+[2020-07-09 10:06:15.1730] - ERROR -       at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:264:89
+[2020-07-09 10:06:15.1730] - ERROR -       at Layer.handle [as handle_request] (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2020-07-09 10:06:15.1730] - ERROR -       at next (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2020-07-09 10:06:15.1730] - ERROR -       at jsonParser (/Applications/Framer.app/Contents/Resources/Server/node_modules/body-parser/lib/types/json.js:109:7) {
+[2020-07-09 10:06:15.1730] - ERROR -     generatedMessage: false,
+[2020-07-09 10:06:15.1730] - ERROR -     code: 'ERR_ASSERTION',
+[2020-07-09 10:06:15.1730] - ERROR -     actual: undefined,
+[2020-07-09 10:06:15.1730] - ERROR -     expected: true,
+[2020-07-09 10:06:15.1730] - ERROR -     operator: '=='
+[2020-07-09 10:06:15.1730] - ERROR -   }
+[2020-07-09 10:06:15.1730] - ERROR - } reason: AssertionError [ERR_ASSERTION]: project is not defined
+[2020-07-09 10:06:15.1730] - ERROR -     at assertProject (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:618:21)
+[2020-07-09 10:06:15.1730] - ERROR -     at Server.<anonymous> (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:265:13)
+[2020-07-09 10:06:15.1730] - ERROR -     at Generator.next (<anonymous>)
+[2020-07-09 10:06:15.1740] - ERROR -     at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:8:71
+[2020-07-09 10:06:15.1740] - ERROR -     at new Promise (<anonymous>)
+[2020-07-09 10:06:15.1740] - ERROR -     at __awaiter (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:4:12)
+[2020-07-09 10:06:15.1740] - ERROR -     at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:264:89
+[2020-07-09 10:06:15.1740] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2020-07-09 10:06:15.1740] - ERROR -     at next (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2020-07-09 10:06:15.1740] - ERROR -     at jsonParser (/Applications/Framer.app/Contents/Resources/Server/node_modules/body-parser/lib/types/json.js:109:7) {
+[2020-07-09 10:06:15.1740] - ERROR -   generatedMessage: false,
+[2020-07-09 10:06:15.1740] - ERROR -   code: 'ERR_ASSERTION',
+[2020-07-09 10:06:15.1740] - ERROR -   actual: undefined,
+[2020-07-09 10:06:15.1740] - ERROR -   expected: true,
+[2020-07-09 10:06:15.1740] - ERROR -   operator: '=='
+[2020-07-09 10:06:15.1740] - ERROR - }
+[2020-07-09 10:06:15.1750] - ERROR - This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason:
+[2020-07-09 10:06:15.1750] - ERROR - AssertionError [ERR_ASSERTION]: project is not defined
+[2020-07-09 10:06:15.1760] - ERROR -     at assertProject (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:618:21)
+[2020-07-09 10:06:15.1760] - ERROR -     at Server.<anonymous> (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:265:13)
+[2020-07-09 10:06:15.1760] - ERROR -     at Generator.next (<anonymous>)
+[2020-07-09 10:06:15.1760] - ERROR -     at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:8:71
+[2020-07-09 10:06:15.1760] - ERROR -     at new Promise (<anonymous>)
+[2020-07-09 10:06:15.1760] - ERROR -     at __awaiter (/Applications/Framer.app/Contents/Resources/Server/lib/server.js:4:12)
+[2020-07-09 10:06:15.1760] - ERROR -     at /Applications/Framer.app/Contents/Resources/Server/lib/server.js:264:89
+[2020-07-09 10:06:15.1760] - ERROR -     at Layer.handle [as handle_request] (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/layer.js:95:5)
+[2020-07-09 10:06:15.1760] - ERROR -     at next (/Applications/Framer.app/Contents/Resources/Server/node_modules/express/lib/router/route.js:137:13)
+[2020-07-09 10:06:15.1760] - ERROR -     at jsonParser (/Applications/Framer.app/Contents/Resources/Server/node_modules/body-parser/lib/types/json.js:109:7)
+[2020-07-09 10:06:15.2520] - INFO - Installing dependencies…
+[2020-07-09 10:06:15.4130] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (3ms)
+[2020-07-09 10:06:15.4160] - INFO - GET 200 /design/document.json 0 B (1ms)
+[2020-07-09 10:06:15.6950] - INFO - GET 200 /node_modules/framer/build/framer.debug.js 0 B (1ms)
+[2020-07-09 10:06:16.1290] - ERROR - error running yarn: {"type":"warning","data":"\" > @framer/framer.default@1.71.0\" has unmet peer dependency \"framer@^1.0\"."}
+[2020-07-09 10:06:16.1300] - INFO - Installing dependencies - DONE. Took 877ms
+[2020-07-09 10:06:16.2290] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 10:06:16.6010] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 10:06:16.6830] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 10:06:16.9870] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 10:06:34.1290] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 10:06:34.1950] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 10:06:35.6730] - ERROR - error running yarn: {"type":"warning","data":"Waiting for the other yarn instance to finish (pid undefined, inside undefined)"}
+[2020-07-09 10:07:49.6920] - DEBUG - [Save session: 0] Started, operation: autosaveInPlaceOperation, implicitly cancellable
+[2020-07-09 10:07:49.6920] - DEBUG - [Save session: 0] Before container.writeChanges
+[2020-07-09 10:07:49.6920] - DEBUG - [Save session: 0] Not autosaving to archive, implicitly cancellable
+[2020-07-09 10:07:49.7300] - DEBUG - [Save session: 0] Completed container.writeChanges
+[2020-07-09 10:16:14.1340] - INFO - Backing up to /Users/gilesperry/Documents/github/sticky-headers.framerfx/.backups/2020-07-09 10.16.14.zip
+[2020-07-09 10:26:14.4270] - INFO - Backing up to /Users/gilesperry/Documents/github/sticky-headers.framerfx/.backups/2020-07-09 10.26.14.zip
+[2020-07-09 10:30:55.7520] - DEBUG - [Save session: 1] Started, operation: saveOperation
+[2020-07-09 10:30:55.7520] - DEBUG - [Save session: 1] Before container.writeChanges
+[2020-07-09 10:30:55.7540] - DEBUG - [Save session: 1] Before waitUsingRecursiveRunLoop
+[2020-07-09 10:30:55.7550] - DEBUG - [Save session: 1] Completed container.writeChanges
+[2020-07-09 10:30:55.7550] - DEBUG - [Save session: 1] Completed waitUsingRecursiveRunLoop
+[2020-07-09 10:30:55.7570] - INFO - Marking changed: false
+[2020-07-09 10:30:55.7590] - DEBUG - [Save session: 1] Completed super.save
+[2020-07-09 10:32:43.3450] - DEBUG - [Save session: 2] Started, operation: saveOperation
+[2020-07-09 10:32:43.3450] - DEBUG - [Save session: 2] Before container.writeChanges
+[2020-07-09 10:32:43.3460] - DEBUG - [Save session: 2] Before waitUsingRecursiveRunLoop
+[2020-07-09 10:32:43.3470] - DEBUG - [Save session: 2] Completed container.writeChanges
+[2020-07-09 10:32:43.3470] - DEBUG - [Save session: 2] Completed waitUsingRecursiveRunLoop
+[2020-07-09 10:32:43.3490] - INFO - Marking changed: false
+[2020-07-09 10:32:43.3510] - DEBUG - [Save session: 2] Completed super.save
+[2020-07-09 10:36:22.8520] - INFO - Backing up to /Users/gilesperry/Documents/github/sticky-headers.framerfx/.backups/2020-07-09 10.36.22.zip
+[2020-07-09 11:06:32.7230] - INFO - Backing up to /Users/gilesperry/Documents/github/sticky-headers.framerfx/.backups/2020-07-09 11.06.32.zip
+[2020-07-09 11:07:14.7450] - DEBUG - [Save session: 3] Started, operation: saveOperation
+[2020-07-09 11:07:14.7450] - DEBUG - [Save session: 3] Before container.writeChanges
+[2020-07-09 11:07:14.7460] - DEBUG - [Save session: 3] Before waitUsingRecursiveRunLoop
+[2020-07-09 11:07:14.7470] - DEBUG - [Save session: 3] Completed container.writeChanges
+[2020-07-09 11:07:14.7470] - DEBUG - [Save session: 3] Completed waitUsingRecursiveRunLoop
+[2020-07-09 11:07:14.7500] - INFO - Marking changed: false
+[2020-07-09 11:07:14.7520] - DEBUG - [Save session: 3] Completed super.save
