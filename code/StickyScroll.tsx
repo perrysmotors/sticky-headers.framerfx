@@ -27,6 +27,7 @@ interface State {
     positions: number[]
 }
 
+// Receive the context consumer's position to build an ordered array listing the position of every StickElement
 const reducer = (state: State, action) => ({
     positions: [...state.positions, action.payload].sort((a, b) => a - b),
 })
@@ -35,21 +36,38 @@ const initialState: State = {
     positions: [],
 }
 
+// Take either a MotionValue or a number and always return MotionValue
+function useMotionValueGenerator(value) {
+    const isNumber = typeof value === "number"
+    const initialValue = isNumber ? value : 0
+    const newMotionValue = useMotionValue(initialValue)
+    if (isNumber) {
+        return newMotionValue
+    } else {
+        return value
+    }
+}
+
 export function StickyScroll(props) {
     const {
         offset,
         fill,
         background,
         children,
-        contentOffsetY = useMotionValue(0),
+        contentOffsetY,
         ...restProps
     } = props
 
     if (React.Children.count(children) === 0) {
         return <NotConnected prompt="Connect to scrollable content" />
     } else {
+        const contentOffsetYmotionValue = useMotionValueGenerator(
+            contentOffsetY
+        )
+
         let [state, dispatch] = React.useReducer(reducer, initialState)
 
+        // We need to know the position of the top of the scroll to calculate stick and release positions
         const [scrollTop, setScrollTop] = React.useState(0)
 
         const ref = React.useCallback((node) => {
@@ -59,7 +77,7 @@ export function StickyScroll(props) {
         }, [])
 
         let value = {
-            contentOffsetY: contentOffsetY,
+            contentOffsetY: contentOffsetYmotionValue,
             origin: scrollTop + offset,
             positions: state.positions,
             dispatch: dispatch,
@@ -71,7 +89,7 @@ export function StickyScroll(props) {
                     <Scroll
                         {...restProps}
                         background={fill ? background : null}
-                        contentOffsetY={contentOffsetY}
+                        contentOffsetY={contentOffsetYmotionValue}
                         width="100%"
                         height="100%"
                     >
@@ -91,6 +109,7 @@ StickyScroll.defaultProps = {
     wheelEnabled: true,
     fill: false,
     background: "#fff",
+    contentOffsetY: 0,
     onScroll: () => null,
 }
 
